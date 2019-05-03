@@ -34,41 +34,58 @@ public class Main {
         virtGraph.clear();
         virtModel = new VirtModel(virtGraph);
 
-        readPapers("input/article.csv");
-        readKeywords("input/keywords.csv");
-        readRelated("input/related.csv");
+        System.out.println("Importing papers...");
+        readPapers();
+        System.out.println("Papers imported.");
 
-        //query();
+        System.out.println("Importing keywords...");
+        readKeywords();
+        System.out.println("Keywords imported.");
+
+        System.out.println("Importing related (keyword,paper)...");
+        readRelated();
+        System.out.println("Related imported.");
+
+        System.out.println("Importing authors...");
+        readAuthors();
+        System.out.println("Authors imported.");
 
     }
 
     /**
-     * Queries all triplets of the research graph
+     * Reads Authors from csv file and inserts triplet instances into virtuoso.
+     *
+     * @throws IOException
      */
-    private static void query() {
-        Query sparql = QueryFactory.create("SELECT * FROM <http://localhost:8890/research> WHERE { ?s <http://localhost:8890/research> ?o }");
-        VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create(sparql, virtGraph);
-        ResultSet results = vqe.execSelect();
-        System.out.println("\nSELECT results:");
-        while (results.hasNext()) {
-            QuerySolution rs = results.nextSolution();
-            RDFNode s = rs.get("s");
-            RDFNode p = rs.get("p");
-            RDFNode o = rs.get("o");
-            System.out.println(" { " + s + " " + p + " " + o + " . }");
+    private static void readAuthors() throws IOException {
+        List<Statement> statements = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader("input/author.csv"));
+        OntClass cls = base.getOntClass(NS + "Author");
+
+        String line = br.readLine(); //remove header
+        while ((line = br.readLine()) != null) {
+            String[] tokens = line.split(";");
+            long author_id = Long.parseLong(tokens[0]);
+            String author_name = tokens[1];
+
+            // create Author properties
+            Individual author = cls.createIndividual(NS + author_id);
+
+            DatatypeProperty has_name = base.getDatatypeProperty(NS + "name");
+            Literal name_value = base.createTypedLiteral(author_name, XSDDatatype.XSDstring);
+            statements.add(base.createStatement(author, has_name, name_value));
         }
-        System.out.println("virtGraph.getCount() = " + virtGraph.getCount());
+        virtModel.add(statements);
     }
 
     /**
      * Reads related from csv file and inserts triplet instances into virtuoso.
      *
-     * @param filepath
      * @throws IOException
      */
-    private static void readRelated(String filepath) throws IOException {
+    private static void readRelated() throws IOException {
         List<Statement> statements = new ArrayList<>();
-        BufferedReader br = new BufferedReader(new FileReader(filepath));
+        BufferedReader br = new BufferedReader(new FileReader("input/related.csv"));
         ObjectProperty related = base.getObjectProperty(NS + "related");
 
         String line = br.readLine(); //remove header
@@ -85,16 +102,14 @@ public class Main {
         virtModel.add(statements);
     }
 
-
     /**
      * Reads keywords from csv file and inserts triplet instances into virtuoso.
      *
-     * @param filepath
      * @throws IOException
      */
-    private static void readKeywords(String filepath) throws IOException {
+    private static void readKeywords() throws IOException {
         List<Statement> statements = new ArrayList<>();
-        BufferedReader br = new BufferedReader(new FileReader(filepath));
+        BufferedReader br = new BufferedReader(new FileReader("input/keywords.csv"));
         OntClass cls = base.getOntClass(NS + "Keyword");
         String line = br.readLine(); //remove header
         while ((line = br.readLine()) != null) {
@@ -114,12 +129,11 @@ public class Main {
     /**
      * Reads papers from csv file and inserts triplet instances into virtuoso.
      *
-     * @param filepath
      * @throws IOException
      */
-    private static void readPapers(String filepath) throws IOException {
+    private static void readPapers() throws IOException {
         List<Statement> statements = new ArrayList<>();
-        BufferedReader br = new BufferedReader(new FileReader(filepath));
+        BufferedReader br = new BufferedReader(new FileReader("input/article.csv"));
         OntClass cls = base.getOntClass(NS + "Paper");
         List<String> paper_types = getSubclasses(cls);
 
@@ -146,7 +160,6 @@ public class Main {
 
         }
         virtModel.add(statements);
-
     }
 
     /**
@@ -165,7 +178,6 @@ public class Main {
         return types;
     }
 
-
     /**
      * Prints the ontology schema.
      *
@@ -183,6 +195,24 @@ public class Main {
                 System.out.print(" " + c.getLocalName() + "\n");
             }
         }
+    }
+
+    /**
+     * Queries all triplets of the research graph
+     */
+    private static void query() {
+        Query sparql = QueryFactory.create("SELECT * FROM <http://localhost:8890/research> WHERE { ?s <http://localhost:8890/research> ?o }");
+        VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create(sparql, virtGraph);
+        ResultSet results = vqe.execSelect();
+        System.out.println("\nSELECT results:");
+        while (results.hasNext()) {
+            QuerySolution rs = results.nextSolution();
+            RDFNode s = rs.get("s");
+            RDFNode p = rs.get("p");
+            RDFNode o = rs.get("o");
+            System.out.println(" { " + s + " " + p + " " + o + " . }");
+        }
+        System.out.println("virtGraph.getCount() = " + virtGraph.getCount());
     }
 
 }
