@@ -3,13 +3,15 @@ import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
-import org.apache.jena.vocabulary.XSD;
+import org.apache.jena.query.*;
+
+import virtuoso.jena.driver.*;
+
 
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
 
 public class Main {
 
@@ -20,50 +22,54 @@ public class Main {
     private static OntModel base;
     private static OntModel inf;
 
+    private static VirtGraph virtGraph;
+    private static VirtModel virtModel;
+
 
     public static void main(String[] args) throws IOException {
         InputStream in = FileManager.get().open(inputFileName); //locate input OWL file
         base = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM); //create the base model
         base.read(in, "RDF/XML"); //read owl file of RDF/XML type
-        inf = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF, base); //create inference model
+        //inf = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF, base); //create inference model
 
-        readPapers("input/article.csv");
+        virtGraph = new VirtGraph ("http://localhost:8890/research", "jdbc:virtuoso://jynx.fib.upc.es:1111", "dba", "dba");
+        virtGraph.clear();
+        virtModel = new VirtModel(virtGraph);
+
+        //readPapers("input/article.csv");
         readKeywords("input/keywords.csv");
 
+        query();
 
-        // Create datatype property 'hasAge'
-//        DatatypeProperty hasAge = ontModel.createDatatypeProperty(ns + "hasAge");
-//        // 'hasAge' takes integer values, so its range is 'integer'
-//        // Basic datatypes are defined in the â€vocabularyâ€™ package
-//        hasAge.setDomain(person);
-//        hasAge.setRange(XSD.integer); // com.hp.hpl.jena.vocabulary.XSD
-//
-//        // Create individuals
-//        Individual john = malePerson.createIndividual(ns + "John");
-//        Individual jane = femalePerson.createIndividual(ns + "Jane");
-//        Individual bob = malePerson.createIndividual(ns + "Bob");
-//
-//        // Create statement 'John hasAge 20'
-//        Literal age20 = ontModel.createTypedLiteral("20", XSDDatatype.XSDint);
-//        Statement johnIs20 = ontModel.createStatement(john, hasAge, age20);
-//        ontModel.add(johnIs20);
+  }
 
+    /**
+     * Queries all triplets of the research graph
+     */
+    private static void query() {
+        Query sparql = QueryFactory.create("SELECT * FROM <http://localhost:8890/research> WHERE { ?s ?p ?o }");
+        VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, virtGraph);
+        ResultSet results = vqe.execSelect();
+        System.out.println("\nSELECT results:");
+        while (results.hasNext()) {
+            QuerySolution rs = results.nextSolution();
+            RDFNode s = rs.get("s");
+            RDFNode p = rs.get("p");
+            RDFNode o = rs.get("o");
+            System.out.println(" { " + s + " " + p + " " + o + " . }");
+        }
 
-        // list the asserted types
-//        for (Iterator<Resource> i = p1.listRDFTypes(false); i.hasNext(); ) {
-//            System.out.println( p1.getURI() + " is asserted in class " + i.next() );
-//        }
+        System.out.println("virtGraph.getCount() = " + virtGraph.getCount());
 
-        // list the inferred types
-//        p1 = inf.getIndividual( NS + "paper1" );
-//        for (Iterator<Resource> i = p1.listRDFTypes(false); i.hasNext(); ) {
-//            System.out.println( p1.getURI() + " is inferred to be in class " + i.next() );
-//        }
     }
 
-
-
+    /**
+     * Reads keywords from csv file and inserts triplet instances into virtuoso.
+     * @param filepath
+     * @throws IOException
+     */
     private static void readKeywords(String filepath) throws IOException {
+        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader(filepath));
         OntClass cls = base.getOntClass(NS + "Keyword");
         String line = br.readLine(); //remove header
@@ -76,16 +82,20 @@ public class Main {
             Individual keyword = cls.createIndividual(NS + kw_id);
             DatatypeProperty has_kw_name = base.getDatatypeProperty(NS + "keyword_name");
             Literal kw_value = base.createTypedLiteral(kw_name, XSDDatatype.XSDstring);
-            Statement st = base.createStatement(keyword,has_kw_name,kw_value);
-
-            System.out.println("------Keyword-----");
-            System.out.println(st.toString());
-            System.out.println("------------------");
+            statements.add(base.createStatement(keyword,has_kw_name,kw_value));
         }
+
+        virtModel.add(statements);
     }
 
 
+    /**
+     * Reads papers from csv file and inserts triplet instances into virtuoso.
+     * @param filepath
+     * @throws IOException
+     */
     private static void readPapers(String filepath) throws IOException {
+        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader(filepath));
         OntClass cls = base.getOntClass(NS + "Paper");
         List<String> paper_types = getSubclasses(cls);
@@ -105,47 +115,22 @@ public class Main {
 
             DatatypeProperty has_doi = base.getDatatypeProperty(NS + "doi");
             Literal doi_value = base.createTypedLiteral(doi, XSDDatatype.XSDstring);
-            Statement st = base.createStatement(paper,has_doi,doi_value);
+            statements.add(base.createStatement(paper,has_doi,doi_value));
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            Statement st2 = base.createStatement(paper,has_title,title_value);
+            statements.add(base.createStatement(paper,has_title,title_value));
 
-            System.out.println("------Paper------");
-            System.out.println(st.toString());
-            System.out.println(st2.toString());
-            System.out.println("------------------");
-
-
-            // Create individuals
-//        Individual john = malePerson.createIndividual(ns + "John");
-//        Individual jane = femalePerson.createIndividual(ns + "Jane");
-//        Individual bob = malePerson.createIndividual(ns + "Bob");
-//
-//        // Create statement 'John hasAge 20'
-//        Literal age20 = ontModel.createTypedLiteral("20", XSDDatatype.XSDint);
-//        Statement johnIs20 = ontModel.createStatement(john, hasAge, age20);
-//        ontModel.add(johnIs20);
-
-
-//            OntClass paperType = model.getOntClass(NS + papers[random]); //select random class from 4 available: Full, Short, Demo, Survey
-//            String[] tokens = line.split(";");
-//            Individual p1 = model.createIndividual( NS + tokens[0], model.getOntClass( NS + paperType ));
-//            Property writes = base.getProperty(NS + "writes");
-//            Property reviews = base.getProperty(NS + "reviews");
-//            DatatypeProperty paper_id = base.getDatatypeProperty(NS + "paper_id");
-            //p1.setPropertyValue();
         }
+        virtModel.add(statements);
+
     }
 
-//    private static void createStringStatement(Object sub_id, String theClass, String obj){
-//        Individual subject = base.getOntClass(NS + theClass).createIndividual(NS + sub_id.toString());
-//        DatatypeProperty has_rel = base.getDatatypeProperty(NS + obj);
-//        Literal value = base.createTypedLiteral(obj, XSDDatatype.XSDstring);
-//        Statement st = base.createStatement(subject,has_rel,value);
-//        System.out.println(st.toString());
-//    }
-
+    /**
+     * Gets all the subclasses of a class and returns it as list of strings.
+     * @param cls
+     * @return
+     */
     private static List<String> getSubclasses(OntClass cls) {
         List<String> types = new ArrayList<>();
         for (Iterator i = cls.listSubClasses(true); i.hasNext(); ) {
@@ -157,6 +142,10 @@ public class Main {
     }
 
 
+    /**
+     * Prints the ontology schema.
+     * @param m
+     */
     public static void print(OntModel m){
         System.out.println("=== Printing information regarding the model ===");
         ExtendedIterator classes = m.listClasses();
@@ -170,4 +159,5 @@ public class Main {
             }
         }
     }
+
 }
