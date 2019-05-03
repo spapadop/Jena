@@ -35,19 +35,19 @@ public class Main {
         virtModel = new VirtModel(virtGraph);
 
         System.out.println("Importing papers...");
-        readPapers();
+        processPapers();
         System.out.println("Papers imported.");
 
         System.out.println("Importing keywords...");
-        readKeywords();
+        processKeywords();
         System.out.println("Keywords imported.");
 
         System.out.println("Importing related (keyword,paper)...");
-        readRelated();
+        processRelated();
         System.out.println("Related imported.");
 
         System.out.println("Importing authors...");
-        readAuthors();
+        processAuthors();
         System.out.println("Authors imported.");
 
     }
@@ -57,7 +57,7 @@ public class Main {
      *
      * @throws IOException
      */
-    private static void readAuthors() throws IOException {
+    private static void processAuthors() throws IOException {
         List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/author.csv"));
         OntClass cls = base.getOntClass(NS + "Author");
@@ -83,7 +83,7 @@ public class Main {
      *
      * @throws IOException
      */
-    private static void readRelated() throws IOException {
+    private static void processRelated() throws IOException {
         List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/related.csv"));
         ObjectProperty related = base.getObjectProperty(NS + "related");
@@ -107,7 +107,7 @@ public class Main {
      *
      * @throws IOException
      */
-    private static void readKeywords() throws IOException {
+    private static void processKeywords() throws IOException {
         List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/keywords.csv"));
         OntClass cls = base.getOntClass(NS + "Keyword");
@@ -131,7 +131,7 @@ public class Main {
      *
      * @throws IOException
      */
-    private static void readPapers() throws IOException {
+    private static void processPapers() throws IOException {
         List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/article.csv"));
         OntClass cls = base.getOntClass(NS + "Paper");
