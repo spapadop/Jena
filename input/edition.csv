@@ -1,0 +1,864 @@
+​:ID;title:string;venue:string;city:string;period:string;year:int
+9047401;Ontology Learning and Population: Bridging the Gap between Text and Knowledge;Marriott Waiohai Beach Club;Brussels;12-13 July;1955
+9047437;Edition of the 2nd International Workshop on Satisfiability Checking and Symbolic Computation co-located with the 42nd International Symposium on Symbolic and Algebraic Computation (ISSAC 2017), Kaiserslautern, Germany, July 29, 2017.;Westin Kaanapali Ocean Resort Villas;Thessaloniki;1-2 June;1956
+9047538;Edition of the 4th International Workshop on XQuery Implementation, Experience and Perspectives, in cooperation with ACM SIGMOD, June 15, 2007, Beijing, China;Wailea Beach Marriott Resort & Spa;London;10-14 January;1957
+9047539;Edition of the Second International Workshop on XQuery Implementation, Experience and Perspectives <XIME-P/>, in cooperation with ACM SIGMOD, June 16-17, 2005, Baltimore, Maryland, USA;Hyatt Regency Maui Resort & Spa;Barcelona;8-9 February;1958
+9047540;Edition of the 3rd International Workshop on XQuery Implementation, Experience and Perspectives, in cooperation with ACM SIGMOD, June 30, 2006, Chicago, USA. 2006;Fairmont Kea Lani;Madrid;11-13 March;1959
+9047541;Edition of the First International Workshop on XQuery Implementation, Experience and Perspectives <XIME-P/>, in cooperation with ACM SIGMOD, June 17-18, 2004, Maison de la Chimie, Paris, France;Moana Surfrider;Berlin;23-25 April;1960
+9047633;Human Error, Safety and Systems Development, IFIP 18th World Computer Congress, TC13 / WG13.5 7th Working Conference on Human Error, Safety and Systems Development, 22-27 August 2004, Toulouse, France;Ko Olina Marriot Beach Club;Athens;28-29 May;1961
+9047693;Edition of the 9th Web as Corpus Workshop, WaC@EACL 2014, Gothenburg, Sweden, April 26, 2014;Hyatt Regency Waikiki;Paris;22-23 August;1962
+9047765;Edition of the Second SIAM International Conference on Data Mining, Arlington, VA, USA, April 11-13, 2002;Hawaii Prince Hotel Waikiki;Brussels;25-28 August;1963
+9047766;Edition of the Seventh SIAM International Conference on Data Mining, April 26-28, 2007, Minneapolis, Minnesota, USA;Aqua Bamboo Waikiki;Thessaloniki;12-14 June;1964
+9047767;Edition of the 2015 SIAM International Conference on Data Mining, Vancouver, BC, Canada, April 30 - May 2, 2015;Aqua Aloha Surf Waikiki Hotel;London;17-19 September;1965
+9047768;Edition of the SIAM International Conference on Data Mining, SDM 2009, April 30 - May 2, 2009, Sparks, Nevada, USA;Sheraton Kauai Resort;Barcelona;20-22 September;1966
+9047769;Edition of the 2005 SIAM International Conference on Data Mining, SDM 2005, Newport Beach, CA, USA, April 21-23, 2005;Kilauea Lakeside Estate;Madrid;22-25 December;1967
+9047770;Edition of the SIAM International Conference on Data Mining, SDM 2008, April 24-26, 2008, Atlanta, Georgia, USA;Grand Hyatt Kauai Resort & Spa;Berlin;10-12 November;1968
+9047771;Edition of the Third SIAM International Conference on Data Mining, San Francisco, CA, USA, May 1-3, 2003;Ritz-Carlton Kapalua;Athens;12-13 July;1969
+9047772;Edition of the Sixth SIAM International Conference on Data Mining, April 20-22, 2006, Bethesda, MD, USA;Marriott Maui Ocean Club;Paris;1-2 June;1970
+9047773;Edition of the 13th SIAM International Conference on Data Mining, May 2-4, 2013. Austin, Texas, USA.;Sheraton Princess Kaiulani;Brussels;10-14 January;1971
+9047774;Edition of the First SIAM International Conference on Data Mining, SDM 2001, Chicago, IL, USA, April 5-7, 2001;Kahala Hotel & Resort;Thessaloniki;8-9 February;1972
+9047775;Edition of the 2016 SIAM International Conference on Data Mining, Miami, Florida, USA, May 5-7, 2016;Holiday Inn Waikiki Beachcomber;London;11-13 March;1973
+9047776;Edition of the Twelfth SIAM International Conference on Data Mining, Anaheim, California, USA, April 26-28, 2012.;Hilton Hawaiian Village;Barcelona;23-25 April;1974
+9047777;Edition of the 2014 SIAM International Conference on Data Mining, Philadelphia, Pennsylvania, USA, April 24-26, 2014;Hale Koa Hotel;Madrid;28-29 May;1975
+9047778;Edition of the Fourth SIAM International Conference on Data Mining, Lake Buena Vista, Florida, USA, April 22-24, 2004;Waikiki Beach Marriott;Berlin;22-23 August;1976
+9047779;Edition of the 2017 SIAM International Conference on Data Mining, Houston, Texas, USA, April 27-29, 2017.;Sheraton Waikiki;Athens;25-28 August;1977
+9047780;Edition of the SIAM International Conference on Data Mining, SDM 2010, April 29 - May 1, 2010, Columbus, Ohio, USA;Turtle Bay Resort;Paris;12-14 June;1978
+9047781;Edition of the Eleventh SIAM International Conference on Data Mining, SDM 2011, April 28-30, 2011, Mesa, Arizona, USA;JW Marriott Ihilani, Ko Olina;Brussels;17-19 September;1979
+9047782;Edition of the 2018 SIAM International Conference on Data Mining, SDM 2018, May 3-5, 2018, San Diego Marriott Mission Valley, San Diego, CA, USA.;Grand Wailea Resort;Thessaloniki;20-22 September;1980
+9047895;2009 International Asia Conference on Informatics in Control, Automation and Robotics, CAR 2009, Bangkok, Thailand, 1-2 February 2009;Maui Prince Hotel;London;22-25 December;1981
+9047953;IGIS '94: Geographic Information Systems, International Workshop on Advanced Information Systems, Monte Verita, Ascona, Switzerland, February 28 - March 4, 1994, Edition;Mauna Lani Bay Hotel & Bungalows;Barcelona;10-12 November;1982
+9048015;Provenance and Annotation of Data and Processes, Second International Provenance and Annotation Workshop, IPAW 2008, Salt Lake City, UT, USA, June 17-18, 2008. Revised Selected Papers;Hilton Waikoloa Village;Madrid;12-13 July;1983
+9048016;Provenance and Annotation of Data, International Provenance and Annotation Workshop, IPAW 2006, Chicago, IL, USA, May 3-5, 2006, Revised Selected Papers;Wyndham at Waikiki Beach Walk;Berlin;1-2 June;1984
+9048017;Provenance and Annotation of Data and Processes - 6th International Provenance and Annotation Workshop, IPAW 2016, McLean, VA, USA, June 7-8, 2016, Edition;Marriott Waiohai Beach Club;Athens;10-14 January;1985
+9048018;Provenance and Annotation of Data and Processes - 4th International Provenance and Annotation Workshop, IPAW 2012, Santa Barbara, CA, USA, June 19-21, 2012, Revised Selected Papers;Westin Kaanapali Ocean Resort Villas;Paris;8-9 February;1986
+9048019;Provenance and Annotation of Data and Processes - 5th International Provenance and Annotation Workshop, IPAW 2014, Cologne, Germany, June 9-13, 2014. Revised Selected Papers;Wailea Beach Marriott Resort & Spa;Brussels;11-13 March;1987
+9048020;Provenance and Annotation of Data and Processes - Third International Provenance and Annotation Workshop, IPAW 2010, Troy, NY, USA, June 15-16, 2010. Revised Selected Papers;Hyatt Regency Maui Resort & Spa;Thessaloniki;23-25 April;1988
+9048021;Provenance and Annotation of Data and Processes - 7th International Provenance and Annotation Workshop, IPAW 2018, London, UK, July 9-10, 2018, Edition;Fairmont Kea Lani;London;28-29 May;1989
+9048097;Edition of the Joint Workshop on Linguistic Annotation, Multiword Expressions and Constructions, LAW-MWE-CxG@COLING 2018, Santa Fe, New Mexico, USA, August 25-26, 2018;Moana Surfrider;Barcelona;22-23 August;1990
+9048196;13th International Workshop on Discrete Event Systems, WODES 2016, Xi'an, China, May 30 - June 1, 2016;Ko Olina Marriot Beach Club;Madrid;25-28 August;1991
+9048197;11th International Workshop on Discrete Event Systems, WODES 2012, Guadalajara, Mexico, October 3-5, 2012.;Hyatt Regency Waikiki;Berlin;12-14 June;1992
+9048198;12th International Workshop on Discrete Event Systems, WODES 2014, Cachan, France, May 14-16, 2014.;Hawaii Prince Hotel Waikiki;Athens;17-19 September;1993
+9048199;10th International Workshop on Discrete Event Systems, WODES 2010, Berlin, Germany, August 30 - September 01, 2010.;Aqua Bamboo Waikiki;Paris;20-22 September;1994
+9048259;Smart Computing and Communication - First International Conference, SmartCom 2016, Shenzhen, China, December 17-19, 2016, Edition;Aqua Aloha Surf Waikiki Hotel;Brussels;22-25 December;1995
+9048260;Smart Computing and Communication - Second International Conference, SmartCom 2017, Shenzhen, China, December 10-12, 2017, Edition;Sheraton Kauai Resort;Thessaloniki;10-12 November;1996
+9048261;Smart Computing and Communication - Third International Conference, SmartCom 2018, Tokyo, Japan, December 10-12, 2018, Edition;Kilauea Lakeside Estate;London;12-13 July;1997
+9047402;Integrated Intelligent Systems for Engineering Design;Grand Hyatt Kauai Resort & Spa;Barcelona;1-2 June;1955
+9047441;SYMSAC 1976, Edition of the third ACM Symposium on Symbolic and Algebraic Manipulation, Yorktown Heights, New York, USA, August 10-12, 1976;Ritz-Carlton Kapalua;Madrid;10-14 January;1956
+9047444;SYMSAC 1981, Edition of the Symposium on Symbolic and Algebraic Manipulation, Snowbird, Utah, USA, August 5-7, 1981;Marriott Maui Ocean Club;Berlin;8-9 February;1957
+9047447;SYMSAC 1986, Edition of the Symposium on Symbolic and Algebraic Manipulation, Waterloo, Ontario, Canada, July 21-23, 1986;Sheraton Princess Kaiulani;Athens;11-13 March;1958
+9047542;Edition of the IEEE Forum on Research and Technology Advances in Digital Libraries, Baltimore, Maryland, USA, May 19-21, 1999;Kahala Hotel & Resort;Paris;23-25 April;1959
+9047543;Edition of the Third Forum on Research and Technology Advances in Digital Library, ADL '96, Washington, DC, USA, May 13-15, 1996;Holiday Inn Waikiki Beachcomber;Brussels;28-29 May;1960
+9047544;Digital Libraries, Research and Technology Advances, ADL '95 Forum, McLean, Virginia, USA, May 15-17, 1995, Selected Papers;Hilton Hawaiian Village;Thessaloniki;22-23 August;1961
+9047545;4th International Forum on Research and Technology Advances in Digital Libraries (ADL '97), Washington, DC, USA, May 7-9, 1997;Hale Koa Hotel;London;25-28 August;1962
+9047546;Edition of IEEE Advances in Digital Libraries 2000 (ADL 2000), Washington, DC, USA, May 22-24, 2000;Waikiki Beach Marriott;Barcelona;12-14 June;1963
+9047547;Edition of the IEEE Forum on Reasearch and Technology Advances in Digital Libraries, IEEE ADL '98, Santa Barbara, California, USA, April 22-24, 1998;Sheraton Waikiki;Madrid;17-19 September;1964
+9047636;Software Engineering for Large-Scale Multi-Agent Systems, Research Issues and Practical Applications [the book is a result of SELMAS 2002];Turtle Bay Resort;Berlin;20-22 September;1965
+9047637;Software Engineering for Multi-Agent Systems IV, Research Issues and Practical Applications [the book is a result of SELMAS 2005].;JW Marriott Ihilani, Ko Olina;Athens;22-25 December;1966
+9047638;Software Engineering for Multi-Agent Systems II, Research Issues and Practical Applications [the book is a result of SELMAS 2003];Grand Wailea Resort;Paris;10-12 November;1967
+9047639;Software Engineering for Multi-Agent Systems V, Research Issues and Practical Applications [the book is a result of SELMAS 2006].;Maui Prince Hotel;Brussels;12-13 July;1968
+9047640;Software Engineering for Multi-Agent Systems III, Research Issues and Practical Applications [the book is a result of SELMAS 2004].;Mauna Lani Bay Hotel & Bungalows;Thessaloniki;1-2 June;1969
+9047694;Edition of the Sixth Web as Corpus Workshop, WAC@NAACL-HLT 2010, Los Angeles, CA, USA, June 5, 2010;Hilton Waikoloa Village;London;10-14 January;1970
+9047783;Edition of the Conference on Summer Computer Simulation, SummerSim 2015, Chicago, IL, USA, July 26-29, 2015;Wyndham at Waikiki Beach Walk;Barcelona;8-9 February;1971
+9047785;Edition of the 2014 Summer Simulation Multiconference, SummerSim 2014, Monterey, CA, USA, July 6-10, 2014;Marriott Waiohai Beach Club;Madrid;11-13 March;1972
+9047896;2007 International Symposium on Collaborative Technologies and Systems, CTS 2007, Orlando, Florida, USA, May 21-25, 2007;Westin Kaanapali Ocean Resort Villas;Berlin;23-25 April;1973
+9047897;2015 International Conference on Collaboration Technologies and Systems, CTS 2015, Atlanta, GA, USA, June 1-5, 2015;Wailea Beach Marriott Resort & Spa;Athens;28-29 May;1974
+9047898;2009 International Symposium on Collaborative Technologies and Systems, CTS 2009, Baltimore, Maryland, USA, May 18-22, 2009;Hyatt Regency Maui Resort & Spa;Paris;22-23 August;1975
+9047899;Edition of the 2005 International Symposium on Collaborative Technologies and Systems, CTS 2005, Saint Louis, Missouri, USA, May 15-20, 2005;Fairmont Kea Lani;Brussels;25-28 August;1976
+9047900;2008 International Symposium on Collaborative Technologies and Systems, CTS 2008, Irvine, California, USA, May 19-23, 2008;Moana Surfrider;Thessaloniki;12-14 June;1977
+9047901;2006 International Symposium on Collaborative Technologies and Systems, CTS 2006, Las Vegas, NV, USA, May 14-17, 2006;Ko Olina Marriot Beach Club;London;17-19 September;1978
+9047902;2013 International Conference on Collaboration Technologies and Systems, CTS 2013, San Diego, CA, USA, May 20-24, 2013;Hyatt Regency Waikiki;Barcelona;20-22 September;1979
+9047903;2016 International Conference on Collaboration Technologies and Systems, CTS 2016, Orlando, FL, USA, October 31 - November 4, 2016;Hawaii Prince Hotel Waikiki;Madrid;22-25 December;1980
+9047904;2012 International Conference on Collaboration Technologies and Systems, CTS 2012, Denver, CO, USA, May 21-25, 2012;Aqua Bamboo Waikiki;Berlin;10-12 November;1981
+9047905;2014 International Conference on Collaboration Technologies and Systems, CTS 2014, Minneapolis, MN, USA, May 19-23, 2014;Aqua Aloha Surf Waikiki Hotel;Athens;12-13 July;1982
+9047906;2010 International Symposium on Collaborative Technologies and Systems, CTS 2010, Chicago, Illinois, USA, May 17-21, 2010;Sheraton Kauai Resort;Paris;1-2 June;1983
+9047907;2011 International Conference on Collaboration Technologies and Systems, CTS 2011, Philadelphia, Pennsylvania, USA, May 23-27, 2011;Kilauea Lakeside Estate;Brussels;10-14 January;1984
+9047954;Progress in Nonlinear Speech Processing, Workshop on Nonlinear Speech Processing, WNSP 2005, Heraklion, Crete, Greece, September 20-23, 2005;Grand Hyatt Kauai Resort & Spa;Thessaloniki;8-9 February;1985
+9048022;Computer-based Support for Clinical Guidelines and Protocols - Edition of the Symposium on Computerized Guidelines and Protocols, CGP 2004, Prague, Czech Republic, 12-14 April, 2004;Ritz-Carlton Kapalua;London;11-13 March;1986
+9048098;Soft Methods for Handling Variability and Imprecision, Selected papers from the 4th International Conference on Soft Methods in Probability and Statistics, SMPS 2008, Toulouse, France, September 8-10, 2008;Marriott Maui Ocean Club;Barcelona;23-25 April;1987
+9048099;Soft Methods for Integrated Uncertainty Modelling, Edition of the 2006 International Workshop on Soft Methods in Probability and Statistics, SMPS 2006, Bristol, UK, 5-7 September 2006;Sheraton Princess Kaiulani;Madrid;28-29 May;1988
+9048100;Soft Methods for Data Science, SMPS 2016, Rome, Italy, 12-14 September, 2016.;Kahala Hotel & Resort;Berlin;22-23 August;1989
+9048101;Synergies of Soft Computing and Statistics for Intelligent Data Analysis, Edition of the 6th International Conference on Soft Methods in Probability and Statistics, SMPS 2012, Konstanz, Germany, October 4-6, 2012;Holiday Inn Waikiki Beachcomber;Athens;25-28 August;1990
+9048102;Strengthening Links Between Data Analysis and Soft Computing, SMPS 2014, Warsaw, Poland, September 22-24, 2014.;Hilton Hawaiian Village;Paris;12-14 June;1991
+9048103;Combining Soft Computing and Statistical Methods in Data Analysis, SMPS 2010, Oviedo, Spain, September 29 - October 1, 2010;Hale Koa Hotel;Brussels;17-19 September;1992
+9048104;Uncertainty Modelling in Data Science, SMPS 2018, CompiÃ¨gne, France, 17-21 September 2018.;Waikiki Beach Marriott;Thessaloniki;20-22 September;1993
+9048200;Distributed and Parallel Systems: Cluster and Grid Computing (DAPSYS 2004, Austrian-Hungarian Workshop on Distributed and Parallel Systems, Budapest, Hungary September 19-22, 2004);Sheraton Waikiki;London;22-25 December;1994
+9048262;5th International Workshop on Systems Software Verification, SSV'10, Vancouver, BC, Canada, October 6-7, 2010;Turtle Bay Resort;Barcelona;10-12 November;1995
+9048263;6th International Workshop on Systems Software Verification, SSV 2011, August 26, 2011, Nijmegen, The Netherlands;JW Marriott Ihilani, Ko Olina;Madrid;12-13 July;1996
+9047403;Emerging Artificial Intelligence Applications in Computer Engineering - Real Word AI Systems with Applications in eHealth, HCI, Information Retrieval and Pervasive Technologies;Grand Wailea Resort;Berlin;1-2 June;1955
+9047451;Edition of the International Workshop on Parallel Symbolic Computation, PASCO@ISSAC 2017, Kaiserslautern, Germany, July 23-24, 2017;Maui Prince Hotel;Athens;10-14 January;1956
+9047548;2nd USENIX Workshop on Hot Topics in Management of Internet, Cloud, and Enterprise Networks and Services, Hot-ICE'12, San Jose, CA, USA, April 24, 2012;Mauna Lani Bay Hotel & Bungalows;Paris;8-9 February;1957
+9047562;USENIX Workshop on Hot Topics in Management of Internet, Cloud, and Enterprise Networks and Services, Hot-ICE'11, Boston, MA, USA, March 29, 2011;Hilton Waikoloa Village;Brussels;11-13 March;1958
+9047695;EurAsia-ICT 2002: Information and Communication Technology, First EurAsian Conference, Shiraz, Iran, October 29-31, 2002, Edition;Wyndham at Waikiki Beach Walk;Thessaloniki;23-25 April;1959
+9047784;Edition of the International Conference on Bond Graph Modeling and Simulation, ICBGM@SummerSim, Montreal, QC, Canada, July 24 - 27, 2016;Marriott Waiohai Beach Club;London;28-29 May;1960
+9047908;2018 IEEE/ACM Symposium on Edge Computing, SEC 2018, Seattle, WA, USA, October 25-27, 2018;Westin Kaanapali Ocean Resort Villas;Barcelona;22-23 August;1961
+9047909;IEEE/ACM Symposium on Edge Computing, SEC 2016, Washington, DC, USA, October 27-28, 2016;Wailea Beach Marriott Resort & Spa;Madrid;25-28 August;1962
+9047910;Edition of the Second ACM/IEEE Symposium on Edge Computing, San Jose / Silicon Valley, SEC 2017, CA, USA, October 12-14, 2017;Hyatt Regency Maui Resort & Spa;Berlin;12-14 June;1963
+9047955;Computational Social Networks - 4th International Conference, CSoNet 2015, Beijing, China, August 4-6, 2015, Edition;Fairmont Kea Lani;Athens;17-19 September;1964
+9047956;Computational Social Networks - 5th International Conference, CSoNet 2016, Ho Chi Minh City, Vietnam, August 2-4, 2016, Edition;Moana Surfrider;Paris;20-22 September;1965
+9047957;Computational Data and Social Networks - 7th International Conference, CSoNet 2018, Shanghai, China, December 18-20, 2018, Edition;Ko Olina Marriot Beach Club;Brussels;22-25 December;1966
+9048023;Computational Combinatorial Optimization, Optimal or Provably Near-Optimal Solutions [based on a Spring School, SchloÃŸ Dagstuhl, Germany, 15-19 May 2000];Hyatt Regency Waikiki;Thessaloniki;10-12 November;1967
+9048106;Network and System Security - 9th International Conference, NSS 2015, New York, NY, USA, November 3-5, 2015, Edition;Hawaii Prince Hotel Waikiki;London;12-13 July;1968
+9048107;Third International Conference on Network and System Security, NSS 2009, Gold Coast, Queensland, Australia, October 19-21, 2009;Aqua Bamboo Waikiki;Barcelona;1-2 June;1969
+9048108;Network and System Security - 7th International Conference, NSS 2013, Madrid, Spain, June 3-4, 2013. Edition;Aqua Aloha Surf Waikiki Hotel;Madrid;10-14 January;1970
+9048109;Network and System Security - 10th International Conference, NSS 2016, Taipei, Taiwan, September 28-30, 2016, Edition;Sheraton Kauai Resort;Berlin;8-9 February;1971
+9048110;Network and System Security - 6th International Conference, NSS 2012, Wuyishan, Fujian, China, November 21-23, 2012. Edition;Kilauea Lakeside Estate;Athens;11-13 March;1972
+9048111;Network and System Security - 8th International Conference, NSS 2014, Xi'an, China, October 15-17, 2014, Edition;Grand Hyatt Kauai Resort & Spa;Paris;23-25 April;1973
+9048112;Network and System Security - 11th International Conference, NSS 2017, Helsinki, Finland, August 21-23, 2017, Edition;Ritz-Carlton Kapalua;Brussels;28-29 May;1974
+9048113;Fourth International Conference on Network and System Security, NSS 2010, Melbourne, Victoria, Australia, September 1-3, 2010;Marriott Maui Ocean Club;Thessaloniki;22-23 August;1975
+9048114;5th International Conference on Network and System Security, NSS 2011, Milan, Italy, September 6-8, 2011;Sheraton Princess Kaiulani;London;25-28 August;1976
+9048115;Network and System Security - 12th International Conference, NSS 2018, Hong Kong, China, August 27-29, 2018, Edition;Kahala Hotel & Resort;Barcelona;12-14 June;1977
+9048201;Edition of the 9th International Conference on Machine Learning and Computing, ICMLC 2017, Singapore, February 24 - 26, 2017;Holiday Inn Waikiki Beachcomber;Madrid;17-19 September;1978
+9048202;Edition of the 10th International Conference on Machine Learning and Computing, ICMLC 2018, Macau, China, February 26-28, 2018;Hilton Hawaiian Village;Berlin;20-22 September;1979
+9048264;Information and Communication Technologies for Development - 14th IFIP WG 9.4 International Conference on Social Implications of Computers in Developing Countries, ICT4D 2017, Yogyakarta, Indonesia, May 22-24, 2017, Edition;Hale Koa Hotel;Athens;22-25 December;1980
+9047404;Handbook of Satisfiability;Waikiki Beach Marriott;Paris;10-12 November;1955
+9047453;Symbolic-Numeric Computation, SNC 2007, International Workshop, 25-27 July 2007, University of Western Ontario, London, Ontario, Canada;Sheraton Waikiki;Brussels;12-13 July;1956
+9047549;4th Symposium on Networked Systems Design and Implementation (NSDI 2007), April 11-13, 2007, Cambridge, Massachusetts, USA, Edition.;Turtle Bay Resort;Thessaloniki;1-2 June;1957
+9047550;12th USENIX Symposium on Networked Systems Design and Implementation, NSDI 15, Oakland, CA, USA, May 4-6, 2015;JW Marriott Ihilani, Ko Olina;London;10-14 January;1958
+9047551;Edition of the 6th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2009, April 22-24, 2009, Boston, MA, USA;Grand Wailea Resort;Barcelona;8-9 February;1959
+9047553;2nd Symposium on Networked Systems Design and Implementation (NSDI 2005), May 2-4, 2005, Boston, Massachusetts, USA, Edition.;Maui Prince Hotel;Madrid;11-13 March;1960
+9047556;5th USENIX Symposium on Networked Systems Design & Implementation, NSDI 2008, April 16-18, 2008, San Francisco, CA, USA, Edition;Mauna Lani Bay Hotel & Bungalows;Berlin;23-25 April;1961
+9047558;3rd Symposium on Networked Systems Design and Implementation (NSDI 2006), May 8-10, 2007, San Jose, California, USA, Edition.;Hilton Waikoloa Village;Athens;28-29 May;1962
+9047559;Edition of the 10th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2013, Lombard, IL, USA, April 2-5, 2013;Wyndham at Waikiki Beach Walk;Paris;22-23 August;1963
+9047561;13th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2016, Santa Clara, CA, USA, March 16-18, 2016;Marriott Waiohai Beach Club;Brussels;25-28 August;1964
+9047563;Edition of the 9th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2012, San Jose, CA, USA, April 25-27, 2012;Westin Kaanapali Ocean Resort Villas;Thessaloniki;12-14 June;1965
+9047564;Edition of the 11th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2014, Seattle, WA, USA, April 2-4, 2014;Wailea Beach Marriott Resort & Spa;London;17-19 September;1966
+9047565;1st Symposium on Networked Systems Design and Implementation (NSDI 2004), March 29-31, 2004, San Francisco, California, USA, Edition;Hyatt Regency Maui Resort & Spa;Barcelona;20-22 September;1967
+9047566;14th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2017, Boston, MA, USA, March 27-29, 2017;Fairmont Kea Lani;Madrid;22-25 December;1968
+9047567;Edition of the 7th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2010, April 28-30, 2010, San Jose, CA, USA;Moana Surfrider;Berlin;10-12 November;1969
+9047568;Edition of the 8th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2011, Boston, MA, USA, March 30 - April 1, 2011;Ko Olina Marriot Beach Club;Athens;12-13 July;1970
+9047570;15th USENIX Symposium on Networked Systems Design and Implementation, NSDI 2018, Renton, WA, USA, April 9-11, 2018;Hyatt Regency Waikiki;Paris;1-2 June;1971
+9047642;Intelligent Data Analysis and Applications, Edition of the Second Euro-China Conference on Intelligent Data Analysis and Applications, ECC 2015, Jun 29, 2015 - Jul 1, 2015, Technical University of Ostrava, Czech Republic;Hawaii Prince Hotel Waikiki;Brussels;10-14 January;1972
+9047644;Intelligent Data Analysis and Applications - Edition of the Third Euro-China Conference on Intelligent Data Analysis and Applications, ECC 2016, Fuzhou City, China, November 7-9, 2016;Aqua Bamboo Waikiki;Thessaloniki;8-9 February;1973
+9047645;Edition of the Fourth Euro-China Conference on Intelligent Data Analysis and Applications, ECC 2017, MÃ¡laga, Spain, October 9-11, 2017;Aqua Aloha Surf Waikiki Hotel;London;11-13 March;1974
+9047696;Expertensysteme '87: Konzepte und Werkzeuge, Tagung I/1987 des German Chapter of the ACM am 7. und 8.4.1987 in NÃ¼rnberg;Sheraton Kauai Resort;Barcelona;23-25 April;1975
+9047786;Edition of the International Symposium on Performance Evaluation of Computer and Telecommunication Systems, Chicago, IL, USA, July 26-29, 2015;Kilauea Lakeside Estate;Madrid;28-29 May;1976
+9047911;Edition of the Workshop on Smart Internet of Things, SmartIoT@SEC 2017, San Jose / Silicon Valley, CA, USA, October 14, 2017;Grand Hyatt Kauai Resort & Spa;Berlin;22-23 August;1977
+9047958;Machines, Computations, and Universality, 5th International Conference, MCU 2007, OrlÃ©ans, France, September 10-13, 2007, Edition;Ritz-Carlton Kapalua;Athens;25-28 August;1978
+9047959;Machines, Computations, and Universality - 7th International Conference, MCU 2015, Famagusta, North Cyprus, September 9-11, 2015, Edition;Marriott Maui Ocean Club;Paris;12-14 June;1979
+9047960;Machines, Computations, and Universality, Third International Conference, MCU 2001, Chisinau, Moldova, May 23-27, 2001, Edition;Sheraton Princess Kaiulani;Brussels;17-19 September;1980
+9047962;Machines, Computations, and Universality, 4th International Conference, MCU 2004, Saint Petersburg, Russia, September 21-24, 2004, Revised Selected Papers;Kahala Hotel & Resort;Thessaloniki;20-22 September;1981
+9047964;Machines, Computations, and Universality - 8th International Conference, MCU 2018, Fontainebleau, France, June 28-30, 2018, Edition;Holiday Inn Waikiki Beachcomber;London;22-25 December;1982
+9048024;Marktplatz Internet: von E-Learning bis E-Payment, 13. Leipziger Informatik-Tage, LIT 2005, 21.-23. September 2005, Leipzig;Hilton Hawaiian Village;Barcelona;10-12 November;1983
+9048203;Advances in Computer Science, Intelligent System and Environment [Edition of CSISE 2011, Volume 2, September 24-25, 2011, Guangzhou, China];Hale Koa Hotel;Madrid;12-13 July;1984
+9048265;Edition of the 1st Amrita ACM-W Celebration on Women in Computing in India, September 16-17, 2010, Tamilnadu, India;Waikiki Beach Marriott;Berlin;1-2 June;1985
+9047405;Computational Intelligence and Bioengineering - Essays in Memory of Antonina Starita;Sheraton Waikiki;Athens;10-14 January;1955
+9047465;Parallel Symbolic Computation, PASCO 2007, International Workshop, 27-28 July 2007, University of Western Ontario, London, Ontario, Canada;Turtle Bay Resort;Paris;8-9 February;1956
+9047552;Third International Workshop on Networking Meets Databases, NetDB'07, Cambridge, MA, USA, April 10, 2007;JW Marriott Ihilani, Ko Olina;Brussels;11-13 March;1957
+9047643;Intelligent Data analysis and its Applications, Volume I - Proceeding of the First Euro-China Conference on Intelligent Data Analysis and Applications, ECC 2014, June 13-15, 2014, Shenzhen, China;Grand Wailea Resort;Thessaloniki;23-25 April;1958
+9047697;XPS-99: Knowledge-Based Systems - Survey and Future Directions, 5th Biannual German Conference on Knowledge-Based Systems, WÃ¼rzburg, Germany, March 3-5, 1999, Edition;Maui Prince Hotel;London;28-29 May;1959
+9047698;Expertensysteme 93, 2. Deutsche Tagung Expertensysteme (XPS-93) Hamburg, Germany, February 17-19, 1993.;Mauna Lani Bay Hotel & Bungalows;Barcelona;22-23 August;1960
+9047699;Expertensysteme 97 - BeitrÃ¤ge zur 4. Deutschen Tagung Wissensbasierte Systeme (XPS-97), Bad Honnef am Rhein, Germany, March 5-7, 1997;Hilton Waikoloa Village;Madrid;25-28 August;1961
+9047787;T;Wyndham at Waikiki Beach Walk;Berlin;12-14 June;1962
+9047912;IEEE International Conference on Edge Computing, EDGE 2017, Honolulu, HI, USA, June 25-30, 2017;Marriott Waiohai Beach Club;Athens;17-19 September;1963
+9047913;2018 IEEE International Conference on Edge Computing, EDGE 2018, San Francisco, CA, USA, July 2-7, 2018;Westin Kaanapali Ocean Resort Villas;Paris;20-22 September;1964
+9047961;International Colloquium Universal Machines and Computations, MCU'98, Metz, France, March 23-27, 1998, Edition, Volume I;Wailea Beach Marriott Resort & Spa;Brussels;22-25 December;1965
+9048025;International Conference on eHealth, Telemedicine, and Social Medicine, eTELEMED 2009, February 1-7, 2009, Cancun, Mexico;Hyatt Regency Maui Resort & Spa;Thessaloniki;10-12 November;1966
+9048026;The Second International Conference on eHealth, Telemedicine, and Social Medicine, eTELEMED 2010, 10-16 February 2010, St. Maarten, Netherlands Antilles;Fairmont Kea Lani;London;12-13 July;1967
+9048117;Edition of the 5th International Conference on Web Intelligence, Mining and Semantics, WIMS 2015, Larnaca, Cyprus, July 13-15, 2015;Moana Surfrider;Barcelona;1-2 June;1968
+9048118;3rd International Conference on Web Intelligence, Mining and Semantics, WIMS '13, Madrid, Spain, June 12-14, 2013;Ko Olina Marriot Beach Club;Madrid;10-14 January;1969
+9048119;Edition of the 6th International Conference on Web Intelligence, Mining and Semantics, WIMS 2016, NÃ®mes, France, June 13-15, 2016;Hyatt Regency Waikiki;Berlin;8-9 February;1970
+9048120;2nd International Conference on Web Intelligence, Mining and Semantics, WIMS '12, Craiova, Romania, June 6-8, 2012;Hawaii Prince Hotel Waikiki;Athens;11-13 March;1971
+9048121;4th International Conference on Web Intelligence, Mining and Semantics (WIMS 14), WIMS '14, Thessaloniki, Greece, June 2-4, 2014;Aqua Bamboo Waikiki;Paris;23-25 April;1972
+9048122;Edition of the 7th International Conference on Web Intelligence, Mining and Semantics, WIMS 2017, Amantea, Italy, June 19-22, 2017;Aqua Aloha Surf Waikiki Hotel;Brussels;28-29 May;1973
+9048123;Edition of the International Conference on Web Intelligence, Mining and Semantics, WIMS 2011, Sogndal, Norway, May 25 - 27, 2011;Sheraton Kauai Resort;Thessaloniki;22-23 August;1974
+9048124;Edition of the 8th International Conference on Web Intelligence, Mining and Semantics, WIMS 2018, Novi Sad, Serbia, June 25-27, 2018;Kilauea Lakeside Estate;London;25-28 August;1975
+9048204;Advances in Computer Science, Intelligent System and Environment [Edition of CSISE 2011, Volume 1, September 24-25, 2011, Guangzhou, China];Grand Hyatt Kauai Resort & Spa;Barcelona;12-14 June;1976
+9048266;Edition of the 2nd International Conference on Algorithms for Big Data , Palermo, Italy, April 07-09, 2014.;Ritz-Carlton Kapalua;Madrid;17-19 September;1977
+9047406;New Trends in Multimedia and Network Information Systems;Marriott Maui Ocean Club;Berlin;20-22 September;1955
+9047466;1st International ICST Conference on Systems Engineering and Modeling, ICSEM 2007, Herzliyya-Haifa, Israel, March 20-23, 2007;Sheraton Princess Kaiulani;Athens;22-25 December;1956
+9047554;2010 Internet Network Management Workshop / Workshop on Research on Enterprise Networking, San Jose, CA, USA, April, 2010;Kahala Hotel & Resort;Paris;10-12 November;1957
+9047646;Intelligent Data analysis and its Applications, Volume II - Proceeding of the First Euro-China Conference on Intelligent Data Analysis and Applications, June 13-15, 2014, Shenzhen, China;Holiday Inn Waikiki Beachcomber;Brussels;12-13 July;1958
+9047700;Agent-Oriented Information Systems III, 7th International Bi-Conference Workshop, AOIS2005, Utrecht, Netherlands, July 26, 2005, and Klagenfurt, Austria, October 27, 2005, Revised Selected Papers;Hilton Hawaiian Village;Thessaloniki;1-2 June;1959
+9047702;Agent-Oriented Information Systems, 5th International Bi-Conference Workshop, AOIS 2003, Melbourne, Australia, July 14, 2003 and Chicago, IL, USA, October 13th, 2003, Revised Selected Papers;Hale Koa Hotel;London;10-14 January;1960
+9047704;Agent-Oriented Information Systems IV, 8th International Bi-Conference Workshop, AOIS 2006, Hakodate, Japan, May 9, 2006 and Luxembourg, Luxembourg, June 6, 2006, Revised Selected Papers;Waikiki Beach Marriott;Barcelona;8-9 February;1961
+9047705;Agent-Oriented Information Systems II, 6th International Bi-Conference Workshop, AOIS 2004, Riga, Latvia, June 8, 2004 and New York, NY, USA, July 20, 2004,Revised Selected Papers;Sheraton Waikiki;Madrid;11-13 March;1962
+9047788;TeX, XML, and Digital Typography, International Conference on TeX, XML, and Digital Typography, Held Jointly with the 25th Annual Meeting of the TeX Users Group, TUG 2004, Xanthi, Greece, August 30 - September 3, 2004, Edition;Turtle Bay Resort;Berlin;23-25 April;1963
+9047914;European Information Security Multi-Conference (EISMC 2013), Lisbon, Portugal, May 8-10, 2013. Edition;JW Marriott Ihilani, Ko Olina;Athens;28-29 May;1964
+9047963;International Colloquium Universal Machines and Computations, MCU'98, Metz, France, March 23-27, 1998, Editioni, Volume II;Grand Wailea Resort;Paris;22-23 August;1965
+9048027;Distributed Computing in Sensor Systems, Third IEEE International Conference, DCOSS 2007, Santa Fe, NM, USA, June 18-20, 2007, Edition;Maui Prince Hotel;Brussels;25-28 August;1966
+9048028;2015 International Conference on Distributed Computing in Sensor Systems, DCOSS 2015, Fortaleza, Brazil, June 10-12, 2015;Mauna Lani Bay Hotel & Bungalows;Thessaloniki;12-14 June;1967
+9048029;Distributed Computing in Sensor Systems, 5th IEEE International Conference, DCOSS 2009, Marina del Rey, CA, USA, June 8-10, 2009. Edition;Hilton Waikoloa Village;London;17-19 September;1968
+9048030;Distributed Computing in Sensor Systems, First IEEE International Conference, DCOSS 2005, Marina del Rey, CA, USA, June 30 - July 1, 2005, Edition;Wyndham at Waikiki Beach Walk;Barcelona;20-22 September;1969
+9048031;Distributed Computing in Sensor Systems, 4th IEEE International Conference, DCOSS 2008, Santorini Island, Greece, June 11-14, 2008, Edition;Marriott Waiohai Beach Club;Madrid;22-25 December;1970
+9048032;Distributed Computing in Sensor Systems, Second IEEE International Conference, DCOSS 2006, San Francisco, CA, USA, June 18-20, 2006, Edition;Westin Kaanapali Ocean Resort Villas;Berlin;10-12 November;1971
+9048033;IEEE International Conference on Distributed Computing in Sensor Systems, DCOSS 2013, Cambridge, MA, USA, May 20-23, 2013;Wailea Beach Marriott Resort & Spa;Athens;12-13 July;1972
+9048034;International Conference on Distributed Computing in Sensor Systems, DCOSS 2016, Washington, DC, USA, May 26-28, 2016;Hyatt Regency Maui Resort & Spa;Paris;1-2 June;1973
+9048035;IEEE 8th International Conference on Distributed Computing in Sensor Systems, DCOSS 2012, Hangzhou, China, 16-18 May, 2012;Fairmont Kea Lani;Brussels;10-14 January;1974
+9048036;IEEE International Conference on Distributed Computing in Sensor Systems, DCOSS 2014, Marina Del Rey, CA, USA, May 26-28, 2014;Moana Surfrider;Thessaloniki;8-9 February;1975
+9048037;13th International Conference on Distributed Computing in Sensor Systems, DCOSS 2017, Ottawa, ON, Canada, June 5-7, 2017;Ko Olina Marriot Beach Club;London;11-13 March;1976
+9048038;Distributed Computing in Sensor Systems, 6th IEEE International Conference, DCOSS 2010, Santa Barbara, CA, USA, June 21-23, 2010. Edition;Hyatt Regency Waikiki;Barcelona;23-25 April;1977
+9048039;Distributed Computing in Sensor Systems, 7th IEEE International Conference and Workshops, DCOSS 2011, Barcelona, Spain, 27-29 June, 2011, Edition;Hawaii Prince Hotel Waikiki;Madrid;28-29 May;1978
+9048040;14th International Conference on Distributed Computing in Sensor Systems, DCOSS 2018, New York, NY, USA, June 18-20, 2018;Aqua Bamboo Waikiki;Berlin;22-23 August;1979
+9048125;Mathematical and Engineering Methods in Computer Science - 10th International Doctoral Workshop, MEMICS 2015, Telari, Czech Republic, October 23-25, 2015, Revised Selected Papers;Aqua Aloha Surf Waikiki Hotel;Athens;25-28 August;1980
+9048126;Annual Doctoral Workshop on Mathematical and Engineering Methods in Computer Science, MEMICS 2009, November 13-15, 2009, Prestige Hotel, Znojmo, Czech Republic;Sheraton Kauai Resort;Paris;12-14 June;1981
+9048127;Mathematical and Engineering Methods in Computer Science, 8th International Doctoral Workshop, MEMICS 2012, Znojmo, Czech Republic, October 25-28, 2012, Revised Selected Papers;Kilauea Lakeside Estate;Brussels;17-19 September;1982
+9048128;Mathematical and Engineering Methods in Computer Science - 9th International Doctoral Workshop, MEMICS 2014, Telari, Czech Republic, October 17-19, 2014, Revised Selected Papers;Grand Hyatt Kauai Resort & Spa;Thessaloniki;20-22 September;1983
+9048129;Sixth Doctoral Workshop on Mathematical and Engineering Methods in Computer Science, MEMICS 2010, Selected Papers, October 22-24, 2010, Mikulov, Czech Republic;Ritz-Carlton Kapalua;London;22-25 December;1984
+9048130;Mathematical and Engineering Methods in Computer Science - 7th International Doctoral Workshop, MEMICS 2011, Lednice, Czech Republic, October 14-16, 2011, Revised Selected Papers;Marriott Maui Ocean Club;Barcelona;10-12 November;1985
+9048205;Advances in Computer Science, Intelligent System and Environment [Edition of CSISE 2011, Volume 3, September 24-25, 2011, Guangzhou, China];Sheraton Princess Kaiulani;Madrid;12-13 July;1986
+9048267;Construction and Analysis of Safe, Secure, and Interoperable Smart Devices, Second International Workshop, CASSIS 2005, Nice, France, March 8-11, 2005, Revised Selected Papers;Kahala Hotel & Resort;Berlin;1-2 June;1987
+9048268;Construction and Analysis of Safe, Secure, and Interoperable Smart Devices, International Workshop, CASSIS 2004, Marseille, France, March 10-14, 2004, Revised Selected Papers;Holiday Inn Waikiki Beachcomber;Athens;10-14 January;1988
+9047407;Software Engineering: Evolution and Emerging Technologies;Hilton Hawaiian Village;Paris;8-9 February;1955
+9047467;Edition of the Sixth International Workshop on Linguistically Interpreted Corpora, LINC@IJCNLP 2005, Jeju Island, Korea, October 15, 2005;Hale Koa Hotel;Brussels;11-13 March;1956
+9047555;First USENIX Workshop on Large-Scale Exploits and Emergent Threats, LEET '08, San Francisco, CA, USA, April 15, 2008, Edition;Waikiki Beach Marriott;Thessaloniki;23-25 April;1957
+9047647;AES International Conference on Semantic Audio 2014, London, UK, January 27-29, 2014;Sheraton Waikiki;London;28-29 May;1958
+9047648;AES International Conference Semantic Audio 2017, Erlangen, Germany, June 22-24, 2017;Turtle Bay Resort;Barcelona;22-23 August;1959
+9047649;AES International Conference Semantic Audio 2011, Ilmenau, Germany, July 22-24, 2011;JW Marriott Ihilani, Ko Olina;Madrid;25-28 August;1960
+9047701;AOIS '02, Agent-Oriented Information Systems, Edition of the Fourth International Bi-Conference Workshop on Agent-Oriented Information Systems (AOIS-2002 at AAMAS*02);Grand Wailea Resort;Berlin;12-14 June;1961
+9047789;Data and Knowledge Engineering - Third International Conference, ICDKE 2012, Wuyishan, Fujian, China, November 21-23, 2012. Edition;Maui Prince Hotel;Athens;17-19 September;1962
+9047915;12th Web Information System and Application Conference, WISA 2015, Jinan, China, September 11-13, 2015;Mauna Lani Bay Hotel & Bungalows;Paris;20-22 September;1963
+9047919;11th Web Information System and Application Conference, WISA 2014, Tianjin, China, September 12-14, 2014;Hilton Waikoloa Village;Brussels;22-25 December;1964
+9047965;Medical Image Understanding and Analysis - MIUA 2015. 19th Annual Conference, University of Lincoln, Lincoln, UK, July 15-17, 2015.;Wyndham at Waikiki Beach Walk;Thessaloniki;10-12 November;1965
+9047966;20th Conference on Medical Image Understanding and Analysis, MIUA 2016, Loughbrough University, Leicestershire, UK, July 6-8, 2016;Marriott Waiohai Beach Club;London;12-13 July;1966
+9047967;Medical Image Understanding and Analysis - MIUA 2014. 18th Annual Conference, Egham, UK, July 9-11, 2014. Edition.;Westin Kaanapali Ocean Resort Villas;Barcelona;1-2 June;1967
+9047968;Medical Image Understanding and Analysis - 21st Annual Conference, MIUA 2017, Edinburgh, UK, July 11-13, 2017, Edition;Wailea Beach Marriott Resort & Spa;Madrid;10-14 January;1968
+9047969;Medical Image Understanding and Analysis - MIUA 2011. 15th Annual Conference, London, UK, July 14-15, 2011. Edition.;Hyatt Regency Maui Resort & Spa;Berlin;8-9 February;1969
+9047970;Medical Image Understanding and Analysis - 22nd Conference, MIUA 2018, Southampton, UK, July 9-11, 2018, Edition;Fairmont Kea Lani;Athens;11-13 March;1970
+9048041;The 30th Communicating Process Architectures Conference, CPA 2007, organised under the auspices of WoTUG and the University of Surrey, Guildford, Surrey, UK, 8-11 July 2007;Moana Surfrider;Paris;23-25 April;1971
+9048042;The thirty-second Communicating Process Architectures Conference, CPA 2009, organised under the auspices of WoTUG, Eindhoven, The Netherlands, 1-6 November 2009;Ko Olina Marriot Beach Club;Brussels;28-29 May;1972
+9048043;The 28th Communicating Process Architectures Conference, CPA 2005, organised under the auspices of WoTUG, Philips and the Technische Universiteit Eindhoven, Eindhoven, The Netherlands, 18-21 September 2005;Hyatt Regency Waikiki;Thessaloniki;22-23 August;1973
+9048044;The thirty-first Communicating Process Architectures Conference, CPA 2008, organised under the auspices of WoTUG and the Department of Computer Science of the University of York, York, Yorkshire, UK, 7-10 September 2008;Hawaii Prince Hotel Waikiki;London;25-28 August;1974
+9048045;The 29th Communicating Process Architectures Conference, CPA 2006, organised under the auspices of WoTUG and the Napier University, Edinburgh, Scottland, UK, 17-20 September 2006;Aqua Bamboo Waikiki;Barcelona;12-14 June;1975
+9048046;35th Communicating Process Architectures, CPA 2013, organised under the auspices of WoTUG, Edinburgh, Scotland, UK, August 25, 2013;Aqua Aloha Surf Waikiki Hotel;Madrid;17-19 September;1976
+9048047;34th Communicating Process Architectures, CPA 2012, organised under the auspices of WoTUG, Dundee, Scotland, UK, August 26, 2012;Sheraton Kauai Resort;Berlin;20-22 September;1977
+9048048;33th Communicating Process Architectures Conference, CPA 2011, organised under the auspices of WoTUG, Limerick, Ireland, June 19th, 2011;Kilauea Lakeside Estate;Athens;22-25 December;1978
+9048105;2011 International Conference on Data and Knowledge Engineering, ICDKE 2011, Milano, Italy, September 6, 2011;Grand Hyatt Kauai Resort & Spa;Paris;10-12 November;1979
+9048131;Towards Autonomous Robotic Systems - 16th Annual Conference, TAROS 2015, Liverpool, UK, September 8-10, 2015, Edition;Ritz-Carlton Kapalua;Brussels;12-13 July;1980
+9048132;Towards Autonomous Robotic Systems - 14th Annual Conference, TAROS 2013, Oxford, UK, August 28-30, 2013, Revised Selected Papers;Marriott Maui Ocean Club;Thessaloniki;1-2 June;1981
+9048133;Towards Autonomous Robotic Systems - 17th Annual Conference, TAROS 2016, Sheffield, UK, June 26 - July 1, 2016, Edition;Sheraton Princess Kaiulani;London;10-14 January;1982
+9048134;Advances in Autonomous Robotics - Joint Edition of the 13th Annual TAROS Conference and the 15th Annual FIRA RoboWorld Congress, Bristol, UK, August 20-23, 2012;Kahala Hotel & Resort;Barcelona;8-9 February;1983
+9048135;Advances in Autonomous Robotics Systems - 15th Annual Conference, TAROS 2014, Birmingham, UK, September 1-3, 2014. Edition;Holiday Inn Waikiki Beachcomber;Madrid;11-13 March;1984
+9048136;Towards Autonomous Robotic Systems - 18th Annual Conference, TAROS 2017, Guildford, UK, July 19-21, 2017, Edition;Hilton Hawaiian Village;Berlin;23-25 April;1985
+9048137;Towards Autonomous Robotic Systems - 12th Annual Conference, TAROS 2011, Sheffield, UK, August 31 - September 2, 2011. Edition;Hale Koa Hotel;Athens;28-29 May;1986
+9048138;Towards Autonomous Robotic Systems - 19th Annual Conference, TAROS 2018, Bristol, UK July 25-27, 2018, Edition;Waikiki Beach Marriott;Paris;22-23 August;1987
+9048206;RIMS Symposia on Software Science and Engineering II, Edition of the Symposia 1983 and 1984, Kyoto, Japan;Sheraton Waikiki;Brussels;25-28 August;1988
+9048269;Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection - 7th International Conference, EuroMed 2018, Nicosia, Cyprus, October 29 - November 3, 2018, Edition, Part I;Turtle Bay Resort;Thessaloniki;12-14 June;1989
+9048270;Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection - 6th International Conference, EuroMed 2016, Nicosia, Cyprus, October 31 - November 5, 2016, Edition, Part I;JW Marriott Ihilani, Ko Olina;London;17-19 September;1990
+9047409;Secure Multi-Party Computation;Grand Wailea Resort;Barcelona;20-22 September;1955
+9047468;Edition of 4th International Workshop on Linguistically Interpreted Corpora, LINC@EACL 2003, Budapest, Hungary, April 13-14, 2003;Maui Prince Hotel;Madrid;22-25 December;1956
+9047557;Usability, Psychology, and Security, UPSEC'08, San Francisco, CA, USA, April 14, 2008, Edition;Mauna Lani Bay Hotel & Bungalows;Berlin;10-12 November;1957
+9047650;Workstations for Experiments, IFIP WG 5.10 International Working Conference, Lowell, MA, USA, July 1989;Hilton Waikoloa Village;Athens;12-13 July;1958
+9047703;AOIS '02, Agent-Oriented Information Systems, Edition of the Fourth International Bi-Conference Workshop on Agent-Oriented Information Systems (AOIS-2002 at CAiSE*02);Wyndham at Waikiki Beach Walk;Paris;1-2 June;1959
+9047790;Edition of the Network and Distributed System Security Symposium, NDSS 2002, San Diego, California, USA;Marriott Waiohai Beach Club;Brussels;10-14 January;1960
+9047791;Edition of the Network and Distributed System Security Symposium, NDSS 2007, San Diego, California, USA, 28th February - 2nd March 2007;Westin Kaanapali Ocean Resort Villas;Thessaloniki;8-9 February;1961
+9047792;22nd Annual Network and Distributed System Security Symposium, NDSS 2015, San Diego, California, USA, February 8-11, 2015;Wailea Beach Marriott Resort & Spa;London;11-13 March;1962
+9047793;Edition of the Network and Distributed System Security Symposium, NDSS 2009, San Diego, California, USA, 8th February - 11th February 2009;Hyatt Regency Maui Resort & Spa;Barcelona;23-25 April;1963
+9047794;Edition of the Network and Distributed System Security Symposium, NDSS 2005, San Diego, California, USA;Fairmont Kea Lani;Madrid;28-29 May;1964
+9047795;Edition of the Network and Distributed System Security Symposium, NDSS 1999, San Diego, California, USA;Moana Surfrider;Berlin;22-23 August;1965
+9047796;Edition of the Network and Distributed System Security Symposium, NDSS 2008, San Diego, California, USA, 10th February - 13th February 2008;Ko Olina Marriot Beach Club;Athens;25-28 August;1966
+9047797;Edition of the Network and Distributed System Security Symposium, NDSS 2003, San Diego, California, USA;Hyatt Regency Waikiki;Paris;12-14 June;1967
+9047798;Edition of the Network and Distributed System Security Symposium, NDSS 2006, San Diego, California, USA;Hawaii Prince Hotel Waikiki;Brussels;17-19 September;1968
+9047799;20th Annual Network and Distributed System Security Symposium, NDSS 2013, San Diego, California, USA, February 24-27, 2013;Aqua Bamboo Waikiki;Thessaloniki;20-22 September;1969
+9047800;Edition of the Network and Distributed System Security Symposium, NDSS 2001, San Diego, California, USA;Aqua Aloha Surf Waikiki Hotel;London;22-25 December;1970
+9047801;23rd Annual Network and Distributed System Security Symposium, NDSS 2016, San Diego, California, USA, February 21-24, 2016;Sheraton Kauai Resort;Barcelona;10-12 November;1971
+9047802;1996 Symposium on Network and Distributed System Security, (S)NDSS '96, San Diego, CA, USA, February 22-23, 1996;Kilauea Lakeside Estate;Madrid;12-13 July;1972
+9047803;19th Annual Network and Distributed System Security Symposium, NDSS 2012, San Diego, California, USA, February 5-8, 2012;Grand Hyatt Kauai Resort & Spa;Berlin;1-2 June;1973
+9047804;1995 Symposium on Network and Distributed System Security, (S)NDSS '95, San Diego, California, USA, February 16-17, 1995;Ritz-Carlton Kapalua;Athens;10-14 January;1974
+9047805;21st Annual Network and Distributed System Security Symposium, NDSS 2014, San Diego, California, USA, February 23-26, 2014;Marriott Maui Ocean Club;Paris;8-9 February;1975
+9047806;Edition of the Network and Distributed System Security Symposium, NDSS 2004, San Diego, California, USA;Sheraton Princess Kaiulani;Brussels;11-13 March;1976
+9047807;Edition of the Network and Distributed System Security Symposium, NDSS 1997, San Diego, California, USA;Kahala Hotel & Resort;Thessaloniki;23-25 April;1977
+9047808;Edition of the Network and Distributed System Security Symposium, NDSS 2000, San Diego, California, USA;Holiday Inn Waikiki Beachcomber;London;28-29 May;1978
+9047809;24th Annual Network and Distributed System Security Symposium, NDSS 2017, San Diego, California, USA, February 26 - March 1, 2017;Hilton Hawaiian Village;Barcelona;22-23 August;1979
+9047810;Edition of the Network and Distributed System Security Symposium, NDSS 2010, San Diego, California, USA, 28th February - 3rd March 2010;Hale Koa Hotel;Madrid;25-28 August;1980
+9047811;Edition of the Network and Distributed System Security Symposium, NDSS 2011, San Diego, California, USA, 6th February - 9th February 2011;Waikiki Beach Marriott;Berlin;12-14 June;1981
+9047812;25th Annual Network and Distributed System Security Symposium, NDSS 2018, San Diego, California, USA, February 18-21, 2018;Sheraton Waikiki;Athens;17-19 September;1982
+9047813;Edition of the Network and Distributed System Security Symposium, NDSS 1998, San Diego, California, USA;Turtle Bay Resort;Paris;20-22 September;1983
+9047916;2013 10th Web Information System and Application Conference, Yangzhou, China, November 10-15, 2013;JW Marriott Ihilani, Ko Olina;Brussels;22-25 December;1984
+9047917;13th Web Information Systems and Applications Conference, WISA 2016, Wuhan, China, September 23-25, 2016;Grand Wailea Resort;Thessaloniki;10-12 November;1985
+9047918;Ninth Web Information Systems and Applications Conference, WISA 2012, Haikou, Hainan, China, November 16-18, 2012;Maui Prince Hotel;London;12-13 July;1986
+9047920;14th Web Information Systems and Applications Conference, WISA 2017, Liuzhou, Guangxi Province, China, November 11-12, 2017;Mauna Lani Bay Hotel & Bungalows;Barcelona;1-2 June;1987
+9047921;8th Web Information Systems and Applications Conference, WISA 2011, Chongqing, China, October 21-23, 2011;Hilton Waikoloa Village;Madrid;10-14 January;1988
+9047922;Web Information Systems and Applications - 15th International Conference, WISA 2018, Taiyuan, China, September 14-15, 2018, Edition;Wyndham at Waikiki Beach Walk;Berlin;8-9 February;1989
+9047971;2007 First ACM/IEEE International Conference on Distributed Smart Cameras, ICDSC 2007, Vienna, Austria, 25-28 September, 2007;Marriott Waiohai Beach Club;Athens;11-13 March;1990
+9047972;Edition of the 9th International Conference on Distributed Smart Camera, Seville, Spain, September 8-11, 2015;Westin Kaanapali Ocean Resort Villas;Paris;23-25 April;1991
+9047973;Third ACM/IEEE International Conference on Distributed Smart Cameras, ICDSC 2009, Como, Italy, August 30 - September 2, 2009;Wailea Beach Marriott Resort & Spa;Brussels;28-29 May;1992
+9047974;2008 Second ACM/IEEE International Conference on Distributed Smart Cameras, Stanford, CA, USA, September 7-11, 2008;Hyatt Regency Maui Resort & Spa;Thessaloniki;22-23 August;1993
+9047975;Seventh International Conference on Distributed Smart Cameras, ICDSC 2013, October 29 2013-November 1, 2013, Palm Springs, CA, USA;Fairmont Kea Lani;London;25-28 August;1994
+9047976;Edition of the 10th International Conference on Distributed Smart Camera, Paris, France, September 12-15, 2016;Moana Surfrider;Barcelona;12-14 June;1995
+9047977;Sixth International Conference on Distributed Smart Cameras, ICDSC 2012, Hong Kong, China, October 30 - Nov. 2, 2012;Ko Olina Marriot Beach Club;Madrid;17-19 September;1996
+9047978;Edition of the International Conference on Distributed Smart Cameras, ICDSC '14, Venezia Mestre, Italy, November 4-7, 2014;Hyatt Regency Waikiki;Berlin;20-22 September;1997
+9047979;Edition of the 11th International Conference on Distributed Smart Cameras, Stanford, CA, USA, September 5-7, 2017;Hawaii Prince Hotel Waikiki;Athens;22-25 December;1998
+9047980;2010 Fourth ACM/IEEE International Conference on Distributed Smart Cameras, Atlanta, GA, USA - August 31 - September 4, 2010;Aqua Bamboo Waikiki;Paris;10-12 November;1999
+9047981;2011 Fifth ACM/IEEE International Conference on Distributed Smart Cameras, Ghent, Belgium, Aug. 22-25, 2011;Aqua Aloha Surf Waikiki Hotel;Brussels;12-13 July;2000
+9047982;Edition of the 12th International Conference on Distributed Smart Cameras, ICDSC 2018, Eindhoven, The Netherlands, September 3-4, 2018;Sheraton Kauai Resort;Thessaloniki;1-2 June;2001
+9048049;Edition of the 2015 Conference on Certified Programs and Proofs, CPP 2015, Mumbai, India, January 15-17, 2015;Kilauea Lakeside Estate;London;10-14 January;2002
+9048050;Edition of the 8th ACM SIGPLAN International Conference on Certified Programs and Proofs, CPP 2019, Cascais, Portugal, January 14-15, 2019;Grand Hyatt Kauai Resort & Spa;Barcelona;8-9 February;2003
+9048051;Certified Programs and Proofs - Third International Conference, CPP 2013, Melbourne, VIC, Australia, December 11-13, 2013, Edition;Ritz-Carlton Kapalua;Madrid;11-13 March;2004
+9048052;Edition of the 5th ACM SIGPLAN Conference on Certified Programs and Proofs, Saint Petersburg, FL, USA, January 20-22, 2016;Marriott Maui Ocean Club;Berlin;23-25 April;2005
+9048053;Certified Programs and Proofs - Second International Conference, CPP 2012, Kyoto, Japan, December 13-15, 2012. Edition;Sheraton Princess Kaiulani;Athens;28-29 May;2006
+9048054;Edition of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, CPP 2017, Paris, France, January 16-17, 2017;Kahala Hotel & Resort;Paris;22-23 August;2007
+9048055;Certified Programs and Proofs - First International Conference, CPP 2011, Kenting, Taiwan, December 7-9, 2011. Edition;Holiday Inn Waikiki Beachcomber;Brussels;25-28 August;2008
+9048056;Edition of the 7th ACM SIGPLAN International Conference on Certified Programs and Proofs, CPP 2018, Los Angeles, CA, USA, January 8-9, 2018;Hilton Hawaiian Village;Thessaloniki;12-14 June;2009
+9048139;2015 International Conference on Image and Vision Computing New Zealand, IVCNZ 2015, Auckland, New Zealand, November 23-24, 2015;Hale Koa Hotel;London;17-19 September;2010
+9048140;28th International Conference on Image and Vision Computing New Zealand, IVCNZ 2013, Wellington, New Zealand, November 27-29, 2013;Waikiki Beach Marriott;Barcelona;20-22 September;2011
+9048141;2016 International Conference on Image and Vision Computing New Zealand, IVCNZ 2016, Palmerston North, New Zealand, November 21-22, 2016;Sheraton Waikiki;Madrid;22-25 December;2012
+9048142;Image and Vision Computing New Zealand, IVCNZ '12, Dunedin, New Zealand - November 26 - 28, 2012;Turtle Bay Resort;Berlin;10-12 November;2013
+9048143;Edition of the 29th International Conference on Image and Vision Computing New Zealand, IVCNZ 2014, Hamilton, New Zealand, November 19-21, 2014;JW Marriott Ihilani, Ko Olina;Athens;12-13 July;2014
+9048144;2017 International Conference on Image and Vision Computing New Zealand, IVCNZ 2017, Christchurch, New Zealand, December 4-6, 2017;Grand Wailea Resort;Paris;1-2 June;2015
+9048145;2018 International Conference on Image and Vision Computing New Zealand, IVCNZ 2018, Auckland, New Zealand, November 19-21, 2018;Maui Prince Hotel;Brussels;10-14 January;2016
+9048146;Image and Vision Computing New Zealand, International Conference, IVCNZ'98, Auckland, New Zealand, November 1998, Edition;Mauna Lani Bay Hotel & Bungalows;Thessaloniki;8-9 February;2017
+9048207;RIMS Symposium on Software Science and Engineering, Kyoto, Japan, 1982, Edition;Hilton Waikoloa Village;London;11-13 March;2018
+9048271;Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection - 7th International Conference, EuroMed 2018, Nicosia, Cyprus, October 29 - November 3, 2018, Edition, Part II;Wyndham at Waikiki Beach Walk;Barcelona;23-25 April;2019
+9048272;Digital Heritage. Progress in Cultural Heritage: Documentation, Preservation, and Protection - 6th International Conference, EuroMed 2016, Nicosia, Cyprus, October 31 - November 5, 2016, Edition, Part II;Marriott Waiohai Beach Club;Madrid;28-29 May;1954
+9047410;Multi-objective Swarm Intelligence - Theoretical Advances and Applications;Westin Kaanapali Ocean Resort Villas;Berlin;22-23 August;1955
+9047469;6th Annual Workshop on the Economics of Information Security, WEIS 2007, The Heinz School and CyLab at Carnegie Mellon University, Pittsburgh, PA, USA, June 7-8, 2007;Wailea Beach Marriott Resort & Spa;Athens;25-28 August;1956
+9047470;14th Annual Workshop on the Economics of Information Security, WEIS 2015, Delft, The Netherlands, 22-23 June, 2015;Hyatt Regency Maui Resort & Spa;Paris;12-14 June;1957
+9047471;8th Annual Workshop on the Economics of Information Security, WEIS 2009, University College London, England, UK, June 24-25, 2009;Fairmont Kea Lani;Brussels;17-19 September;1958
+9047472;4th Annual Workshop on the Economics of Information Security, WEIS 2005, Harvard University, Cambridge, MA, USA, June 1-3, 2005;Moana Surfrider;Thessaloniki;20-22 September;1959
+9047473;7th Annual Workshop on the Economics of Information Security, WEIS 2008, Dartmouth College, Hanover, NH, USA, June 25-28, 2008;Ko Olina Marriot Beach Club;London;22-25 December;1960
+9047474;5th Annual Workshop on the Economics of Information Security, WEIS 2006, Robinson College, University of Cambridge, England, UK, June 26-28, 2006;Hyatt Regency Waikiki;Barcelona;10-12 November;1961
+9047475;11th Annual Workshop on the Economics of Information Security, WEIS 2012, Berlin, Germany, 25-26 June, 2012;Hawaii Prince Hotel Waikiki;Madrid;12-13 July;1962
+9047476;9th Annual Workshop on the Economics of Information Security, WEIS 2010, Harvard University, Cambridge, MA, USA, June 7-8, 2010;Aqua Bamboo Waikiki;Berlin;1-2 June;1963
+9047477;10th Annual Workshop on the Economics of Information Security, WEIS 2011, George Mason University, Fairfax, VA, USA, June 14-15, 2011;Aqua Aloha Surf Waikiki Hotel;Athens;10-14 January;1964
+9047560;First Workshop on Hot Topics in Understanding Botnets, HotBots'07, Cambridge, MA, USA, April 10, 2007;Sheraton Kauai Resort;Paris;8-9 February;1965
+9047651;2016 International Conference on Cyber Conflict, CyCon U.S. 2016, Washington, DC, USA, October 21-23, 2016;Kilauea Lakeside Estate;Brussels;11-13 March;1966
+9047652;2017 International Conference on Cyber Conflict, CyCon U.S. 2017, Washington, DC, USA, November 7-8, 2017;Grand Hyatt Kauai Resort & Spa;Thessaloniki;23-25 April;1967
+9047707;Quality for All, 4th COST 263 International Workshop on Quality of Future, Internet Services, QoFIS 2003, Stockholm, Sweden, October 1-2, 2003, Edition;Ritz-Carlton Kapalua;London;28-29 May;1968
+9047708;Quality of Future Internet Services, Second COST 263 International Workshop, Qofis 2001, Coimbra, Portugal, September 24-26, 2001, Edition;Marriott Maui Ocean Club;Barcelona;22-23 August;1969
+9047710;Quality of Future Internet Services, First COST 263 International Workshop, QofIS 2000, Berlin, Germany, September 25-26, 2000, Edition;Sheraton Princess Kaiulani;Madrid;25-28 August;1970
+9047814;Belief Functions: Theory and Applications - 4th International Conference, BELIEF 2016, Prague, Czech Republic, September 21-23, 2016, Edition;Kahala Hotel & Resort;Berlin;12-14 June;1971
+9047817;Belief Functions: Theory and Applications - 5th International Conference, BELIEF 2018, CompiÃ¨gne, France, September 17-21, 2018, Edition;Holiday Inn Waikiki Beachcomber;Athens;17-19 September;1972
+9047923;Testing of Communicating Systems XIV, Applications to Internet Technologies and Services, Edition of the IFIP 14th International Conference on Testing Communicating Systems - TestCom 2002, Berlin, Germany, March 19-22, 2002;Hilton Hawaiian Village;Paris;20-22 September;1973
+9047928;Testing of Communicating Systems, 17th IFIP TC6/WG 6.1 International Conference, TestCom 2005, Montreal, Canada, May 31 - June 2, 2005, Edition;Hale Koa Hotel;Brussels;22-25 December;1974
+9047933;Testing of Communicating Systems, 15th IFIP International Conference, TestCom 2003, Sophia Antipolis, France, May 26-28, 2003, Edition;Waikiki Beach Marriott;Thessaloniki;10-12 November;1975
+9047934;Testing of Communicating Systems, 18th IFIP TC6/WG6.1 International Conference, TestCom 2006, New York, NY, USA, May 16-18, 2006, Edition;Sheraton Waikiki;London;12-13 July;1976
+9047940;Testing of Communicating Systems, 16th IFIP International Conerence, TestCom 2004, Oxford, UK, March 17-19, 2004, Edition;Turtle Bay Resort;Barcelona;1-2 June;1977
+9047942;Testing of Communicating Systems: Tools and Techniques, IFIP TC6/WG6.1 13;JW Marriott Ihilani, Ko Olina;Madrid;10-14 January;1978
+9047983;2nd International Symposium on Intelligence Information Processing and Trusted Computing, IPTC 2011, Wuhan, China, October 22-23, 2011;Grand Wailea Resort;Berlin;8-9 February;1979
+9048057;Broadband Communications, Edition of the IFIP TC6 Workshop on Broadband Communications, Estoril, Portugal, 20-22 January 1992;Maui Prince Hotel;Athens;11-13 March;1980
+9048058;Broadband Communications, II, Edition of the IFIP TC6 Second International Conference on Broadband Communications, Paris, France, 2-4 March, 1994;Mauna Lani Bay Hotel & Bungalows;Paris;23-25 April;1981
+9048059;Broadband Communications: Convergence of Network Technologies, IFIP TC6 WG6.2 Fifth International Conference on Broadband Communications (BC '99), November 10-12, 1999, Hong Kong;Hilton Waikoloa Village;Brussels;28-29 May;1982
+9048060;Integrated Broadband Communication Networks and Services, Edition of the IFIP TC6/ICCC International Conference on Integrated Broadband Communication Networks and Services, Copenhagen, Denmark, 20-23 April, 1993;Wyndham at Waikiki Beach Walk;Thessaloniki;22-23 August;1983
+9048061;Broadband Communications: The future of telecommunications, IFIP TC6/WG6.2 Fourth International Conference on Broadband Communications (BC '98), April 1-3, 1998, Stuttgart, Germany;Marriott Waiohai Beach Club;London;25-28 August;1984
+9048147;Workshop on Algorithms and Computation 2007 - Edition of First WALCOM, 12 February 2007, Dhaka, Bangladesh;Westin Kaanapali Ocean Resort Villas;Barcelona;12-14 June;1985
+9048148;WALCOM: Algorithms and Computation - 9th International Workshop, WALCOM 2015, Dhaka, Bangladesh, February 26-28, 2015. Edition;Wailea Beach Marriott Resort & Spa;Madrid;17-19 September;1986
+9048149;WALCOM: Algorithms and Computation, Third International Workshop, WALCOM 2009, Kolkata, India, February 18-20, 2009. Edition;Hyatt Regency Maui Resort & Spa;Berlin;20-22 September;1987
+9048150;WALCOM: Algorithms and Computation - 13th International Conference, WALCOM 2019, Guwahati, India, February 27 - March 2, 2019, Edition;Fairmont Kea Lani;Athens;22-25 December;1988
+9048151;WALCOM: Algorithms and Computation, Second International Workshop, WALCOM 2008, Dhaka, Bangladesh, February 7-8, 2008.;Moana Surfrider;Paris;10-12 November;1989
+9048152;WALCOM: Algorithms and Computation, 7th International Workshop, WALCOM 2013, Kharagpur, India, February 14-16, 2013. Edition;Ko Olina Marriot Beach Club;Brussels;12-13 July;1990
+9048153;WALCOM: Algorithms and Computation - 10th International Workshop, WALCOM 2016, Kathmandu, Nepal, March 29-31, 2016, Edition;Hyatt Regency Waikiki;Thessaloniki;1-2 June;1991
+9048154;WALCOM: Algorithms and Computation - 6th International Workshop, WALCOM 2012, Dhaka, Bangladesh, February 15-17, 2012. Edition;Hawaii Prince Hotel Waikiki;London;10-14 January;1992
+9048155;Algorithms and Computation - 8th International Workshop, WALCOM 2014, Chennai, India, February 13-15, 2014, Edition;Aqua Bamboo Waikiki;Barcelona;8-9 February;1993
+9048156;WALCOM: Algorithms and Computation, 11th International Conference and Workshops, WALCOM 2017, Hsinchu, Taiwan, March 29-31, 2017, Edition.;Aqua Aloha Surf Waikiki Hotel;Madrid;11-13 March;1994
+9048157;WALCOM: Algorithms and Computation, 4th International Workshop, WALCOM 2010, Dhaka, Bangladesh, February 10-12, 2010. Edition;Sheraton Kauai Resort;Berlin;23-25 April;1995
+9048158;WALCOM: Algorithms and Computation - 5th International Workshop, WALCOM 2011, New Delhi, India, February 18-20, 2011. Edition;Kilauea Lakeside Estate;Athens;28-29 May;1996
+9048159;WALCOM: Algorithms and Computation - 12th International Conference, WALCOM 2018, Dhaka, Bangladesh, March 3-5, 2018, Edition;Grand Hyatt Kauai Resort & Spa;Paris;22-23 August;1997
+9048208;Conference on Technologies and Applications of Artificial Intelligence, TAAI 2015, Tainan, Taiwan, November 20-22, 2015;Ritz-Carlton Kapalua;Brussels;25-28 August;1998
+9048209;Conference on Technologies and Applications of Artificial Intelligence, TAAI 2013, Taipei, Taiwan, December 6-8, 2013;Marriott Maui Ocean Club;Thessaloniki;12-14 June;1999
+9048210;Conference on Technologies and Applications of Artificial Intelligence, TAAI 2016, Hsinchu, Taiwan, November 25-27, 2016;Sheraton Princess Kaiulani;London;17-19 September;2000
+9048211;Conference on Technologies and Applications of Artificial Intelligence, TAAI 2012, Tainan, Taiwan, November 16-18, 2012;Kahala Hotel & Resort;Barcelona;20-22 September;2001
+9048212;Technologies and Applications of Artificial Intelligence, 19th International Conference, TAAI 2014, Taipei, Taiwan, November 21-23, 2014. Edition;Holiday Inn Waikiki Beachcomber;Madrid;22-25 December;2002
+9048213;Conference on Technologies and Applications of Artificial Intelligence, TAAI 2017, Taipei, Taiwan, December 1-3, 2017;Hilton Hawaiian Village;Berlin;10-12 November;2003
+9048214;Conference on Technologies and Applications of Artificial Intelligence, TAAI 2018, Taichung, Taiwan, November 30 - December 2, 2018;Hale Koa Hotel;Athens;12-13 July;2004
+9048273;Progress in Cultural Heritage Preservation - 4th International Conference, EuroMed 2012, Limassol, Cyprus, October 29 - November 3, 2012. Edition;Waikiki Beach Marriott;Paris;1-2 June;2005
+9048275;Digital Heritage. Progress in Cultural Heritaage: Documentation, Preservation, and Protection - 5th International Conference, EuroMed 2014, Limassol, Cyprus, November 3-8, 2014. Edition;Sheraton Waikiki;Brussels;10-14 January;2006
+9048276;Digital Heritage - Third International Conference, EuroMed 2010, Lemessos, Cyprus, November 8-13, 2010. Edition;Turtle Bay Resort;Thessaloniki;8-9 February;2007
+9047411;Computational Intelligence and Efficiency in Engineering Systems;JW Marriott Ihilani, Ko Olina;London;11-13 March;1955
+9047478;2007 International Conference on Dependability of Computer Systems (DepCoS-RELCOMEX 2007), June 14-16, 2007, Szklarska Poreba, Poland;Grand Wailea Resort;Barcelona;23-25 April;1956
+9047480;Fourth International Conference on Dependability of Computer Systems, DepCos-RELCOMEX '09, Brunow, Poland, June 30 - July 2, 2009;Maui Prince Hotel;Madrid;28-29 May;1957
+9047481;Third International Conference on Dependability of Computer Systems, DepCoS-RELCOMEX 2008, June 26-28, 2008, Szklarska Poreba, Poland;Mauna Lani Bay Hotel & Bungalows;Berlin;22-23 August;1958
+9047482;2006 International Conference on Dependability of Computer Systems (DepCoS-RELCOMEX 2006), 24-28 May 2006, Szklarska Poreba, Poland;Hilton Waikoloa Village;Athens;25-28 August;1959
+9047484;Dependability Engineering and Complex Systems - Edition of the Eleventh International Conference on Dependability and Complex Systems DepCoS-RELCOMEX. June 27-July 1, 2016, BrunÃ³w, Poland;Wyndham at Waikiki Beach Walk;Paris;12-14 June;1960
+9047569;Workshop on Organizing Workshops, Conferences, and Symposia for Computer Systems, WOWCS'08, San Francisco, CA, USA, April 15, 2008, Edition;Marriott Waiohai Beach Club;Brussels;17-19 September;1961
+9047653;Edition of the 6th Italian Information Retrieval Workshop, Cagliari, Italy, May 25-26, 2015.;Westin Kaanapali Ocean Resort Villas;Thessaloniki;20-22 September;1962
+9047654;Edition of the 4th Italian Information Retrieval Workshop, Pisa, Italy, January 16-17, 2013;Wailea Beach Marriott Resort & Spa;London;22-25 December;1963
+9047655;Edition of the 7th Italian Information Retrieval Workshop, Venezia, Italy, May 30-31, 2016.;Hyatt Regency Maui Resort & Spa;Barcelona;10-12 November;1964
+9047656;Edition of the 3rd Italian Information Retrieval Workshop, Bari, Italy, January 26-27, 2012;Fairmont Kea Lani;Madrid;12-13 July;1965
+9047657;Edition of the 5th Italian Information Retrieval Workshop, Roma, Italy, January 20-21, 2014.;Moana Surfrider;Berlin;1-2 June;1966
+9047658;Edition of the 8th Italian Information Retrieval Workshop, Lugano, Switzerland, June 05-07, 2017.;Ko Olina Marriot Beach Club;Athens;10-14 January;1967
+9047659;IIR 2010 - Edition of the First Italian Information Retrieval Workshop, Padua, Italy, January 27-28, 2010;Hyatt Regency Waikiki;Paris;8-9 February;1968
+9047660;Edition of the 2nd Italian Information Retrieval (IIR) Workshop, Milan, Italy, January 27-28, 2011;Hawaii Prince Hotel Waikiki;Brussels;11-13 March;1969
+9047661;Edition of the 9th Italian Information Retrieval Workshop, Rome, Italy, May, 28-30, 2018.;Aqua Bamboo Waikiki;Thessaloniki;23-25 April;1970
+9047711;International Conference on Scalable Computing and Communications / Eighth International Conference on Embedded Computing, ScalCom-EmbeddedCom 2009, Dalian, China, September 25-27, 2009;Aqua Aloha Surf Waikiki Hotel;London;28-29 May;1971
+9047815;Belief Functions: Theory and Applications - Edition of the 2nd International Conference on Belief Functions, CompiÃ¨gne, France, 9-11 May 2012;Sheraton Kauai Resort;Barcelona;22-23 August;1972
+9047816;Belief Functions: Theory and Applications - Third International Conference, BELIEF 2014, Oxford, UK, September 26-28, 2014. Edition;Kilauea Lakeside Estate;Madrid;25-28 August;1973
+9047924;Testing of Software and Communicating Systems, 19th IFIP TC6/WG6.1 International Conference, TestCom 2007, 7th International Workshop, FATES 2007, Tallinn, Estonia, June 26-29, 2007, Edition;Grand Hyatt Kauai Resort & Spa;Berlin;12-14 June;1974
+9047926;Testing of Software and Communication Systems, 21st IFIP WG 6.1 International Conference, TESTCOM 2009 and 9th International Workshop, FATES 2009, Eindhoven, The Netherlands, November 2-4, 2009. Edition;Ritz-Carlton Kapalua;Athens;17-19 September;1975
+9047932;Testing of Software and Communicating Systems, 20th IFIP TC 6/WG 6.1 International Conference, TestCom 2008, 8th International Workshop, FATES 2008, Tokyo, Japan, June 10-13, 2008, Edition;Marriott Maui Ocean Club;Paris;20-22 September;1976
+9047984;8th Future Security. Security Research Conference, Berlin, September 17-19, 2013, Edition;Sheraton Princess Kaiulani;Brussels;22-25 December;1977
+9047985;Future Security - 7th Security Research Conference, Future Security 2012, Bonn, Germany, September 4-6, 2012. Edition;Kahala Hotel & Resort;Thessaloniki;10-12 November;1978
+9047986;6th Future Security. Security Research Conference, Berlin, 2011, Edition;Holiday Inn Waikiki Beachcomber;London;12-13 July;1979
+9048062;23rd International Conference on Geoinformatics, Geoinformatics 2015, Wuhan, China, June 19-21, 2015;Hilton Hawaiian Village;Barcelona;1-2 June;1980
+9048063;21st International Conference on Geoinformatics, Geoinformatics 2013, Kaifeng, China, June 20-22, 2013;Hale Koa Hotel;Madrid;10-14 January;1981
+9048064;24th International Conference on Geoinformatics, GeoInformatics 2016, Galway, Ireland, August 14-20, 2016;Waikiki Beach Marriott;Berlin;8-9 February;1982
+9048065;The 20th International Conference on Geoinformatics, Geoinformatics 2012, Hong Kong, China, June 15-17, 2012;Sheraton Waikiki;Athens;11-13 March;1983
+9048066;22nd International Conference on Geoinformatics, Geoinformatics 2014, Kaohsiung, Taiwan, June 25-27, 2014;Turtle Bay Resort;Paris;23-25 April;1984
+9048067;25th International Conference on Geoinformatics, Geoinformatics 2017, Buffalo, NY, USA, August 2-4, 2017;JW Marriott Ihilani, Ko Olina;Brussels;28-29 May;1985
+9048068;The 18th International Conference on Geoinformatics: GIScience in Change, Geoinformatics 2010, Peking University, Beijing, China, June, 18-20, 2010;Grand Wailea Resort;Thessaloniki;22-23 August;1986
+9048069;26th International Conference on Geoinformatics, Geoinformatics 2018, Kunming, China, June 28-30, 2018;Maui Prince Hotel;London;25-28 August;1987
+9048160;The First International Conference on Advances in P2P Systems, AP2PS 2009, 11-16 October 2009, Sliema, Malta;Mauna Lani Bay Hotel & Bungalows;Barcelona;12-14 June;1988
+9048215;FORMS/FORMAT 2010 - Formal Methods for Automation and Safety in Railway and Automotive Systems [8th Symposium on Formal Methods for Automation and Safety in Railway and Automotive Systems, Braunschweig, Germany, December 2-3, 2010;Hilton Waikoloa Village;Madrid;17-19 September;1989
+9048274;Edition of the Workshop on Cultural Informatics Research and Applications co-located with the International Conference on Digital Heritage, CIRA@EuroMed 2018, Nicosia, Cyprus, November 3, 2018.;Wyndham at Waikiki Beach Walk;Berlin;20-22 September;1990
+9047479;Theory and Engineering of Complex Systems and Dependability - Edition of the Tenth International Conference on Dependability and Complex Systems DepCoS-RELCOMEX, June 29 - July 3 2015, BrunÃ³w, Poland;Marriott Waiohai Beach Club;Athens;22-25 December;1955
+9047483;New Results in Dependability and Computer Systems - Edition of the 8th International Conference on Dependability and Complex Systems DepCoS-RELCOMEX, September 9-13, 2013, BrunÃ³w, Poland;Westin Kaanapali Ocean Resort Villas;Paris;10-12 November;1956
+9047485;Edition of the Ninth International Conference on Dependability and Complex Systems DepCoS-RELCOMEX. June 30 - July 4, 2014, BrunÃ³w, Poland;Wailea Beach Marriott Resort & Spa;Brussels;12-13 July;1957
+9047571;Web and Wireless Geographical Information Systems, 7th International Symposium, W2GIS 2007, Cardiff, UK, November 28-29, 2007. Edition;Hyatt Regency Maui Resort & Spa;Thessaloniki;1-2 June;1958
+9047572;Web and Wireless Geographical Information Systems - 14th International Symposium, W2GIS 2015, Grenoble, France, May 21-22, 2015, Edition;Fairmont Kea Lani;London;10-14 January;1959
+9047573;Web and Wireless Geographical Information Systems, 9th International Symposium, W2GIS 2009, Maynooth, Ireland, December 7-8, 2009. Edition;Moana Surfrider;Barcelona;8-9 February;1960
+9047574;Web and Wireless Geographical Information Systems, 5th International Workshop, W2GIS 2005, Lausanne, Switzerland, December 15-16, 2005, Edition;Ko Olina Marriot Beach Club;Madrid;11-13 March;1961
+9047575;Web and Wireless Geographical Information Systems, 8th International Symposium, W2GIS 2008, Shanghai, China, December 11-12, 2008. Edition;Hyatt Regency Waikiki;Berlin;23-25 April;1962
+9047576;Web and Wireless Geographical Information Systems, 6th International Symposium, W2GIS 2006, Hong Kong, China, December 4-5, 2006, Edition;Hawaii Prince Hotel Waikiki;Athens;28-29 May;1963
+9047577;Web and Wireless Geographical Information Systems - 12th International Symposium, W2GIS 2013, Banff, AB, Canada, April 4-5, 2013. Edition;Aqua Bamboo Waikiki;Paris;22-23 August;1964
+9047578;Web and Wireless Geographical Information Systems - 11th International Symposium, W2GIS 2012, Naples, Italy, April 12-13, 2012. Edition;Aqua Aloha Surf Waikiki Hotel;Brussels;25-28 August;1965
+9047579;Web and Wireless Geographical Information Systems - 13th International Symposium, W2GIS 2014, Seoul, South Korea, May 29-30, 2014. Edition;Sheraton Kauai Resort;Thessaloniki;12-14 June;1966
+9047580;Web and Wireless Geographical Information Systems, 4th InternationalWorkshop, W2GIS 2004, Goyang, Korea, November 2004, Revised Selected Papers;Kilauea Lakeside Estate;London;17-19 September;1967
+9047581;Web and Wireless Geographical Information Systems - 15th International Symposium, W2GIS 2017, Shanghai, China, May 8-9, 2017, Edition;Grand Hyatt Kauai Resort & Spa;Barcelona;20-22 September;1968
+9047582;Web and Wireless Geographical Information Systems - 10th International Symposium, W2GIS 2011, Kyoto, Japan, March 3-4, 2011. Edition;Ritz-Carlton Kapalua;Madrid;22-25 December;1969
+9047583;Web and Wireless Geographical Information Systems - 16th International Symposium, W2GIS 2018, A CoruÃ±a, Spain, May 21-22, 2018, Edition;Marriott Maui Ocean Club;Berlin;10-12 November;1970
+9047641;Formal Theories of Information: From Shannon to Semantic Information Theory and General Concepts of Information [Muenchenwiler Seminar (Switzerland), May 2009];Sheraton Princess Kaiulani;Athens;12-13 July;1971
+9047662;COLOG-88, International Conference on Computer Logic, Tallinn, USSR, December 1988, Edition;Kahala Hotel & Resort;Paris;1-2 June;1972
+9047712;Formal Description Techniques, Edition of the First International Conference on Formal Description Techniques, Stirling, Scotland, UK, 6-9 September, 1988;Holiday Inn Waikiki Beachcomber;Brussels;10-14 January;1973
+9047713;Formal Techniques for Networked and Distributed Systems - FORTE 2002, 22nd IFIP WG 6.1 International Conference Houston, Texas, USA, November 11-14, 2002, Edition;Hilton Hawaiian Village;Thessaloniki;8-9 February;1974
+9047714;Formal Techniques for Networked and Distributed Systems - FORTE 2007, 27th IFIP WG 6.1 International Conference, Tallinn, Estonia, June 27-29, 2007, Edition;Hale Koa Hotel;London;11-13 March;1975
+9047717;Formal Description Techniques, V, Edition of the IFIP TC6/WG6.1 Fifth International Conference on Formal Description Techniques for Distributed Systems and Communication Protocols, FORTE '92, Perros-Guirec, France, 13-16 October 1992;Waikiki Beach Marriott;Barcelona;23-25 April;1976
+9047718;Formal Description Techniques, II, Edition of the IFIP TC/WG6.1 Second International Conference on Formal Description Techniques for Distributed Systems and Communication Protocols, FORTE'89, Vancouver, BC, Canada, 5-8 December, 1989;Sheraton Waikiki;Madrid;28-29 May;1977
+9047720;Formal Description Techniques VII, Edition of the 7th IFIP WG6.1 International Conference on Formal Description Techniques, Berne, Switzerland, 1994;Turtle Bay Resort;Berlin;22-23 August;1978
+9047721;Formal Techniques for Networked and Distributed Systems - FORTE 2005, 25th IFIP WG 6.1 International Conference, Taipei, Taiwan, October 2-5, 2005, Edition;JW Marriott Ihilani, Ko Olina;Athens;25-28 August;1979
+9047722;Formal Description Techniques, III, Edition of the IFIP TC6/WG6.1 Third International Conference on Formal Description Techniques for Distributed Systems and Communication Protocols, FORTE '90, Madrid, Spain, 5-8 November 1990;Grand Wailea Resort;Paris;12-14 June;1980
+9047723;Formal Description Techniques, IV, Edition of the IFIP TC6/WG6.1 Fourth International Conference on Formal Description Techniques for Distributed Systems and Communication Protocols, FORTE '91, Sydney, Australia, 19-22 November 1991;Maui Prince Hotel;Brussels;17-19 September;1981
+9047725;Formal Techniques for Networked and Distributed Systems - FORTE 2008, 28th IFIP WG 6.1 International Conference, Tokyo, Japan, June 10-13, 2008, Edition;Mauna Lani Bay Hotel & Bungalows;Thessaloniki;20-22 September;1982
+9047726;Formal Techniques for Networked and Distributed Systems - FORTE 2003, 23rd IFIP WG 6.1 International Conference, Berlin, Germany, September 29 - October 2, 2003, Edition;Hilton Waikoloa Village;London;22-25 December;1983
+9047727;Formal Techniques for Networked and Distributed Systems - FORTE 2006, 26th IFIP WG 6.1 International Conference, Paris, France, September 26-29, 2006.;Wyndham at Waikiki Beach Walk;Barcelona;10-12 November;1984
+9047729;Formal Techniques for Networked and Distributed Systems, FORTE 2001, IFIP TC6/WG6.1 - 21;Marriott Waiohai Beach Club;Madrid;12-13 July;1985
+9047731;Formal Description Techniques IX: Theory, application and tools, IFIP TC6 WG6.1 International Conference on Formal Description Techniques IX / Protocol Specification, Testing and Verification XVI, Kaiserslautern, Germany, 8-11 October 1996;Westin Kaanapali Ocean Resort Villas;Berlin;1-2 June;1986
+9047733;Formal Description Techniques VIII, Edition of the IFIP TC6 Eighth International Conference on Formal Description Techniques, Montreal, Canada, October 1995;Wailea Beach Marriott Resort & Spa;Athens;10-14 January;1987
+9047735;Formal Description Techniques, VI, Edition of the IFIP TC6/WG6.1 Sixth International Conference on Formal Description Techniques - FORTE '93, Boston, MA, USA, 26-29 October 1993;Hyatt Regency Maui Resort & Spa;Paris;8-9 February;1988
+9047736;Formal Techniques for Networked and Distributed Systems - FORTE 2004, 24th IFIP WG 6.1 International Conference, Madrid Spain, September 27-30, 2004, Edition;Fairmont Kea Lani;Brussels;11-13 March;1989
+9047818;IEEE Symposium on Computational Intelligence for Engineering Solutions, CIES 2013, Singapore, April 16-19, 2013;Moana Surfrider;Thessaloniki;23-25 April;1990
+9047819;2014 IEEE Symposium on Computational Intelligence for Engineering Solutions, CIES 2014, Orlando, FL, USA, December 9-12, 2014;Ko Olina Marriot Beach Club;London;28-29 May;1991
+9047925;Testing Software and Systems - 27th IFIP WG 6.1 International Conference, ICTSS 2015, Sharjah and Dubai, United Arab Emirates, November 23-25, 2015, Edition;Hyatt Regency Waikiki;Barcelona;22-23 August;1992
+9047935;Testing Software and Systems - 25th IFIP WG 6.1 International Conference, ICTSS 2013, Istanbul, Turkey, November 13-15, 2013, Edition;Hawaii Prince Hotel Waikiki;Madrid;25-28 August;1993
+9047936;Testing Software and Systems - 28th IFIP WG 6.1 International Conference, ICTSS 2016, Graz, Austria, October 17-19, 2016, Edition;Aqua Bamboo Waikiki;Berlin;12-14 June;1994
+9047937;Testing Software and Systems - 24th IFIP WG 6.1 International Conference, ICTSS 2012, Aalborg, Denmark, November 19-21, 2012. Edition;Aqua Aloha Surf Waikiki Hotel;Athens;17-19 September;1995
+9047938;Testing Software and Systems - 26th IFIP WG 6.1 International Conference, ICTSS 2014, Madrid, Spain, September 23-25, 2014. Edition;Sheraton Kauai Resort;Paris;20-22 September;1996
+9047943;Testing Software and Systems - 29th IFIP WG 6.1 International Conference, ICTSS 2017, St. Petersburg, Russia, October 9-11, 2017, Edition;Kilauea Lakeside Estate;Brussels;22-25 December;1997
+9047944;Testing Software and Systems - 22nd IFIP WG 6.1 International Conference, ICTSS 2010, Natal, Brazil, November 8-10, 2010. Edition;Grand Hyatt Kauai Resort & Spa;Thessaloniki;10-12 November;1998
+9047945;Testing Software and Systems - 23rd IFIP WG 6.1 International Conference, ICTSS 2011, Paris, France, November 7-10, 2011. Edition;Ritz-Carlton Kapalua;London;12-13 July;1999
+9047946;Testing Software and Systems - 30th IFIP WG 6.1 International Conference, ICTSS 2018, CÃ¡diz, Spain, October 1-3, 2018, Edition;Marriott Maui Ocean Club;Barcelona;1-2 June;2000
+9047987;Grid and Cooperative Computing, Sixth International Conference on Grid and Cooperative Computing, GCC 2007, August 16-18, 2007, Urumchi, Xinjiang, China, Edition;Sheraton Princess Kaiulani;Madrid;10-14 January;2001
+9047989;Eighth International Conference on Grid and Cooperative Computing, GCC 2009, Lanzhou, Gansu, China, August 27-29, 2009;Kahala Hotel & Resort;Berlin;8-9 February;2002
+9047990;Grid and Cooperative Computing - GCC 2005, 4th International Conference, Beijing, China, November 30 - December 3, 2005, Edition;Holiday Inn Waikiki Beachcomber;Athens;11-13 March;2003
+9047991;Seventh International Conference on Grid and Cooperative Computing, GCC 2008, Shenzhen, China, October 24-26, 2008;Hilton Hawaiian Village;Paris;23-25 April;2004
+9047992;Grid and Cooperative Computing - GCC 2006, 5th International Conference, Changsha, Hunan, China, 21-23 October 2006, Edition;Hale Koa Hotel;Brussels;28-29 May;2005
+9047995;Grid and Cooperative Computing - GCC 2004: Third International Conference, Wuhan, China, October 21-24, 2004. Edition;Waikiki Beach Marriott;Thessaloniki;22-23 August;2006
+9047996;GCC 2010, The Ninth International Conference on Grid and Cloud Computing, Nanjing, Jiangsu, China, 1-5 November 2010;Sheraton Waikiki;London;25-28 August;2007
+9048070;Technologies for Interactive Digital Storytelling and Entertainment, Third International Conference, TIDSE 2006, Darmstadt, Germany, December 4-6, 2006.;Turtle Bay Resort;Barcelona;12-14 June;2008
+9048071;Technologies for Interactive Digital Storytelling and Entertainment, Second International Conference, TIDSE 2004, Darmstadt, Germany, June 24-26, 2004, Edition;JW Marriott Ihilani, Ko Olina;Madrid;17-19 September;2009
+9048161;General Theory of Information Transfer and Combinatorics;Grand Wailea Resort;Berlin;20-22 September;2010
+9048216;14th International Conference on ITS Telecommunications, ITST 2015, Copenhagen, Denmark, December 2-4, 2015;Maui Prince Hotel;Athens;22-25 December;2011
+9048217;13th International Conference on ITS Telecommunications, ITST 2013, Tampere, Finland, November 5-7, 2013;Mauna Lani Bay Hotel & Bungalows;Paris;10-12 November;2012
+9048218;12th International Conference on ITS Telecommunications, ITST 2012, Taipei, Taiwan, November 5-8, 2012;Hilton Waikoloa Village;Brussels;12-13 July;2013
+9048219;15th International Conference on ITS Telecommunications, ITST 2017, Warsaw, Poland, May 29-31, 2017;Wyndham at Waikiki Beach Walk;Thessaloniki;1-2 June;2014
+9048220;16th International Conference on Intelligent Transportation Systems Telecommunications, ITST 2018, Lisbon, Portugal, October 15-17, 2018;Marriott Waiohai Beach Club;London;10-14 January;2015
+9048277;Knowledge Oriented Software Design, Extended Papers from the IFIP TC12 Workshop on Artificial Intelligence from the Information Processing Perspective - AIFIPP '92, Madrid, Spain, 14-15 September, 1992;Westin Kaanapali Ocean Resort Villas;Barcelona;8-9 February;2016
+9047413;Next Frontier in Agent-Based Complex Automated Negotiation;Wailea Beach Marriott Resort & Spa;Madrid;11-13 March;1955
+9047486;Edition of the 2nd INCOSE Italia Conference on Systems Engineering, Turin, Italy, November 14-16, 2016.;Hyatt Regency Maui Resort & Spa;Berlin;23-25 April;1956
+9047487;Edition of the INCOSE Italia Conference on Systems Engineering, CIISE 2014, Rome, Italy, November 24-25, 2014.;Fairmont Kea Lani;Athens;28-29 May;1957
+9047488;Edition of the 3rd INCOSE Italia Conference on Systems Engineering, Naples, Italy, November 22-24, 2017.;Moana Surfrider;Paris;22-23 August;1958
+9047489;Edition of the 4th INCOSE Italia Conference on Systems Engineering, Rome, Italy, November 28-30, 2018.;Ko Olina Marriot Beach Club;Brussels;25-28 August;1959
+9047584;Artificial Intelligence in Higher Education, CEPES-UNESCO International Symposium, Prague, Czechoslovakia, October 23-25, 1989, Edition;Hyatt Regency Waikiki;Thessaloniki;12-14 June;1960
+9047663;Data Integration in the Life Sciences, 4th International Workshop, DILS 2007, Philadelphia, PA, USA, June 27-29, 2007, Edition;Hawaii Prince Hotel Waikiki;London;17-19 September;1961
+9047664;Data Integration in the Life Sciences - 11th International Conference, DILS 2015, Los Angeles, CA, USA, July 9-10, 2015, Edition;Aqua Bamboo Waikiki;Barcelona;20-22 September;1962
+9047665;Data Integration in the Life Sciences, 6th International Workshop, DILS 2009, Manchester, UK, July 20-22, 2009. Edition;Aqua Aloha Surf Waikiki Hotel;Madrid;22-25 December;1963
+9047666;Data Integration in the Life Sciences, Second InternationalWorkshop, DILS 2005, San Diego, CA, USA, July 20-22, 2005, Edition;Sheraton Kauai Resort;Berlin;10-12 November;1964
+9047667;Data Integration in the Life Sciences, 5th International Workshop, DILS 2008, Evry, France, June 25-27, 2008. Edition;Kilauea Lakeside Estate;Athens;12-13 July;1965
+9047668;Data Integration in the Life Sciences, Third International Workshop, DILS 2006, Hinxton, UK, July 20-22, 2006, Edition;Grand Hyatt Kauai Resort & Spa;Paris;1-2 June;1966
+9047669;Data Integration in the Life Sciences - 9th International Conference, DILS 2013, Montreal, QC, Canada, July 11-12, 2013. Edition;Ritz-Carlton Kapalua;Brussels;10-14 January;1967
+9047670;Data Integration in the Life Sciences - 8th International Conference, DILS 2012, College Park, MD, USA, June 28-29, 2012. Edition;Marriott Maui Ocean Club;Thessaloniki;8-9 February;1968
+9047671;Data Integration in the Life Sciences - 10th International Conference, DILS 2014, Lisbon, Portugal, July 17-18, 2014. Edition;Sheraton Princess Kaiulani;London;11-13 March;1969
+9047672;Data Integration in the Life Sciences, First International Workshop, DILS 2004, Leipzig, Germany, March 25-26, 2004, Edition;Kahala Hotel & Resort;Barcelona;23-25 April;1970
+9047673;Data Integration in the Life Sciences - 12th International Conference, DILS 2017, Luxembourg, Luxembourg, November 14-15, 2017, Edition;Holiday Inn Waikiki Beachcomber;Madrid;28-29 May;1971
+9047674;Data Integration in the Life Sciences, 7th International Conference, DILS 2010, Gothenburg, Sweden, August 25-27, 2010. Edition;Hilton Hawaiian Village;Berlin;22-23 August;1972
+9047675;Data Integration in the Life Sciences - 13th International Conference, DILS 2018, Hannover, Germany, November 20-21, 2018, Edition;Hale Koa Hotel;Athens;25-28 August;1973
+9047716;Formal Techniques for Distributed Systems, Joint 11th IFIP WG 6.1 International Conference FMOODS 2009 and 29th IFIP WG 6.1 International Conference FORTE 2009, Lisboa, Portugal, June 9-12, 2009. Edition;Waikiki Beach Marriott;Paris;12-14 June;1974
+9047732;Formal Techniques for Distributed Systems - Joint 14th IFIP WG 6.1 International Conference, FMOODS 2012 and 32nd IFIP WG 6.1 International Conference, FORTE 2012, Stockholm, Sweden, June 13-16, 2012. Edition;Sheraton Waikiki;Brussels;17-19 September;1975
+9047740;Formal Techniques for Distributed Systems, Joint 12th IFIP WG 6.1 International Conference, FMOODS 2010 and 30th IFIP WG 6.1 International Conference, FORTE 2010, Amsterdam, The Netherlands, June 7-9, 2010. Edition;Turtle Bay Resort;Thessaloniki;20-22 September;1976
+9047741;Formal Techniques for Distributed Systems - Joint 13th IFIP WG 6.1 International Conference, FMOODS 2011, and 31st IFIP WG 6.1 International Conference, FORTE 2011, Reykjavik, Iceland, June 6-9, 2011. Edition;JW Marriott Ihilani, Ko Olina;London;22-25 December;1977
+9047820;Edition of the Seventh Global Wordnet Conference, GWC 2014, Tartu, Estonia, January 25-29, 2014;Grand Wailea Resort;Barcelona;10-12 November;1978
+9047927;Protocol Test Systems, V, Edition of the IFIP TC6/WG6.1 Fifth International Workshop on Protocol Test Systems, Montreal, Quebec, Canada, 28-30 September, 1992;Maui Prince Hotel;Madrid;12-13 July;1979
+9047929;Protocol Test Systems, IV, Edition of the IFIP TC6/WG6.1 Fourth International Workshop on Protocol Test Systems, Leidschendam, The Netherlands, 15-17 October, 1991;Mauna Lani Bay Hotel & Bungalows;Berlin;1-2 June;1980
+9047939;Protocol Test Systems, VI, Edition of the IFIP TC6/WG6.1 Sixth International Workshop on Protocol Test systems, Pau, France, 28-30 September, 1993;Hilton Waikoloa Village;Athens;10-14 January;1981
+9047988;Grid and Cooperative Computing, Second International Workshop, GCC 2003, Shanghai, China, December 7-10, 2003, Revised Papers, Part II;Wyndham at Waikiki Beach Walk;Paris;8-9 February;1982
+9048072;Recent Trends in Computer Networks and Distributed Systems Security - International Conference, SNDS 2012, Trivandrum, India, October 11-12, 2012. Edition;Marriott Waiohai Beach Club;Brussels;11-13 March;1983
+9048073;Recent Trends in Computer Networks and Distributed Systems Security - Second International Conference, SNDS 2014, Trivandrum, India, March 13-14, 2014, Edition;Westin Kaanapali Ocean Resort Villas;Thessaloniki;23-25 April;1984
+9048162;Edition of the 2007 International Symposium on Wikis, 2007, Montreal, Quebec, Canada, October 21-25, 2007;Wailea Beach Marriott Resort & Spa;London;28-29 May;1985
+9048164;Edition of the 2009 International Symposium on Wikis, 2009, Orlando, Florida, USA, October 25-27, 2009;Hyatt Regency Maui Resort & Spa;Barcelona;22-23 August;1986
+9048165;Edition of the 2005 International Symposium on Wikis, 2005, San Diego, California, USA, October 16-18, 2005;Fairmont Kea Lani;Madrid;25-28 August;1987
+9048166;Edition of the 2008 International Symposium on Wikis, 2008, Porto, Portugal, September 8-10, 2008;Moana Surfrider;Berlin;12-14 June;1988
+9048167;Edition of the 2006 International Symposium on Wikis, 2006, Odense, Denmark, August 21-23, 2006;Ko Olina Marriot Beach Club;Athens;17-19 September;1989
+9048175;Edition of the 6th International Symposium on Wikis and Open Collaboration, 2010, Gdansk, Poland, July 7-9, 2010;Hyatt Regency Waikiki;Paris;20-22 September;1990
+9048176;Edition of the 7th International Symposium on Wikis and Open Collaboration, 2011, Mountain View, CA, USA, October 3-5, 2011;Hawaii Prince Hotel Waikiki;Brussels;22-25 December;1991
+9048221;2009 IEEE Symposium on Computational Intelligence for Multimedia Signal and Vision Processing, CIMSVP 2009, Nashville, TN, USA, March 31 - April 1, 2009;Aqua Bamboo Waikiki;Thessaloniki;10-12 November;1992
+9047414;Harmonization and Development of Resources and Tools for Italian Natural Language Processing within the PARLI Project;Aqua Aloha Surf Waikiki Hotel;London;12-13 July;1955
+9047585;7th International Conference on New Technologies, Mobility and Security, NTMS 2015, Paris, France, July 27-29, 2015;Sheraton Kauai Resort;Barcelona;1-2 June;1956
+9047586;NTMS 2009, 3rd International Conference on New Technologies, Mobility and Security, 20-23 December 2009, Cairo, Egypt;Kilauea Lakeside Estate;Madrid;10-14 January;1957
+9047587;NTMS 2008, 2nd International Conference on New Technologies, Mobility and Security, November 5-7, 2008, Tangier, Morocco;Grand Hyatt Kauai Resort & Spa;Berlin;8-9 February;1958
+9047588;8th IFIP International Conference on New Technologies, Mobility and Security, NTMS 2016, Larnaca, Cyprus, November 21-23, 2016;Ritz-Carlton Kapalua;Athens;11-13 March;1959
+9047589;5th International Conference on New Technologies, Mobility and Security, Istanbul, Turkey, NTMS 2012, May 7-10, 2012;Marriott Maui Ocean Club;Paris;23-25 April;1960
+9047590;6th International Conference on New Technologies, Mobility and Security, NTMS 2014, Dubai, United Arab Emirates, March 30 - April 2, 2014;Sheraton Princess Kaiulani;Brussels;28-29 May;1961
+9047591;4th IFIP International Conference on New Technologies, Mobility and Security, NTMS 2011, Paris, France, February 7-10, 2011;Kahala Hotel & Resort;Thessaloniki;22-23 August;1962
+9047592;9th IFIP International Conference on New Technologies, Mobility and Security, NTMS 2018, Paris, France, February 26-28, 2018;Holiday Inn Waikiki Beachcomber;London;25-28 August;1963
+9047676;45th European Solid State Device Research Conference, ESSDERC 2015, Graz, Austria, September 14-18, 2015;Hilton Hawaiian Village;Barcelona;12-14 June;1964
+9047677;Edition of the European Solid-State Device Research Conference, ESSDERC 2013, Bucharest, Romania, September 16-20, 2013;Hale Koa Hotel;Madrid;17-19 September;1965
+9047678;46th European Solid-State Device Research Conference, ESSDERC 2016, Lausanne, Switzerland, September 12-15, 2016;Waikiki Beach Marriott;Berlin;20-22 September;1966
+9047679;Edition of the 2012 European Solid-State Device Research Conference, ESSDERC 2012, Bordeaux, France, September 17-21, 2012;Sheraton Waikiki;Athens;22-25 December;1967
+9047680;44th European Solid State Device Research Conference, ESSDERC 2014, Venice Lido, Italy, September 22-26, 2014;Turtle Bay Resort;Paris;10-12 November;1968
+9047681;47th European Solid-State Device Research Conference, ESSDERC 2017, Leuven, Belgium, September 11-14, 2017;JW Marriott Ihilani, Ko Olina;Brussels;12-13 July;1969
+9047682;48th European Solid-State Device Research Conference, ESSDERC 2018, Dresden, Germany, September 3-6, 2018;Grand Wailea Resort;Thessaloniki;1-2 June;1970
+9047719;Applying Formal Methods: Testing, Performance and M/ECommerce, FORTE 2004 Workshops The FormEMC, EPEW, ITM, Toledo, Spain, October 1-2, 2004;Maui Prince Hotel;London;10-14 January;1971
+9047821;IC 2007: IngÃ©nierie des connaissances 2007 (Edition of the 18th French Knowledge Engineering Conference), Grenoble, France, July 4-6, 2007;Mauna Lani Bay Hotel & Bungalows;Barcelona;8-9 February;1972
+9047823;IC 2009 : Actes des 20es JournÃ©es Francophones d'IngÃ©nierie des Connaissances, Hammamet, Tunisia, May 25-29, 2009;Hilton Waikoloa Village;Madrid;11-13 March;1973
+9047824;IC 2008: IngÃ©nierie des connaissances 2008 (Edition of the 19th French Knowledge Engineering Conference), Nancy, France, June 18-20, 2008;Wyndham at Waikiki Beach Walk;Berlin;23-25 April;1974
+9047825;IC 2006: IngÃ©nierie des connaissances 2006 (Edition of the 17th French Knowledge Engineering Conference), Nantes, France, June 26-30, 2006;Marriott Waiohai Beach Club;Athens;28-29 May;1975
+9047930;Future Internet Testing - First International Workshop, FITTEST 2013, Istanbul, Turkey, November 12, 2013, Revised Selected Papers;Westin Kaanapali Ocean Resort Villas;Paris;22-23 August;1976
+9047993;Grid and Cooperative Computing, Second International Workshop, GCC 2003, Shanghai, China, December 7-10, 2003, Revised Papers, Part I;Wailea Beach Marriott Resort & Spa;Brussels;25-28 August;1977
+9048074;Numerical Mathematics and Advanced Applications - ENUMATH 2015 - Edition of the 11th European Conference on Numerical Mathematics and Advanced Applications, Ankara, Turkey, September 14-18, 2015;Hyatt Regency Maui Resort & Spa;Thessaloniki;12-14 June;1978
+9048075;Numerical Mathematics and Advanced Applications - ENUMATH 2013 - Edition of ENUMATH 2013, the 10th European Conference on Numerical Mathematics and Advanced Applications, Lausanne, Switzerland, August 2013;Fairmont Kea Lani;London;17-19 September;1979
+9048163;Edition of the 11th International Symposium on Open Collaboration, San Francisco, CA, USA, August 19-21, 2015;Moana Surfrider;Barcelona;20-22 September;1980
+9048168;Edition of the 9th International Symposium on Open Collaboration, Hong Kong, China, August 05 - 07, 2013;Ko Olina Marriot Beach Club;Madrid;22-25 December;1981
+9048170;Edition of the 12th International Symposium on Open Collaboration, OpenSym 2016, Berlin, Germany, August 17-19, 2016;Hyatt Regency Waikiki;Berlin;10-12 November;1982
+9048172;Edition of The International Symposium on Open Collaboration, OpenSym 2014, Berlin, Germany, August 27 - 29, 2014;Hawaii Prince Hotel Waikiki;Athens;12-13 July;1983
+9048174;Edition of the 13th International Symposium on Open Collaboration, OpenSym 2017, Galway, Ireland, August 23-25, 2017;Aqua Bamboo Waikiki;Paris;1-2 June;1984
+9048177;Edition of the 14th International Symposium on Open Collaboration, OpenSym 2018, Paris, France, August 22-24, 2018;Aqua Aloha Surf Waikiki Hotel;Brussels;10-14 January;1985
+9048222;2013 IEEE Symposium on Computational Intelligence for Multimedia, Signal and Vision Processing, CIMSIVP 2013, Singapore, Singapore, April 16-19, 2013;Sheraton Kauai Resort;Thessaloniki;8-9 February;1986
+9048223;2014 IEEE Symposium on Computational Intelligence for Multimedia, Signal and Vision Processing, CIMSIVP 2014, Orlando, FL, USA, December 9-12, 2014;Kilauea Lakeside Estate;London;11-13 March;1987
+9048224;2011 IEEE Symposium on Computational Intelligence for Multimedia, Signal and Vision Processing, CIMSIVP 2011, Paris, France, April 13-14, 2011;Grand Hyatt Kauai Resort & Spa;Barcelona;23-25 April;1988
+9047415;Service Orientation in Holonic and Multi-agent Manufacturing;Ritz-Carlton Kapalua;Madrid;28-29 May;1955
+9047491;Edition of the 3rd Workshop on Advances in Model Based Testing, A-MOST 2007, co-located with the ISSTA 2007 International Symposium on Software Testing and Analysis, London, United Kingdom, July 9-12;Marriott Maui Ocean Club;Berlin;22-23 August;1956
+9047492;Edition of the ICSE 2005 Workshop on Advances in Model-Based Software Testing, A-MOST 2005, St. Louis, Missouri, USA;Sheraton Princess Kaiulani;Athens;25-28 August;1957
+9047593;Software Product-Family Engineering, 5th International Workshop, PFE 2003, Siena, Italy, November 4-6, 2003, Revised Papers;Kahala Hotel & Resort;Paris;12-14 June;1958
+9047594;Software Product-Family Engineering, 4th International Workshop, PFE 2001, Bilbao, Spain, October 3-5, 2001, Revised Papers;Holiday Inn Waikiki Beachcomber;Brussels;17-19 September;1959
+9047683;Edition of the Eurographics Multimedia Workshop 2001, Manchester, United Kingdom, September 8-9, 2001;Hilton Hawaiian Village;Thessaloniki;20-22 September;1960
+9047684;Edition of the 7th Eurographics Multimedia Workshop 2004, Ninjing, China, October 27-28, 2004;Hale Koa Hotel;London;22-25 December;1961
+9047744;Recent Advances in Soft Computing - Edition of 23rd International Conference on Soft Computing (MENDEL 2017) Held in Brno, Czech Republic, June 20-22, 2017;Waikiki Beach Marriott;Barcelona;10-12 November;1962
+9047822;IC 2015 : 26es JournÃ©es francophones d'IngÃ©nierie des Connaissances (Edition of the 26th French Knowledge Engineering Conference), Rennes, France, July 1-3, 2015.;Sheraton Waikiki;Madrid;12-13 July;1963
+9047826;IC 2013 : 24es JournÃ©es francophones d'IngÃ©nierie des Connaissances (Edition of the 24th French Knowledge Engineering Conference), Lille, France, July 1-5, 2013.;Turtle Bay Resort;Berlin;1-2 June;1964
+9047827;IC 2016 : 27es JournÃ©es francophones d'IngÃ©nierie des Connaissances (Edition of the 27th French Knowledge Engineering Conference), Montpellier, France, June 6-10, 2016.;JW Marriott Ihilani, Ko Olina;Athens;10-14 January;1965
+9047828;IC 2012 : 23es journÃ©es IngÃ©nierie des Connaissances (Edition of the 23rd French Knowledge Engineering Conference), Paris, France, June 25-29, 2012.;Grand Wailea Resort;Paris;8-9 February;1966
+9047829;IC 2014 : 25es JournÃ©es francophones d'IngÃ©nierie des Connaissances (Edition of the 25th French Knowledge Engineering Conference), Clermont Ferrand, France, May 12-16, 2014.;Maui Prince Hotel;Brussels;11-13 March;1967
+9047830;IC 2017 : 28es JournÃ©es francophones d'IngÃ©nierie des Connaissances (Edition of the 28th French Knowledge Engineering Conference), Caen, France, July 3-7, 2017.;Mauna Lani Bay Hotel & Bungalows;Thessaloniki;23-25 April;1968
+9047831;IC 2010 : 21es JournÃ©es IngÃ©nierie des Connaissances 2010 (Edition of the 21st French Knowledge Engineering Conference), NÃ®mes, France, June 8-10, 2010.;Hilton Waikoloa Village;London;28-29 May;1969
+9047832;IC 2011 : 22es journÃ©es IngÃ©nierie des Connaissances (Edition of the 22nd French Knowledge Engineering Conference), Chambery, France, May 16-20, 2011.;Wyndham at Waikiki Beach Walk;Barcelona;22-23 August;1970
+9047833;IC 2018 : 29es JournÃ©es francophones d'IngÃ©nierie des Connaissances (Edition of the 29th French Knowledge Engineering Conference), Nancy, France, July 4-6, 2018.;Marriott Waiohai Beach Club;Madrid;25-28 August;1971
+9047931;Testing of Communicating Systems: Method and Applications, IFIP TC6 12;Westin Kaanapali Ocean Resort Villas;Berlin;12-14 June;1972
+9047947;Testing of Communicating Systems, IFIP TC6 11th International Workshop on Testing Communicating Systems (IWTCS), August 31 - September 2, 1998, Tomsk, Russia;Wailea Beach Marriott Resort & Spa;Athens;17-19 September;1973
+9047994;Grid and Cooperative Computing - GCC 2004 Workshops: GCC 2004 International Workshops, IGKG, SGT, GISS, AAC-GEVO, and VVS, Wuhan, China, October 21-24, 2004. Edition;Hyatt Regency Maui Resort & Spa;Paris;20-22 September;1974
+9047997;Grid and Cooperative Computing Workshops - GCC 2006, 5th International Conference, Changsha, Hunan, China, 21-23 October 2006, Edition;Fairmont Kea Lani;Brussels;22-25 December;1975
+9048076;Advances in Biometrics, International Conference, ICB 2007, Seoul, Korea, August 27-29, 2007, Edition;Moana Surfrider;Thessaloniki;10-12 November;1976
+9048077;International Conference on Biometrics, ICB 2015, Phuket, Thailand, 19-22 May, 2015;Ko Olina Marriot Beach Club;London;12-13 July;1977
+9048078;Advances in Biometrics, Third International Conference, ICB 2009, Alghero, Italy, June 2-5, 2009. Edition;Hyatt Regency Waikiki;Barcelona;1-2 June;1978
+9048079;Advances in Biometrics, International Conference, ICB 2006, Hong Kong, China, January 5-7, 2006, Edition;Hawaii Prince Hotel Waikiki;Madrid;10-14 January;1979
+9048080;International Conference on Biometrics, ICB 2013, 4-7 June, 2013, Madrid, Spain;Aqua Bamboo Waikiki;Berlin;8-9 February;1980
+9048081;International Conference on Biometrics, ICB 2016, Halmstad, Sweden, June 13-16, 2016;Aqua Aloha Surf Waikiki Hotel;Athens;11-13 March;1981
+9048082;5th IAPR International Conference on Biometrics, ICB 2012, New Delhi, India, March 29 - April 1, 2012;Sheraton Kauai Resort;Paris;23-25 April;1982
+9048086;2018 International Conference on Biometrics, ICB 2018, Gold Coast, Australia, February 20-23, 2018;Kilauea Lakeside Estate;Brussels;28-29 May;1983
+9048169;Companion to the Edition of the 13th International Symposium on Open Collaboration, OpenSym 2017, Galway, Ireland, August 23-25, 2017;Grand Hyatt Kauai Resort & Spa;Thessaloniki;22-23 August;1984
+9048178;Companion to the Edition of the 12th International Symposium on Open Collaboration, OpenSym 2016, Berlin, Germany, August 17-19, 2016;Ritz-Carlton Kapalua;London;25-28 August;1985
+9048225;Third International Conference on Computing Measurement Control and Sensor Network, CMCSN 2016, Matsue, Japan, May 20-22, 2016;Marriott Maui Ocean Club;Barcelona;12-14 June;1986
+9047416;Recent Advances in Swarm Intelligence and Evolutionary Computation;Sheraton Princess Kaiulani;Madrid;17-19 September;1955
+9047493;2015 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, MFI 2015, San Diego, CA, USA, September 14-16, 2015;Kahala Hotel & Resort;Berlin;20-22 September;1956
+9047494;IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, MFI 2008, Seoul, South Korea, August 20-22, 2008;Holiday Inn Waikiki Beachcomber;Athens;22-25 December;1957
+9047495;2006 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, Heidelberg, Germany, September 3-6, 2006;Hilton Hawaiian Village;Paris;10-12 November;1958
+9047496;2016 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, MFI 2016, Baden-Baden, Germany, September 19-21, 2016;Hale Koa Hotel;Brussels;12-13 July;1959
+9047497;IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, MFI 2012, Hamburg, Germany, September 13-15, 2012;Waikiki Beach Marriott;Thessaloniki;1-2 June;1960
+9047498;International Conference on Multisensor Fusion and Information Integration for Intelligent Systems, MFI 2014, Beijing, China, September 28-29, 2014;Sheraton Waikiki;London;10-14 January;1961
+9047499;2017 IEEE International Conference on Multisensor Fusion and Integration for Intelligent Systems, MFI 2017, Daegu, Korea (South), November 16-18, 2017;Turtle Bay Resort;Barcelona;8-9 February;1962
+9047500;2010 IEEE Conference on Multisensor Fusion and Integration for Intelligent Systems, MFI 2010, Salt Lake City, UT, USA, September 5-7, 2010;JW Marriott Ihilani, Ko Olina;Madrid;11-13 March;1963
+9047596;19th International Conference on Scientific and Statistical Database Management, SSDBM 2007, 9-11 July 2007, Banff, Canada, Edition;Grand Wailea Resort;Berlin;23-25 April;1964
+9047597;Edition of the 27th International Conference on Scientific and Statistical Database Management, SSDBM '15, La Jolla, CA, USA, June 29 - July 1, 2015;Maui Prince Hotel;Athens;28-29 May;1965
+9047598;Scientific and Statistical Database Management, 21st International Conference, SSDBM 2009, New Orleans, LA, USA, June 2-4, 2009, Edition;Mauna Lani Bay Hotel & Bungalows;Paris;22-23 August;1966
+9047600;Statistical and Scientific Database Management, 4th International Working Conference SSDBM, Rome, Italy, June 21-23, 1988, Proccedings;Hilton Waikoloa Village;Brussels;25-28 August;1967
+9047601;17th International Conference on Scientific and Statistical Database Management, SSDBM 2005, 27-29 June 2005, University of California, Santa Barbara, CA, USA, Edition;Wyndham at Waikiki Beach Walk;Thessaloniki;12-14 June;1968
+9047603;Scientific and Statistical Database Management, 20th International Conference, SSDBM 2008, Hong Kong, China, July 9-11, 2008, Edition;Marriott Waiohai Beach Club;London;17-19 September;1969
+9047604;Edition of the 15th International Conference on Scientific and Statistical Database Management (SSDBM 2003), 9-11 July 2003, Cambridge, MA, USA;Westin Kaanapali Ocean Resort Villas;Barcelona;20-22 September;1970
+9047605;18th International Conference on Scientific and Statistical Database Management, SSDBM 2006, 3-5 July 2006, Vienna, Austria, Edition;Wailea Beach Marriott Resort & Spa;Madrid;22-25 December;1971
+9047606;Conference on Scientific and Statistical Database Management, SSDBM '13, Baltimore, MD, USA, July 29 - 31, 2013;Hyatt Regency Maui Resort & Spa;Berlin;10-12 November;1972
+9047610;Edition of the 28th International Conference on Scientific and Statistical Database Management, SSDBM 2016, Budapest, Hungary, July 18-20, 2016;Fairmont Kea Lani;Athens;12-13 July;1973
+9047612;Scientific and Statistical Database Management - 24th International Conference, SSDBM 2012, Chania, Crete, Greece, June 25-27, 2012. Edition;Moana Surfrider;Paris;1-2 June;1974
+9047613;Conference on Scientific and Statistical Database Management, SSDBM '14, Aalborg, Denmark, June 30 - July 02, 2014;Ko Olina Marriot Beach Club;Brussels;10-14 January;1975
+9047614;Edition of the 16th International Conference on Scientific and Statistical Database Management (SSDBM 2004), 21-23 June 2004, Santorini Island, Greece;Hyatt Regency Waikiki;Thessaloniki;8-9 February;1976
+9047618;Edition of the 29th International Conference on Scientific and Statistical Database Management, Chicago, IL, USA, June 27-29, 2017;Hawaii Prince Hotel Waikiki;London;11-13 March;1977
+9047619;Scientific and Statistical Database Management, 22nd International Conference, SSDBM 2010, Heidelberg, Germany, June 30 - July 2, 2010. Edition;Aqua Bamboo Waikiki;Barcelona;23-25 April;1978
+9047620;Scientific and Statistical Database Management - 23rd International Conference, SSDBM 2011, Portland, OR, USA, July 20-22, 2011. Edition;Aqua Aloha Surf Waikiki Hotel;Madrid;28-29 May;1979
+9047621;Edition of the 30th International Conference on Scientific and Statistical Database Management, SSDBM 2018, Bozen-Bolzano, Italy, July 09-11, 2018;Sheraton Kauai Resort;Berlin;22-23 August;1980
+9047624;Statistical and Scientific Database Management, 5th International Conference SSDBM, Charlotte, NC, USA, April 3-5, 1990, Proccedings;Kilauea Lakeside Estate;Athens;25-28 August;1981
+9047685;Applications of Declarative Programming and Knowledge Management - 18th International Conference, INAP 2009, Ã‰vora, Portugal, November 3-5, 2009, Revised Selected Papers;Grand Hyatt Kauai Resort & Spa;Paris;12-14 June;1982
+9047686;Declarative Programming for Knowledge Management, 16th International Conference on Applications of Declarative Programming and Knowledge Management, INAP 2005, Fukuoka, Japan, October 22-24, 2005, Revised Selected Papers;Ritz-Carlton Kapalua;Brussels;17-19 September;1983
+9047689;Edition of the 14th International Conference on Applications of Prolog, INAP 2001, University of Tokyo, Tokyo, Japan, October 20-22, 2001;Marriott Maui Ocean Club;Thessaloniki;20-22 September;1984
+9047745;Post-Edition of the Third Italian Research Conference on Digital Library Systems, IRCDL 2007, Padova, Italy, 29-30 January 2007;Sheraton Princess Kaiulani;London;22-25 December;1985
+9047747;Digital Libraries on the Move - 11th Italian Research Conference on Digital Libraries, IRCDL 2015, Bolzano, Italy, January 29-30, 2015, Revised Selected Papers;Kahala Hotel & Resort;Barcelona;10-12 November;1986
+9047748;Post-Edition of the Fifth Italian Research Conference on Digital Libraries - IRCDL 2009, Padova, Italy, 29-30 January 2009;Holiday Inn Waikiki Beachcomber;Madrid;12-13 July;1987
+9047749;Digital Libraries: Supporting Open Science - 15th Italian Research Conference on Digital Libraries, IRCDL 2019, Pisa, Italy, January 31 - February 1, 2019, Edition;Hilton Hawaiian Village;Berlin;1-2 June;1988
+9047750;Post-Edition of the Forth Italian Research Conference on Digital Library Systems, IRCDL 2008, Padova, Italy, 24-25 January 2008;Hale Koa Hotel;Athens;10-14 January;1989
+9047751;Post-Edition of the Second Italian Research Conference on Digital Library Management Systems (IRCDL 2006), Padova, Italy, 27th January 2006;Waikiki Beach Marriott;Paris;8-9 February;1990
+9047752;Bridging Between Cultural Heritage Institutions - 9th Italian Research Conference, IRCDL 2013, Rome, Italy, January 31-February 1, 2013, Revised Selected Papers;Sheraton Waikiki;Brussels;11-13 March;1991
+9047753;Digital Libraries and Multimedia Archives - 12th Italian Research Conference on Digital Libraries, IRCDL 2016, Florence, Italy, February 4-5, 2016, Revised Selected Papers;Turtle Bay Resort;Thessaloniki;23-25 April;1992
+9047754;Digital Libraries and Archives - 8th Italian Research Conference, IRCDL 2012, Bari, Italy, February 9-10, 2012, Revised Selected Papers;JW Marriott Ihilani, Ko Olina;London;28-29 May;1993
+9047755;Pushing the Boundaries of the Digital Libraries Field - 10th Italian Research Conference on Digital Libraries, IRCDL 2014, Padua, Italy, January 30-31, 2014;Grand Wailea Resort;Barcelona;22-23 August;1994
+9047756;Digital Libraries and Archives - 13th Italian Research Conference on Digital Libraries, IRCDL 2017, Modena, Italy, January 26-27, 2017, Revised Selected Papers;Maui Prince Hotel;Madrid;25-28 August;1995
+9047757;Digital Libraries - 6th Italian Research Conference, IRCDL 2010, Padua, Italy, January 28-29, 2010. Revised Selected Papers;Mauna Lani Bay Hotel & Bungalows;Berlin;12-14 June;1996
+9047758;Digital Libraries and Archives - 7th Italian Research Conference, IRCDL 2011, Pisa, Italy, January 20-21, 2011. Revised Papers;Hilton Waikoloa Village;Athens;17-19 September;1997
+9047759;Digital Libraries and Multimedia Archives - 14th Italian Research Conference on Digital Libraries, IRCDL 2018, Udine, Italy, January 25-26, 2018, Edition;Wyndham at Waikiki Beach Walk;Paris;20-22 September;1998
+9047834;Companion Publication of the 19th International ACM SIGACCESS Conference on Computers and Accessibility, DIS 2018, Hong Kong, China, June 09-13, 2018;Marriott Waiohai Beach Club;Brussels;22-25 December;1999
+9047838;Companion Publication of the 2014 ACM SIGCHI Conference on Designing Interactive Systems Conference, DIS '14, Vancouver, BC, Canada, June 21-25, 2014;Westin Kaanapali Ocean Resort Villas;Thessaloniki;10-12 November;2000
+9047839;Companion Publication of the 2017 ACM Conference Companion Publication on Designing Interactive Systems, DIS '17, Edinburgh, United Kingdom, June 10-14, 2017;Wailea Beach Marriott Resort & Spa;London;12-13 July;2001
+9047850;Companion Publication of the 2014 ACM Conference on Designing Interactive Systems, DIS '16, Brisbane, QLD, Australia, June 04 - 08, 2016;Hyatt Regency Maui Resort & Spa;Barcelona;1-2 June;2002
+9047941;Risk Assessment and Risk-Driven Testing - First International Workshop, RISK 2013, Held in Conjunction with ICTSS 2013, Istanbul, Turkey, November 12, 2013. Revised Selected Papers;Fairmont Kea Lani;Madrid;10-14 January;2003
+9047998;Augmented and Virtual Reality - Second International Conference, AVR 2015, Lecce, Italy, August 31 - September 3, 2015, Edition;Moana Surfrider;Berlin;8-9 February;2004
+9048004;Augmented and Virtual Reality - First International Conference, AVR 2014, Lecce, Italy, September 17-20, 2014, Revised Selected Papers;Ko Olina Marriot Beach Club;Athens;11-13 March;2005
+9048083;IEEE International Joint Conference on Biometrics, Clearwater, IJCB 2014, FL, USA, September 29 - October 2, 2014;Hyatt Regency Waikiki;Paris;23-25 April;2006
+9048084;2017 IEEE International Joint Conference on Biometrics, IJCB 2017, Denver, CO, USA, October 1-4, 2017;Hawaii Prince Hotel Waikiki;Brussels;28-29 May;2007
+9048085;2011 IEEE International Joint Conference on Biometrics, IJCB 2011, Washington, DC, USA, October 11-13, 2011;Aqua Bamboo Waikiki;Thessaloniki;22-23 August;2008
+9048171;Edition of the Eighth Annual International Symposium on Wikis and Open Collaboration, WikiSym 2012, Austria, August 27 - 29, 2012;Aqua Aloha Surf Waikiki Hotel;London;25-28 August;2009
+9048226;Network Economics for Next Generation Networks, 6th International Workshop on Internet Charging and Qos Technologies, ICQT 2009, Aachen, Germany, May 11-15, 2009. Edition;Sheraton Kauai Resort;Barcelona;12-14 June;2010
+9048227;Performability Has its Price, 5th International Workshop on Internet Charging and QoS Technologies, ICQT 2006, St. Malo, France, June 27, 2006, Edition;Kilauea Lakeside Estate;Madrid;17-19 September;2011
+9048228;Economics of Converged, Internet-Based Networks - 7th International Workshop on Internet Charging and QoS Technologies, ICQT 2011, Paris, France, October 24, 2011. Edition;Grand Hyatt Kauai Resort & Spa;Berlin;20-22 September;2012
+9047417;Feature Selection for Data and Pattern Recognition;Ritz-Carlton Kapalua;Athens;22-25 December;1955
+9047501;Edition of the 2007 International Conference on Foundations of Computer Science, FCS 2007, June 25-28, 2007, Las Vegas, Nevada, USA;Marriott Maui Ocean Club;Paris;10-12 November;1956
+9047502;Edition of the 2009 International Conference on Foundations of Computer Science, FCS 2009, July 13-16, 2009, Las Vegas, Nevada, USA;Sheraton Princess Kaiulani;Brussels;12-13 July;1957
+9047503;Edition of The 2005 International Conference on Foundations of Computer Science, FCS 2005, Las Vegas, Nevada, USA, June 27-30, 2005;Kahala Hotel & Resort;Thessaloniki;1-2 June;1958
+9047504;Edition of the 2008 International Conference on Foundations of Computer Science, FCS 2008, July 14-17, 2008, Las Vegas, Nevada, USA;Holiday Inn Waikiki Beachcomber;London;10-14 January;1959
+9047505;Edition of the 2006 International Conference on Foundations of Computer Science, Las Vegas, Nevada, USA, June 26-29, 2006;Hilton Hawaiian Village;Barcelona;8-9 February;1960
+9047506;Edition of the 2010 International Conference on Foundations of Computer Science, FCS 2010, July 12-15, 2010, Las Vegas, Nevada, USA;Hale Koa Hotel;Madrid;11-13 March;1961
+9047625;Approaches and Applications of Inductive Programming, Third International Workshop, AAIP 2009, Edinburgh, UK, September 4, 2009. Revised Papers;Waikiki Beach Marriott;Berlin;23-25 April;1962
+9047687;Web Knowledge Management and Decision Support, 14th International Conference on Applications of Prolog, INAP 2001, Tokyo, Japan, October 20-22, 2001, Revised Papers;Sheraton Waikiki;Athens;28-29 May;1963
+9047746;Edition of 1st International Workshop on Visual Pattern Extraction and Recognition for Cultural Heritage Understanding co-located with 15th Italian Research Conference on Digital Libraries (IRCDL 2019), CNR Area in Pisa, Italy, January 30, 2019.;Turtle Bay Resort;Paris;22-23 August;1964
+9047835;Edition of the 4th Conference on Designing Interactive Systems: Processes, Practices, Methods, and Techniques, DIS 2002, London, England, UK, June 25-28, 2002;JW Marriott Ihilani, Ko Olina;Brussels;25-28 August;1965
+9047842;Edition of the 1st Conference on Designing Interactive Systems: Processes, Practices, Methods and Techniques, DIS '95, Ann Arbor, MI, USA, August 23-25, 1995;Grand Wailea Resort;Thessaloniki;12-14 June;1966
+9047845;Edition of the 2nd Conference on Designing Interactive Systems: Processes, Practices, Methods and Techniques, DIS 1997, Grand Hotel Krasnapolsky, Amsterdam, the Netherlands, August 18-20, 1997;Maui Prince Hotel;London;17-19 September;1967
+9047846;Edition of the 3rd Conference on Designing Interactive Systems: Processes, Practices, Methods, Techniques, DIS 2000, New York City, NY, USA, August 17-19, 2000;Mauna Lani Bay Hotel & Bungalows;Barcelona;20-22 September;1968
+9047948;Electronic Speech Signal Processing, ESSV 2010, Edition of the 21st Conference, Berlin, 8-10 September 2010, commemorating the 80th birthday of Hiroya Fujisaki;Hilton Waikoloa Village;Madrid;22-25 December;1969
+9047999;Augmented Reality, Virtual Reality, and Computer Graphics - 5th International Conference, AVR 2018, Otranto, Italy, June 24-27, 2018, Edition, Part I;Wyndham at Waikiki Beach Walk;Berlin;10-12 November;1970
+9048001;Augmented Reality, Virtual Reality, and Computer Graphics - Third International Conference, AVR 2016, Lecce, Italy, June 15-18, 2016. Edition, Part I;Marriott Waiohai Beach Club;Athens;12-13 July;1971
+9048005;Augmented Reality, Virtual Reality, and Computer Graphics - 4th International Conference, AVR 2017, Ugento, Italy, June 12-15, 2017, Edition, Part I;Westin Kaanapali Ocean Resort Villas;Paris;1-2 June;1972
+9048087;Edition of the Linguistic Annotation Workshop, LAW@ACL 2007, Prague, Czech Republic, June 28-29, 2007;Wailea Beach Marriott Resort & Spa;Brussels;10-14 January;1973
+9048091;Edition of the 10th Linguistic Annotation Workshop held in conjunction with ACL 2016, LAW@ACL 2016, August 11, 2016, Berlin, Germany;Hyatt Regency Maui Resort & Spa;Thessaloniki;8-9 February;1974
+9048094;Edition of the 11th Linguistic Annotation Workshop, LAW@EACL 2017, Valencia, Spain, April 3, 2017;Fairmont Kea Lani;London;11-13 March;1975
+9048173;Companion to the Edition of the 11th International Symposium on Open Collaboration, OpenSym 2015, San Francisco, California, USA, August 19-21, 2015;Moana Surfrider;Barcelona;23-25 April;1976
+9048229;Edition of the 10th Travelling Conference on Pattern Languages of Programs, VikingPLoP 2016, Leerdam, The Netherlands, April 7-10, 2016;Ko Olina Marriot Beach Club;Madrid;28-29 May;1977
+9048230;Edition of the 8th Nordic Conference on Pattern Languages of Programs, VikingPLoP 2014, Vihula, Estonia, April 10-13, 2014;Hyatt Regency Waikiki;Berlin;22-23 August;1978
+9048231;Edition of the VikingPLoP 2017 Conference on Pattern Languages of Program, VikingPLoP 2017, Grube, Schleswig-Holstein, Germany, March 30 - April 02, 2017;Hawaii Prince Hotel Waikiki;Athens;25-28 August;1979
+9047418;Software Engineering Research, Management and Applications [selected papers from the 12th International Conference on Software Engineering Research, Management and Applications, SERA 2014, Kitakyushu, Japan, 2014];Aqua Bamboo Waikiki;Paris;12-14 June;1955
+9047509;IEEE 10th International Symposium on Workload Characterization, IISWC 2007, Boston, MA, USA, 27-29 September, 2007;Aqua Aloha Surf Waikiki Hotel;Brussels;17-19 September;1956
+9047510;2015 IEEE International Symposium on Workload Characterization, IISWC 2015, Atlanta, GA, USA, October 4-6, 2015;Sheraton Kauai Resort;Thessaloniki;20-22 September;1957
+9047511;Edition of the 2009 IEEE International Symposium on Workload Characterization, IISWC 2009, October 4-6, 2009, Austin, TX, USA;Kilauea Lakeside Estate;London;22-25 December;1958
+9047512;4th International Symposium on Workload Characterization (IISWC 2008), Seattle, Washington, USA, September 14-16, 2008;Grand Hyatt Kauai Resort & Spa;Barcelona;10-12 November;1959
+9047513;Edition of the 2006 IEEE International Symposium on Workload Characterization, IISWC 2006, October 25-27, 2006, San Jose, California, USA;Ritz-Carlton Kapalua;Madrid;12-13 July;1960
+9047514;Edition of the IEEE International Symposium on Workload Characterization, IISWC 2013, Portland, OR, USA, September 22-24, 2013;Marriott Maui Ocean Club;Berlin;1-2 June;1961
+9047515;2016 IEEE International Symposium on Workload Characterization, IISWC 2016, Providence, RI, USA, September 25-27, 2016;Sheraton Princess Kaiulani;Athens;10-14 January;1962
+9047516;Edition of the 2012 IEEE International Symposium on Workload Characterization, IISWC 2012, La Jolla, CA, USA, November 4-6, 2012;Kahala Hotel & Resort;Paris;8-9 February;1963
+9047517;2014 IEEE International Symposium on Workload Characterization, IISWC 2014, Raleigh, NC, USA, October 26-28, 2014;Holiday Inn Waikiki Beachcomber;Brussels;11-13 March;1964
+9047518;2017 IEEE International Symposium on Workload Characterization, IISWC 2017, Seattle, WA, USA, October 1-3, 2017;Hilton Hawaiian Village;Thessaloniki;23-25 April;1965
+9047519;Edition of the 2010 IEEE International Symposium on Workload Characterization, IISWC 2010, Atlanta, GA, USA, December 2-4, 2010;Hale Koa Hotel;London;28-29 May;1966
+9047520;Edition of the 2011 IEEE International Symposium on Workload Characterization, IISWC 2011, Austin, TX, USA, November 6-8, 2011;Waikiki Beach Marriott;Barcelona;22-23 August;1967
+9047521;2018 IEEE International Symposium on Workload Characterization, IISWC 2018, Raleigh, NC, USA, September 30 - October 2, 2018;Sheraton Waikiki;Madrid;25-28 August;1968
+9047626;Usability: Gaining a Competitive Edge, IFIP 17;Turtle Bay Resort;Berlin;12-14 June;1969
+9047688;Declarative Programming and Knowledge Management - Declarative Programming Days, KDPD 2013, Unifying INAP, WFLP, and WLP, Kiel, Germany, September 11-13, 2013, Revised Selected Papers;JW Marriott Ihilani, Ko Olina;Athens;17-19 September;1970
+9047760;Advanced Language Technologies for Digital Libraries - International Workshops on NLP4DL 2009, Viareggio, Italy, June 15, 2009 and AT4DL 2009, Trento, Italy, September 8, 2009;Grand Wailea Resort;Paris;20-22 September;1971
+9047836;Edition of the Conference on Designing Interactive Systems, Cape Town, South Africa, February 25-27, 2008;Maui Prince Hotel;Brussels;22-25 December;1972
+9047837;Edition of the Conference on Designing Interactive Systems,University Park, PA, USA, June 26-28, 2006;Mauna Lani Bay Hotel & Bungalows;Thessaloniki;10-12 November;1973
+9047840;Edition of the 2016 ACM Conference on Designing Interactive Systems, DIS '16, Brisbane, QLD, Australia, June 04 - 08, 2016;Hilton Waikoloa Village;London;12-13 July;1974
+9047841;Designing Interactive Systems Conference 2012, DIS '12, Newcastle Upon Tyne, United Kingdom, June 11-15, 2012;Wyndham at Waikiki Beach Walk;Barcelona;1-2 June;1975
+9047843;Designing Interactive Systems Conference 2014, DIS '14, Vancouver, BC, Canada, June 21-25, 2014;Marriott Waiohai Beach Club;Madrid;10-14 January;1976
+9047844;Edition of the Conference on Designing Interactive Systems: Processes, Practices, Methods, and Techniques, Cambridge, MA, USA, August 1-4, 2004;Westin Kaanapali Ocean Resort Villas;Berlin;8-9 February;1977
+9047847;Edition of the 2017 Conference on Designing Interactive Systems, DIS '17, Edinburgh, United Kingdom, June 10-14, 2017;Wailea Beach Marriott Resort & Spa;Athens;11-13 March;1978
+9047848;Edition of the Conference on Designing Interactive Systems, Aarhus, Denmark, August 16-20, 2010;Hyatt Regency Maui Resort & Spa;Paris;23-25 April;1979
+9047849;Edition of the 2018 on Designing Interactive Systems Conference 2018, DIS 2018, Hong Kong, CHina, June 09-13, 2018;Fairmont Kea Lani;Brussels;28-29 May;1980
+9047949;Advanced Encryption Standard - AES, 4th International Conference, AES 2004, Bonn, Germany, May 10-12, 2004, Revised Selected and Invited Papers;Moana Surfrider;Thessaloniki;22-23 August;1981
+9048000;Augmented Reality, Virtual Reality, and Computer Graphics - 4th International Conference, AVR 2017, Ugento, Italy, June 12-15, 2017, Edition, Part II;Ko Olina Marriot Beach Club;London;25-28 August;1982
+9048002;Augmented Reality, Virtual Reality, and Computer Graphics - 5th International Conference, AVR 2018, Otranto, Italy, June 24-27, 2018, Edition, Part II;Hyatt Regency Waikiki;Barcelona;12-14 June;1983
+9048003;Augmented Reality, Virtual Reality, and Computer Graphics - Third International Conference, AVR 2016, Lecce, Italy, June 15-18, 2016. Edition, Part II;Hawaii Prince Hotel Waikiki;Madrid;17-19 September;1984
+9048088;Edition of The 9th Linguistic Annotation Workshop, LAW@NAACL-HLT 2015, June 5, 2015, Denver, Colorado, USA;Aqua Bamboo Waikiki;Berlin;20-22 September;1985
+9048179;Companion of the 2018 ACM/IEEE International Conference on Human-Robot Interaction, HRI 2018, Chicago, IL, USA, March 05-08, 2018;Aqua Aloha Surf Waikiki Hotel;Athens;22-25 December;1986
+9048186;Companion of the 2017 ACM/IEEE International Conference on Human-Robot Interaction, HRI 2017, Vienna, Austria, March 6-9, 2017;Sheraton Kauai Resort;Paris;10-12 November;1987
+9048232;4th International Conference on Computer Graphics, Imaging and Visualization (CGIV 2007), August 14-16, 2007, Bangkok, Thailand;Kilauea Lakeside Estate;Brussels;12-13 July;1988
+9048233;Sixth International Conference on Computer Graphics, Imaging and Visualization: New Advances and Trends, CGIV 2009, 11-14 August 2009, Tianjin, China;Grand Hyatt Kauai Resort & Spa;Thessaloniki;1-2 June;1989
+9048234;2005 International Conference on Computer Graphics, Imaging and Visualization (CGIV 2005), 26-29 July 2005, Beijing, China;Ritz-Carlton Kapalua;London;10-14 January;1990
+9048235;Fifth International Conference on Computer Graphics, Imaging and Visualization: Modern Techniques and Applications, CGIV 2008, Penang, Malaysia, August 25-28, 2008;Marriott Maui Ocean Club;Barcelona;8-9 February;1991
+9048236;Third International Conference on Computer Graphics, Imaging and Visualization (CGIV 2006), 26-28 July 2006, Sydney, Australia;Sheraton Princess Kaiulani;Madrid;11-13 March;1992
+9048237;10th International Conference Computer Graphics, Imaging and Visualization, CGIV 2013, Los Alamitos, CA, USA, August 6-8, 2013;Kahala Hotel & Resort;Berlin;23-25 April;1993
+9048238;Ninth International Conference on Computer Graphics, Imaging and Visualization, CGIV 2012, Hsinchu, Taiwan, July 25-27, 2012;Holiday Inn Waikiki Beachcomber;Athens;28-29 May;1994
+9048239;2004 International Conference on Computer Graphic, Imaging and Visualization (CGIV 2004), 26-29 July 2004, Penang, Malaysia;Hilton Hawaiian Village;Paris;22-23 August;1995
+9048240;Eighth International Conference on Computer Graphics, Imaging and Visualization, CGIV 2011, Singapore, August 17-19, 2011;Hale Koa Hotel;Brussels;25-28 August;1996
+9047522;20th IEEE International Workshop on Computer Aided Modelling and Design of Communication Links and Networks, CAMAD 2015, Guildford, United Kingdom, September 7-9, 2015;Waikiki Beach Marriott;Thessaloniki;12-14 June;1955
+9047523;IEEE 14th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks, CAMAD 2009, 12 June 2009, Pisa, Italy;Sheraton Waikiki;London;17-19 September;1956
+9047524;Fifth IEEE International Workshop on Computer-Aided Modeling, Analysis, and Design of Communication Links and Networks, CAMAD '94, Princeton, NJ, USA, April 24-27, 1994;Turtle Bay Resort;Barcelona;20-22 September;1957
+9047525;IEEE 11th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks, CAMAD 2006, 8-9 June 2006, Trento, Italy;JW Marriott Ihilani, Ko Olina;Madrid;22-25 December;1958
+9047526;IEEE 18th International Workshop on Computer Aided Modeling and Design of Communication Links and Networks, CAMAD 2013, Berlin, Germany, September 25-27, 2013;Grand Wailea Resort;Berlin;10-12 November;1959
+9047527;21st IEEE International Workshop on Computer Aided Modelling and Design of Communication Links and Networks, CAMAD 2016, Toronto, ON, Canada, October 23-25, 2016;Maui Prince Hotel;Athens;12-13 July;1960
+9047528;17th IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks, CAMAD 2012, Barcelona, Spain, September 17-19, 2012;Mauna Lani Bay Hotel & Bungalows;Paris;1-2 June;1961
+9047529;19th IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks, CAMAD 2014, Athens, Greece, December 1-3, 2014;Hilton Waikoloa Village;Brussels;10-14 January;1962
+9047530;22nd IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks, CAMAD 2017, Lund, Sweden, June 19-21, 2017;Wyndham at Waikiki Beach Walk;Thessaloniki;8-9 February;1963
+9047531;15th IEEE International Workshop on Computer Aided Modeling, Analysis and Design of Communication Links and Networks, CAMAD 2010, Miami, FL, USA, December 3-4, 2010;Marriott Waiohai Beach Club;London;11-13 March;1964
+9047532;16th IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks, CAMAD 2011, Kyoto, Japan, June 10-11, 2011;Westin Kaanapali Ocean Resort Villas;Barcelona;23-25 April;1965
+9047533;23rd IEEE International Workshop on Computer Aided Modeling and Design of Communication Links and Networks, CAMAD 2018, Barcelona, Spain, September 17-19, 2018;Wailea Beach Marriott Resort & Spa;Madrid;28-29 May;1966
+9047627;Human Work Interaction Design - Work Analysis and Interaction Design Methods for Pervasive and Smart Workplaces. 4th IFIP 13.6 Working Conference, HWID 2015, London, UK, June 25-26, 2015, Revised Selected Papers;Hyatt Regency Maui Resort & Spa;Berlin;22-23 August;1967
+9047628;Human Work Interaction Design: Usability in Social, Cultural and Organizational Contexts - Second IFIP WG 13.6 Conference, HWID 2009, Pune, India, October 7-8, 2009, Revised Selected Papers;Fairmont Kea Lani;Athens;25-28 August;1968
+9047630;Human Work Interaction Design: Designing for Human Work - The first IFIP TC 13.6 WG Conference: Designing for Human Work, HWID 2006, February 13-15, 2006, Madeira, Portugal;Moana Surfrider;Paris;12-14 June;1969
+9047631;Human Work Interaction Design. Work Analysis and HCI - Third IFIP WG 13.6 Working Conference, HWID 2012, Copenhagen, Denmark, December 5-6, 2012, Revised Selected Papers;Ko Olina Marriot Beach Club;Brussels;17-19 September;1970
+9047635;Human Work Interaction Design. Designing Engaging Automation - 5th IFIP WG 13.6 Working Conference, HWID 2018, Espoo, Finland, August 20-21, 2018, Revised Selected Papers;Hyatt Regency Waikiki;Thessaloniki;20-22 September;1971
+9047690;Declarative Programming and Knowledge Management - Conference on Declarative Programming, DECLARE 2017, Unifying INAP, WFLP, and WLP, WÃ¼rzburg, Germany, September 19-22, 2017, Revised Selected Papers;Hawaii Prince Hotel Waikiki;London;22-25 December;1972
+9047761;Aspects of Automated Natural Language Generation, 6th International Workshop on Natural Language Generation, Trento, Italy, April 5-7, 1992, Edition;Aqua Bamboo Waikiki;Barcelona;10-12 November;1973
+9047851;IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 1988, 5-9 June, 1988, Ann Arbor, Michigan, USA.;Aqua Aloha Surf Waikiki Hotel;Madrid;12-13 July;1974
+9047852;2007 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2007), 18-23 June 2007, Minneapolis, Minnesota, USA;Sheraton Kauai Resort;Berlin;1-2 June;1975
+9047854;IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2015, Boston, MA, USA, June 7-12, 2015;Kilauea Lakeside Estate;Athens;10-14 January;1976
+9047855;2009 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2009), 20-25 June 2009, Miami, Florida, USA;Grand Hyatt Kauai Resort & Spa;Paris;8-9 February;1977
+9047858;IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 1989, 4-8 June, 1989, San Diego, CA, USA.;Ritz-Carlton Kapalua;Brussels;11-13 March;1978
+9047862;2005 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2005), 20-26 June 2005, San Diego, CA, USA;Marriott Maui Ocean Club;Thessaloniki;23-25 April;1979
+9047865;1999 Conference on Computer Vision and Pattern Recognition (CVPR '99), 23-25 June 1999, Ft. Collins, CO, USA;Sheraton Princess Kaiulani;London;28-29 May;1980
+9047866;2008 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2008), 24-26 June 2008, Anchorage, Alaska, USA;Kahala Hotel & Resort;Barcelona;22-23 August;1981
+9047868;2003 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2003), 16-22 June 2003, Madison, WI, USA;Holiday Inn Waikiki Beachcomber;Madrid;25-28 August;1982
+9047869;2006 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2006), 17-22 June 2006, New York, NY, USA;Hilton Hawaiian Village;Berlin;12-14 June;1983
+9047870;2013 IEEE Conference on Computer Vision and Pattern Recognition, Portland, OR, USA, June 23-28, 2013;Hale Koa Hotel;Athens;17-19 September;1984
+9047871;2001 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2001), with CD-ROM, 8-14 December 2001, Kauai, HI, USA;Waikiki Beach Marriott;Paris;20-22 September;1985
+9047872;2016 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2016, Las Vegas, NV, USA, June 27-30, 2016;Sheraton Waikiki;Brussels;22-25 December;1986
+9047873;1996 Conference on Computer Vision and Pattern Recognition (CVPR '96), June 18-20, 1996 San Francisco, CA, USA;Turtle Bay Resort;Thessaloniki;10-12 November;1987
+9047874;2012 IEEE Conference on Computer Vision and Pattern Recognition, Providence, RI, USA, June 16-21, 2012;JW Marriott Ihilani, Ko Olina;London;12-13 July;1988
+9047877;2014 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2014, Columbus, OH, USA, June 23-28, 2014;Grand Wailea Resort;Barcelona;1-2 June;1989
+9047879;2004 IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR 2004), with CD-ROM, 27 June - 2 July 2004, Washington, DC, USA;Maui Prince Hotel;Madrid;10-14 January;1990
+9047880;1997 Conference on Computer Vision and Pattern Recognition (CVPR '97), June 17-19, 1997, San Juan, Puerto Rico;Mauna Lani Bay Hotel & Bungalows;Berlin;8-9 February;1991
+9047884;2000 Conference on Computer Vision and Pattern Recognition (CVPR 2000), 13-15 June 2000, Hilton Head, SC, USA;Hilton Waikoloa Village;Athens;11-13 March;1992
+9047885;2017 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2017, Honolulu, HI, USA, July 21-26, 2017;Wyndham at Waikiki Beach Walk;Paris;23-25 April;1993
+9047887;The Twenty-Third IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2010, San Francisco, CA, USA, 13-18 June 2010;Marriott Waiohai Beach Club;Brussels;28-29 May;1994
+9047889;The 24th IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2011, Colorado Springs, CO, USA, 20-25 June 2011;Westin Kaanapali Ocean Resort Villas;Thessaloniki;22-23 August;1995
+9047892;2018 IEEE Conference on Computer Vision and Pattern Recognition, CVPR 2018, Salt Lake City, UT, USA, June 18-22, 2018;Wailea Beach Marriott Resort & Spa;London;25-28 August;1996
+9047894;1998 Conference on Computer Vision and Pattern Recognition (CVPR '98), June 23-25, 1998, Santa Barbara, CA, USA;Hyatt Regency Maui Resort & Spa;Barcelona;12-14 June;1997
+9047950;Edition of the 1st International Workshop on Semantic Technologies (IWOST), Changchun, China, March 9-12, 2015.;Fairmont Kea Lani;Madrid;17-19 September;1998
+9048006;Edition of the Workshop on Intelligent Information Technology Application, IITA 2007, Zhang Jiajie, China, December 2-3, 2007;Moana Surfrider;Berlin;20-22 September;1999
+9048089;Edition of the Third Linguistic Annotation Workshop, LAW 2009, August 6-7, 2009, Singapore;Ko Olina Marriot Beach Club;Athens;22-25 December;2000
+9048095;Edition of the Fourth Linguistic Annotation Workshop, LAW 2010, Uppsala, Sweden, July 15-16, 2010;Hyatt Regency Waikiki;Paris;10-12 November;2001
+9048096;Edition of the Fifth Linguistic Annotation Workshop, LAW 2011, June 23-24, 2011, Portland, Oregon, USA;Hawaii Prince Hotel Waikiki;Brussels;12-13 July;2002
+9048116;Advances in Data Mining, Applications in Image Mining, Medicine and Biotechnology, Management and Environmental Control, and Telecommunications, 4th Industrial Conference on Data Mining, ICDM 2004, Leipzig, Germany, July 4-7, 2004, Revised Selected Papers;Aqua Bamboo Waikiki;Thessaloniki;1-2 June;2003
+9048180;Edition of the Second ACM SIGCHI/SIGART Conference on Human-Robot Interaction, HRI 2007, Arlington, Virginia, USA, March 10-12, 2007;Aqua Aloha Surf Waikiki Hotel;London;10-14 January;2004
+9048181;Edition of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction, HRI 2015, Portland, OR, USA, March 2-5, 2015;Sheraton Kauai Resort;Barcelona;8-9 February;2005
+9048182;Edition of the 4th ACM/IEEE International Conference on Human Robot Interaction, HRI 2009, La Jolla, California, USA, March 9-13, 2009;Kilauea Lakeside Estate;Madrid;11-13 March;2006
+9048183;Edition of the 3rd ACM/IEEE international conference on Human robot interaction, HRI 2008, Amsterdam, The Netherlands, March 12-15, 2008;Grand Hyatt Kauai Resort & Spa;Berlin;23-25 April;2007
+9048184;Edition of the 1st ACM SIGCHI/SIGART Conference on Human-Robot Interaction, HRI 2006, Salt Lake City, Utah, USA, March 2-3, 2006;Ritz-Carlton Kapalua;Athens;28-29 May;2008
+9048185;ACM/IEEE International Conference on Human-Robot Interaction, HRI 2013, Tokyo, Japan, March 3-6, 2013;Marriott Maui Ocean Club;Paris;22-23 August;2009
+9048187;The Eleventh ACM/IEEE International Conference on Human Robot Interation, HRI 2016, Christchurch, New Zealand, March 7-10, 2016;Sheraton Princess Kaiulani;Brussels;25-28 August;2010
+9048188;International Conference on Human-Robot Interaction, HRI'12, Boston, MA, USA - March 05 - 08, 2012;Kahala Hotel & Resort;Thessaloniki;12-14 June;2011
+9048189;ACM/IEEE International Conference on Human-Robot Interaction, HRI'14, Bielefeld, Germany, March 3-6, 2014;Holiday Inn Waikiki Beachcomber;London;17-19 September;2012
+9048190;Edition of the 2017 ACM/IEEE International Conference on Human-Robot Interaction, HRI 2017, Vienna, Austria, March 6-9, 2017;Hilton Hawaiian Village;Barcelona;20-22 September;2013
+9048192;Edition of the 5th ACM/IEEE International Conference on Human Robot Interaction, HRI 2010, Osaka, Japan, March 2-5, 2010;Hale Koa Hotel;Madrid;22-25 December;2014
+9048193;Edition of the 6th International Conference on Human Robot Interaction, HRI 2011, Lausanne, Switzerland, March 6-9, 2011;Waikiki Beach Marriott;Berlin;10-12 November;2015
+9048194;Edition of the 2018 ACM/IEEE International Conference on Human-Robot Interaction, HRI 2018, Chicago, IL, USA, March 05-08, 2018;Sheraton Waikiki;Athens;12-13 July;2016
+9048241;Artificial Intelligence and Simulation, 13th International Conference on AI, Simulation, and Planning in High Autonomy Systems, AIS 2004, Jeju Island, Korea, October 4-6, 2004, Revised Selected Papers;Turtle Bay Resort;Paris;1-2 June;2017
+9047424;Automatic Processing of Natural-Language Electronic Texts with NooJ - 9th International Conference, NooJ 2015, Minsk, Belarus, June 11-13, 2015, Revised Selected Papers;JW Marriott Ihilani, Ko Olina;Brussels;10-14 January;1955
+9047425;Automatic Processing of Natural-Language Electronic Texts with NooJ, 10th International Conference, NooJ 2016, ÄŒeskÃ© BudÄ›jovice, Czech Republic, June 9-11, 2016, Revised Selected Papers.;Grand Wailea Resort;Thessaloniki;8-9 February;1956
+9047426;Formalizing Natural Languages with NooJ and Its Natural Language Processing Applications - 11th International Conference, NooJ 2017, Kenitra and Rabat, Morocco, May 18-20, 2017, Revised Selected Papers;Maui Prince Hotel;London;11-13 March;1957
+9047427;Formalizing Natural Languages with NooJ 2018 and Its Natural Language Processing Applications - 12th International Conference, NooJ 2018, Palermo, Italy, June 20-22, 2018, Revised Selected Papers;Mauna Lani Bay Hotel & Bungalows;Barcelona;23-25 April;1958
+9047534;4th Semantic Wiki Workshop (SemWiki 2009) at the 6th European Semantic Web Conference (ESWC 2009), Hersonissos, Greece, June 1st, 2009. Edition.;Hilton Waikoloa Village;Madrid;28-29 May;1959
+9047535;Edition of the 3rd Semantic Wiki Workshop (SemWiki 2008) at the 5th European Semantic Web Conference (ESWC 2008), Tenerife, Spain, June 2nd, 2008;Wyndham at Waikiki Beach Walk;Berlin;22-23 August;1960
+9047536;SemWiki2006, First Workshop on Semantic Wikis - From Wiki to Semantics, Edition, co-located with the ESWC2006, Budva, Montenegro, June 12, 2006;Marriott Waiohai Beach Club;Athens;25-28 August;1961
+9047629;Human-Computer Interaction Symposium - IFIP 20th World Computer Congress, Edition of the 1st TC 13 Human-Computer Interaction Symposium (HCIS 2008), September 7-10, 2008, Milano, Italy;Westin Kaanapali Ocean Resort Villas;Paris;12-14 June;1962
+9047634;Human-Computer Interaction - Second IFIP TC 13 Symposium, HCIS 2010, Held as Part of WCC 2010, Brisbane, Australia, September 20-23, 2010. Edition;Wailea Beach Marriott Resort & Spa;Brussels;17-19 September;1963
+9047691;Applications of Declarative Programming and Knowledge Management - 19th International Conference, INAP 2011, and 25th Workshop on Logic Programming, WLP 2011, Vienna, Austria, September 28-30, 2011, Revised Selected Papers;Hyatt Regency Maui Resort & Spa;Thessaloniki;20-22 September;1964
+9047762;ARTCom 2009, International Conference on Advances in Recent Technologies in Communication and Computing, Kottayam, Kerala, India, 27-28 October 2009;Fairmont Kea Lani;London;22-25 December;1965
+9047853;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2003, Madison, Wisconsin, USA, 16-22 June, 2003;Moana Surfrider;Barcelona;10-12 November;1966
+9047857;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2009, Miami, FL, USA, 20-25 June, 2009;Ko Olina Marriot Beach Club;Madrid;12-13 July;1967
+9047859;IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR Workshops 2004, Washington, DC, USA, June 27 - July 2, 2004;Hyatt Regency Waikiki;Berlin;1-2 June;1968
+9047860;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2010, San Francisco, CA, USA, 13-18 June, 2010;Hawaii Prince Hotel Waikiki;Athens;10-14 January;1969
+9047863;2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR Workshops 2017, Honolulu, HI, USA, July 21-26, 2017;Aqua Bamboo Waikiki;Paris;8-9 February;1970
+9047867;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2013, Portland, OR, USA, June 23-28, 2013;Aqua Aloha Surf Waikiki Hotel;Brussels;11-13 March;1971
+9047875;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2011, Colorado Springs, CO, USA, 20-25 June, 2011;Sheraton Kauai Resort;Thessaloniki;23-25 April;1972
+9047876;2016 IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR Workshops 2016, Las Vegas, NV, USA, June 26 - July 1, 2016;Kilauea Lakeside Estate;London;28-29 May;1973
+9047881;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2008, Anchorage, AK, USA, 23-28 June, 2008;Grand Hyatt Kauai Resort & Spa;Barcelona;22-23 August;1974
+9047882;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2014, Columbus, OH, USA, June 23-28, 2014;Ritz-Carlton Kapalua;Madrid;25-28 August;1975
+9047883;2012 IEEE Computer Society Conference on Computer Vision and Pattern Recognition Workshops, Providence, RI, USA, June 16-21, 2012;Marriott Maui Ocean Club;Berlin;12-14 June;1976
+9047886;2015 IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR Workshops 2015, Boston, MA, USA, June 7-12, 2015;Sheraton Princess Kaiulani;Athens;17-19 September;1977
+9047888;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2006, New York, NY, USA, 17-22 June, 2006;Kahala Hotel & Resort;Paris;20-22 September;1978
+9047891;2018 IEEE Conference on Computer Vision and Pattern Recognition Workshops, CVPR Workshops 2018, Salt Lake City, UT, USA, June 18-22, 2018;Holiday Inn Waikiki Beachcomber;Brussels;22-25 December;1979
+9047893;IEEE Conference on Computer Vision and Pattern Recognition, CVPR Workshops 2005, San Diego, CA, USA, 21-23 September, 2005;Hilton Hawaiian Village;Thessaloniki;10-12 November;1980
+9047951;Edition of the 2nd International Workshop on Semantic Technologies (IWOST2), Bangkok, Thailand, November 2-3, 2015.;Hale Koa Hotel;London;12-13 July;1981
+9048007;Edition of the 37th Annual Meeting of the Cognitive Science Society, CogSci 2015, Pasadena, California, USA, July 22-25, 2015;Waikiki Beach Marriott;Barcelona;1-2 June;1982
+9048008;Edition of the 35th Annual Meeting of the Cognitive Science Society, CogSci 2013, Berlin, Germany, July 31 - August 3, 2013;Sheraton Waikiki;Madrid;10-14 January;1983
+9048009;Edition of the 38th Annual Meeting of the Cognitive Science Society, Recogbizing and Representing Events, CogSci 2016, Philadelphia, PA, USA, August 10-13, 2016;Turtle Bay Resort;Berlin;8-9 February;1984
+9048010;Edition of the 34th Annual Meeting of the Cognitive Science Society, CogSci 2012, Sapporo, Japan, August 1-4, 2012;JW Marriott Ihilani, Ko Olina;Athens;11-13 March;1985
+9048011;Edition of the 36th Annual Meeting of the Cognitive Science Society, CogSci 2014, Quebec City, Canada, July 23-26, 2014;Grand Wailea Resort;Paris;23-25 April;1986
+9048013;Edition of the 39th Annual Meeting of the Cognitive Science Society, CogSci 2017, London, UK, 16-29 July 2017;Maui Prince Hotel;Brussels;28-29 May;1987
+9048014;Edition of the 33th Annual Meeting of the Cognitive Science Society, CogSci 2011, Boston, Massachusetts, USA, July 20-23, 2011;Mauna Lani Bay Hotel & Bungalows;Thessaloniki;22-23 August;1988
+9048090;Edition of the 7th Linguistic Annotation Workshop and Interoperability with Discourse, LAW-ID@ACL 2013, August 8-9, 2013, Sofia, Bulgaria;Hilton Waikoloa Village;London;25-28 August;1989
+9048092;Edition of the Sixth Linguistic Annotation Workshop, LAW@ACL 2012, July 12-13, 2012, Jeju Island, Republic of Korea;Wyndham at Waikiki Beach Walk;Barcelona;12-14 June;1990
+9048191;Edition of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction, HRI 2015 Extended Abstracts, Portland, OR, USA, March 02 - 05, 2015;Marriott Waiohai Beach Club;Madrid;17-19 September;1991
+9048242;International Mobility and Wireless Access Workshop, MobiWac 2002, October 12, 2002, Dallas/Fort Worth, TX, USA;Westin Kaanapali Ocean Resort Villas;Berlin;20-22 September;1992
+9048243;Edition of the Fifth ACM International Workshop on Mobility Management & Wireless Access, MOBIWAC 2007, Chania, Crete Island, Greece, October 22, 2007;Wailea Beach Marriott Resort & Spa;Athens;22-25 December;1993
+9048244;Edition of the 13th ACM International Symposium on Mobility Management and Wireless Access, MobiWac 2015, Cancun, Mexico, November 2-6, 2015;Hyatt Regency Maui Resort & Spa;Paris;10-12 November;1994
+9048245;Edition of the Seventh ACM International Workshop on Mobility Management & Wireless Access, MOBIWAC 2009, Tenerife, Canary Islands, Spain, October 26-27, 2009;Fairmont Kea Lani;Brussels;12-13 July;1995
+9048246;Edition of the Sixth ACM International Workshop on Mobility Management & Wireless Access, MOBIWAC 2008, Vancouver, British Columbia, Canada, October 30-31, 2008;Moana Surfrider;Thessaloniki;1-2 June;1996
+9048247;Edition of the Forth ACM International Workshop on Mobility Management & Wireless Access, MOBIWAC 2006, Terromolinos, Spain, October 2, 2006;Ko Olina Marriot Beach Club;London;10-14 January;1997
+9048248;MobiWac'13, Edition of the 11th ACM International Symposium on Mobility Management and Wireless Access, Barcelona, Spain, November 3-8, 2013;Hyatt Regency Waikiki;Barcelona;8-9 February;1998
+9048249;Edition of the 14th ACM International Symposium on Mobility Management and Wireless Access, MobiWac 2016, Malta, November 13-17, 2016;Hawaii Prince Hotel Waikiki;Madrid;11-13 March;1999
+9048250;Edition of the 10th ACM International Symposium on Mobility Management and Wireless Access, MOBIWAC '12, Paphos, Cyprus, October 21-22, 2012;Aqua Bamboo Waikiki;Berlin;23-25 April;2000
+9048251;MobiWac'14, Edition of the 12th ACM International Symposium on Mobility Management and Wireless Access, Montreal, QC, Canada, September 21-26, 2014;Aqua Aloha Surf Waikiki Hotel;Athens;28-29 May;2001
+9048252;Edition of the 15th ACM International Symposium on Mobility Management and Wireless Access, MOBIWAC 2017, Miami, FL, USA, November 21 - 25, 2017;Sheraton Kauai Resort;Paris;22-23 August;2002
+9048253;Edition of the 8th ACM International Workshop on Mobility Management & Wireless Access, MOBIWAC 2010, Bodrum, Turkey October 17-18, 2010;Kilauea Lakeside Estate;Brussels;25-28 August;2003
+9048254;Edition of the 9th ACM International Workshop on Mobility Management & Wireless Access, MOBIWAC 2011, October 31- November 4, 2011, Miami Beach, FL, USA;Grand Hyatt Kauai Resort & Spa;Thessaloniki;12-14 June;2004
+9048255;Edition of the 16th ACM International Symposium on Mobility Management and Wireless Access, MobiWac 2018, Montreal, QC, Canada, October 28 - November 02, 2018;Ritz-Carlton Kapalua;London;17-19 September;2005
+9047408;State of the Art in AI Applied to Ambient Intelligence;Marriott Maui Ocean Club;Barcelona;20-22 September;1955
+9047412;Advances in Knowledge Discovery and Management - Volume 3 [Best of EGC 2011, Brest, France].;Sheraton Princess Kaiulani;Madrid;22-25 December;1956
+9047419;Intelligent Decision Making in Quality Management - Theory and Applications;Kahala Hotel & Resort;Berlin;10-12 November;1957
+9047420;Handbook on Business Process Management 2, Strategic Alignment, Governance, People and Culture, 2nd Ed.;Holiday Inn Waikiki Beachcomber;Athens;12-13 July;1958
+9047421;Handbook on Business Process Management 1, Introduction, Methods, and Information Systems, 2nd Ed.;Hilton Hawaiian Village;Paris;1-2 June;1959
+9047422;Handbook on Ontologies;Hale Koa Hotel;Brussels;10-14 January;1960
+9047423;MMB '99, Messung, Modellierung und Bewertung von Rechen- und Kommunikationssystemen, 10. GI/NTG-Fachtagung, 22.-24. September 1999, Trier, KurzbeitrÃ¤ge und Toolbeschreibungen;Waikiki Beach Marriott;Thessaloniki;8-9 February;1961
+9047428;Symbolic and Algebraic Computation, International Symposium ISSAC'88, Rome, Italy, July 4-8, 1988, Edition;Sheraton Waikiki;London;11-13 March;1962
+9047429;Symbolic and Algebraic Computation, International Symposium ISSAC 2002, Lille, France, July 7-10, 2002, Edition;Turtle Bay Resort;Barcelona;23-25 April;1963
+9047430;Symbolic and Algebraic Computation, International Symposium, ISSAC 2007, Waterloo, Ontario, Canada, July 28 - August 1, 2007, Edition;JW Marriott Ihilani, Ko Olina;Madrid;28-29 May;1964
+9047431;Edition of the 2015 ACM on International Symposium on Symbolic and Algebraic Computation, ISSAC 2015, Bath, United Kingdom, July 06 - 09, 2015;Grand Wailea Resort;Berlin;22-23 August;1965
+9047432;Symbolic and Algebraic Computation, International Symposium, ISSAC 2009, Seoul, Republic of Korea, July 29-31, 2009, Edition;Maui Prince Hotel;Athens;25-28 August;1966
+9047433;Edition of the 1992 International Symposium on Symbolic and Algebraic Computation, ISSAC '92, Berkeley, CA, USA, July 27-29, 1992;Mauna Lani Bay Hotel & Bungalows;Paris;12-14 June;1967
+9047434;Edition of the ACM-SIGSAM 1989 International Symposium on Symbolic and Algebraic Computation, ISSAC '89, Portland, Oregon, USA, July 17-19, 1989;Hilton Waikoloa Village;Brussels;17-19 September;1968
+9047435;Edition of the International Symposium on Symbolic and Algebraic Computation, ISSAC '94, Oxford, UK, July 20-22, 1994;Wyndham at Waikiki Beach Walk;Thessaloniki;20-22 September;1969
+9047436;Symbolic and Algebraic Computation, International Symposium ISSAC 2005, Beijing, China, July 24-27, 2005, Edition;Marriott Waiohai Beach Club;London;22-25 December;1970
+9047438;Edition of the International Symposium on Symbolic and Algebraic Computation, ISSAC '90, Tokyo, Japan, August 20-24, 1990;Westin Kaanapali Ocean Resort Villas;Barcelona;10-12 November;1971
+9047439;Edition of the 1991 International Symposium on Symbolic and Algebraic Computation, ISSAC '91, Bonn, Germany, July 15-17, 1991;Wailea Beach Marriott Resort & Spa;Madrid;12-13 July;1972
+9047440;Edition of the 1999 International Symposium on Symbolic and Algebraic Computation, ISSAC '99, Vancouver, B.C., Canada, July 29-31, 1999;Hyatt Regency Maui Resort & Spa;Berlin;1-2 June;1973
+9047442;Symbolic and Algebraic Computation, International Symposium, ISSAC 2008, Linz/Hagenberg, Austria, July 20-23, 2008, Edition;Fairmont Kea Lani;Athens;10-14 January;1974
+9047443;Symbolic and Algebraic Computation, International Symposium ISSAC 2003, Drexel University, Philadelphia, Pennsylvania, USA, August 3-6, 2003, Edition;Moana Surfrider;Paris;8-9 February;1975
+9047445;Symbolic and Algebraic Computation, International Symposium, ISSAC 2006, Genoa, Italy, July 9-12, 2006, Edition;Ko Olina Marriot Beach Club;Brussels;11-13 March;1976
+9047446;International Symposium on Symbolic and Algebraic Computation, ISSAC'13, Boston, MA, USA, June 26-29, 2013;Hyatt Regency Waikiki;Thessaloniki;23-25 April;1977
+9047448;Edition of the 2001 International Symposium on Symbolic and Algebraic Computation, ISSAC 2001, ORCCA & University of Western Ontario, London, Ontario, Canada, July 22-25, 2001;Hawaii Prince Hotel Waikiki;London;28-29 May;1978
+9047449;Edition of the ACM on International Symposium on Symbolic and Algebraic Computation, ISSAC 2016, Waterloo, ON, Canada, July 19-22, 2016;Aqua Bamboo Waikiki;Barcelona;22-23 August;1979
+9047450;Edition of the 1996 International Symposium on Symbolic and Algebraic Computation, ISSAC '96, Zurich, Switzerland, July 24-26, 1996;Aqua Aloha Surf Waikiki Hotel;Madrid;25-28 August;1980
+9047452;International Symposium on Symbolic and Algebraic Computation, ISSAC'12, Grenoble, France - July 22 - 25, 2012;Sheraton Kauai Resort;Berlin;12-14 June;1981
+9047454;Edition of the 1995 International Symposium on Symbolic and Algebraic Computation, ISSAC '95, Montreal, Canada, July 10-12, 1995;Kilauea Lakeside Estate;Athens;17-19 September;1982
+9047455;International Symposium on Symbolic and Algebraic Computation, ISSAC '14, Kobe, Japan, July 23-25, 2014;Grand Hyatt Kauai Resort & Spa;Paris;20-22 September;1983
+9047456;Edition of the 1993 International Symposium on Symbolic and Algebraic Computation, ISSAC '93, Kiev, Ukraine, July 6-8, 1993;Ritz-Carlton Kapalua;Brussels;22-25 December;1984
+9047457;Symbolic and Algebraic Computation, International Symposium ISSAC 2004, Santander, Spain, July 4-7, 2004, Edition;Marriott Maui Ocean Club;Thessaloniki;10-12 November;1985
+9047458;Edition of the 1997 International Symposium on Symbolic and Algebraic Computation, ISSAC '97, Maui, Hawaii, USA, July 21-23, 1997;Sheraton Princess Kaiulani;London;12-13 July;1986
+9047459;Edition of the 2000 International Symposium on Symbolic and Algebraic Computation, ISSAC 2000, St. Andrews, United Kingdom, August 6-10, 2000;Kahala Hotel & Resort;Barcelona;1-2 June;1987
+9047460;Edition of the 2017 ACM on International Symposium on Symbolic and Algebraic Computation, ISSAC 2017, Kaiserslautern, Germany, July 25-28, 2017;Holiday Inn Waikiki Beachcomber;Madrid;10-14 January;1988
+9047461;Symbolic and Algebraic Computation, International Symposium, ISSAC 2010, Munich, Germany, July 25-28, 2010, Edition;Hilton Hawaiian Village;Berlin;8-9 February;1989
+9047462;Symbolic and Algebraic Computation, International Symposium, ISSAC 2011 (co-located with FCRC 2011), San Jose, CA, USA, June 7-11, 2011, Edition;Hale Koa Hotel;Athens;11-13 March;1990
+9047463;Edition of the 2018 ACM on International Symposium on Symbolic and Algebraic Computation, ISSAC 2018, New York, NY, USA, July 16-19, 2018;Waikiki Beach Marriott;Paris;23-25 April;1991
+9047464;Edition of the 1998 International Symposium on Symbolic and Algebraic Computation, ISSAC '98, Rostock, Germany, August 13-15, 1998;Sheraton Waikiki;Brussels;28-29 May;1992
+9047507;Edition of the 6th Joint Conference on Information Science, March 8-13, 2002, Research Triangle Park, North Carolina, USA;Turtle Bay Resort;Thessaloniki;22-23 August;1993
+9047508;Edition of the 2006 Joint Conference on Information Sciences, JCIS 2006, Kaohsiung, Taiwan, ROC, October 8-11, 2006;JW Marriott Ihilani, Ko Olina;London;25-28 August;1994
+9047537;Edition of the 5th Workshop on Semantic Wikis, Hersonissos, Heraklion, Crete, Greece, May 31st, 2010;Grand Wailea Resort;Barcelona;12-14 June;1995
+9047595;Edition of the 14th International Conference on Scientific and Statistical Database Management, July 24-26, 2002, Edinburgh, Scotland, UK;Maui Prince Hotel;Madrid;17-19 September;1996
+9047599;Edition of the First LBL Workshop on Statistical Database Management, Melno Park, California, USA, December 2-4, 1981;Mauna Lani Bay Hotel & Bungalows;Berlin;20-22 September;1997
+9047602;Edition of the Third International Workshop on Statistical and Scientific Database Management, July 22-24, 1986, Grand Duchy of Luxembourg, Luxembourg;Hilton Waikoloa Village;Athens;22-25 December;1998
+9047607;10th International Conference on Scientific and Statistical Database Management, Edition, Capri, Italy, July 1-3, 1998;Wyndham at Waikiki Beach Walk;Paris;10-12 November;1999
+9047608;Edition of the 13th International Conference on Scientific and Statistical Database Management, July 18-20, 2001, George Mason University, Fairfax, Virginia, USA;Marriott Waiohai Beach Club;Brussels;12-13 July;2000
+9047609;Ninth International Conference on Scientific and Statistical Database Management, Edition, August 11-13, 1997, Olympia, Washington, USA;Westin Kaanapali Ocean Resort Villas;Thessaloniki;1-2 June;2001
+9047611;11th International Conference on Scientific and Statistical Database Management, Edition, Cleveland, Ohio, USA, 28-30 July, 1999;Wailea Beach Marriott Resort & Spa;London;10-14 January;2002
+9047615;Edition of the Eighth International Conference on Scientific and Statistical Database Management, Stockholm, Sweden, June 18-20, 1996;Hyatt Regency Maui Resort & Spa;Barcelona;8-9 February;2003
+9047616;Edition of the 12th International Conference on Scientific and Statistical Database Management, Berlin, Germany, July 26-28, 2000;Fairmont Kea Lani;Madrid;11-13 March;2004
+9047617;Edition of the Second International Workshop on Statistical Database Management, Los Altos, California, USA, September 27-29, 1983;Moana Surfrider;Berlin;23-25 April;2005
+9047622;Edition of the 6th Int. Working Conf. on Scientific and Statistical Database Management, Monte Verita, Switzerland, 1992;Ko Olina Marriot Beach Club;Athens;28-29 May;2006
+9047623;Seventh International Working Conference on Scientific and Statistical Database Management, September 28-30, 1994, Charlottesville, Virginia, USA, Edition;Hyatt Regency Waikiki;Paris;22-23 August;2007
+9047632;Culture, Technology, Communication. Common World, Different Futures - 10th IFIP WG 13.8 International Conference, CaTaC 2016, London, UK, June 15-17, 2016, Revised Selected Papers;Hawaii Prince Hotel Waikiki;Brussels;25-28 August;2008
+9047692;Edition of the 10th Web as Corpus Workshop, WAC@ACL 2016, Berlin, August 12, 2016;Aqua Bamboo Waikiki;Thessaloniki;12-14 June;2009
+9047763;Second Twente Data Management Workshop (TDM 2006) on Uncertainty in Databases, Enschede, The Netherlands, June 6, 2006;Aqua Aloha Surf Waikiki Hotel;London;17-19 September;2010
+9047764;First Twente Data Management Workshop (TDM 2004) on XML Databases and Information Retrieval, Enschede, The Netherlands, June 21, 2004;Sheraton Kauai Resort;Barcelona;20-22 September;2011
+9047856;IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 1992, Edition, 15-18 June, 1992, Champaign, Illinois, USA;Kilauea Lakeside Estate;Madrid;22-25 December;2012
+9047861;Conference on Computer Vision and Pattern Recognition, CVPR 1994, 21-23 June, 1994, Seattle, WA, USA;Grand Hyatt Kauai Resort & Spa;Berlin;10-12 November;2013
+9047864;IEEE Computer Society Conference on Computer Vision and Pattern Recognition, CVPR 1991, 3-6 June, 1991, Lahaina, Maui, Hawaii, USA;Ritz-Carlton Kapalua;Athens;12-13 July;2014
+9047878;Conference on Computer Vision and Pattern Recognition, CVPR 1993, 15-17 June, 1993, New York, NY, USA;Marriott Maui Ocean Club;Paris;1-2 June;2015
+9047890;Edition MDDE '04, 4th International Workshop on Multimedia Data and Document Engineering, Washington, DC, USA, July 2nd 2004;Sheraton Princess Kaiulani;Brussels;10-14 January;2016
+9047952;The 2007 International Conference on Intelligent Pervasive Computing, IPC 2007, Jeju Island, Korea, 11-13 October 2007;Kahala Hotel & Resort;Thessaloniki;8-9 February;2017
+9048093;Edition of the 8th Linguistic Annotation Workshop, LAW@COLING 2014, August 23-24, 2014, Dublin, Ireland;Holiday Inn Waikiki Beachcomber;London;11-13 March;2018
+9048195;Edition of the WWW'06 Workshop on Models of Trust for the Web (MTW'06), Edinburgh, Scotland, UK, May 22, 2006;Hilton Hawaiian Village;Barcelona;23-25 April;2019
+9048256;3rd IEEE International Conference on Networked Embedded Systems for Every Application, NESEA 2013, Liverpool, United Kingdom, December 13-14, 2012;Hale Koa Hotel;Madrid;28-29 May;1953
+9048257;Edition of the 1st IEEE International Conference on Networked Embedded Systems for Enterprise Applications, NESEA 2010, November 25-26, 2010, Suzhou, China;Waikiki Beach Marriott;Berlin;22-23 August;1952
+9048258;Edition of the 2nd IEEE International Conference on Networked Embedded Systems for Enterprise Applications, NESEA 2011, Perth, Australia, December 8-9, 2011;Sheraton Waikiki;Athens;25-28 August;1951

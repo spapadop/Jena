@@ -1,0 +1,878 @@
+:ID;journal:string
+9046524;Acta Inf.
+9046525;ACM Trans. Spatial Algorithms and Systems
+9046526;Displays
+9046527;IJKDB
+9046528;Computers in Industry
+9046529;International Journal of Internet and Enterprise Management
+9046530;Future Generation Comp. Syst.
+9046531;Telematics and Informatics
+9046532;Object Oriented Systems
+9046533;IJEA
+9046534;Game Studies
+9046535;IJTM
+9046536;IEEE Trans. Knowl. Data Eng.
+9046537;Higher-Order and Symbolic Computation
+9046538;Lisp and Symbolic Computation
+9046539;Knowl.-Based Syst.
+9046540;IJEBR
+9046541;I. J. Artificial Intelligence in Education
+9046542;Markup Languages
+9046543;Journal of Intelligent and Fuzzy Systems
+9046544;Foundations and Trends in Programming Languages
+9046545;Computational Statistics & Data Analysis
+9046546;Web Intelligence and Agent Systems
+9046547;Web Intelligence
+9046548;J. Formalized Reasoning
+9046549;ERCIM News
+9046550;J. Data Semantics
+9046551;IJIEI
+9046552;IJWMIP
+9046553;Combinatorica
+9046554;Int. J. Cooperative Inf. Syst.
+9046555;Int. Arab J. Inf. Technol.
+9046556;Applied Categorical Structures
+9046557;IJICST
+9046558;ICST Trans. Ambient Systems
+9046559;EAI Endorsed Trans. Ambient Systems
+9046560;Computer and Information Science
+9046561;Smart CR
+9046562;IEEE Access
+9046563;JUSPN
+9046564;IJAMC
+9046565;EJIS
+9046566;Automatica
+9046567;J. Information Security
+9046568;Bulletin of Symbolic Logic
+9046569;JOCCH
+9046570;IJANTTI
+9046571;IJWP
+9046572;IEEE Trans. Human-Machine Systems
+9046573;IEEE Trans. Information Forensics and Security
+9046574;IJMSTR
+9046575;Linguamática
+9046576;Foundations and Trends in Signal Processing
+9046577;Journal of Zhejiang University - Science C
+9046578;Frontiers of IT & EE
+9046579;Computer Graphics and Image Processing
+9046580;Computer Vision, Graphics, and Image Processing
+9046581;CVGIP: Graphical Model and Image Processing
+9046582;Graphical Models
+9046583;Graphical Models and Image Processing
+9046584;Trans. HiPEAC
+9046585;T. HiPEAC
+9046586;BMC Medical Imaging
+9046587;IJHISI
+9046588;TACO
+9046589;IJTHI
+9046590;Groups Complexity Cryptology
+9046591;SIGART Newsletter
+9046592;SIGART Bulletin
+9046593;Intelligence
+9046594;Robotersysteme
+9046595;J. Mathematical Logic
+9046596;Int. Journal in Computer Simulation
+9046597;Algorithmica
+9046598;International Journal of Software Engineering and Knowledge Engineering
+9046599;J. Web Science
+9046600;Journal of Circuits, Systems, and Computers
+9046601;Formal Methods in System Design
+9046602;Front. Comput. Neurosci.
+9046603;Trans. Petri Nets and Other Models of Concurrency
+9046604;T. Petri Nets and Other Models of Concurrency
+9046605;Government Information Quarterly
+9046606;Journal of Computer Security
+9046607;J. Cryptology
+9046608;J. Comput. Physics
+9046609;Foundations and Trends in Databases
+9046610;IMWUT
+9046611;SIAM J. Scientific Computing
+9046612;Math. Log. Q.
+9046613;IEEE Trans. Haptics
+9046614;Computers
+9046615;IJHCITP
+9046616;J. Sensor Technology
+9046617;Personal and Ubiquitous Computing
+9046618;SIGSPATIAL Special
+9046619;J. Comput. Sci. Technol.
+9046620;Intelligent Decision Technologies
+9046621;Expert Systems
+9046622;Synthese
+9046623;IJEP
+9046624;IEEE Security & Privacy
+9046625;IJSIR
+9046626;World Digital Libraries
+9046627;JACIII
+9046628;Axioms
+9046629;FO & DM
+9046630;Int. J. Pervasive Computing and Communications
+9046631;Int. J. Game Theory
+9046632;Peer-to-Peer Networking and Applications
+9046633;IEEE Trans. Education
+9046634;Meth. of Logic in CS
+9046635;IEEE Trans. Neural Netw. Learning Syst.
+9046636;IEEE Trans. Neural Networks
+9046637;IJPOP
+9046638;ACM Comm. Computer Algebra
+9046639;ACM SIGSAM Bulletin
+9046640;Computer Science Education
+9046641;Statistical Analysis and Data Mining
+9046642;ACM Trans. Social Computing
+9046643;Neural Parallel & Scientific Comp.
+9046644;EURASIP J. Audio, Speech and Music Processing
+9046645;J. Electron. Commerce Res.
+9046646;IJCOPI
+9046647;Math. Program. Comput.
+9046648;OR Insight
+9046649;IEEE Trans. Information Technology in Biomedicine
+9046650;IEEE J. Biomedical and Health Informatics
+9046651;Ingénierie des Systèmes d'Information
+9046652;JTHTL
+9046653;Online Social Networks and Media
+9046654;Inf. Retr. Journal
+9046655;Inf. Retr.
+9046656;IEEE Trans. Biomed. Circuits and Systems
+9046657;Appl. Algebra Eng. Commun. Comput.
+9046658;Wireless Communications and Mobile Computing
+9046659;J. Low Power Electronics
+9046660;JOOP
+9046661;The Review of Socionetwork Strategies
+9046662;OJIS
+9046663;IEICE Electronic Express
+9046664;Trans. Found. Mastering Chang.
+9046665;iJEP
+9046666;Adv. Human-Computer Interaction
+9046667;Rel. Eng. & Sys. Safety
+9046668;Cluster Computing
+9046669;Foundations and Trends in Privacy and Security
+9046670;J. Database Manag.
+9046671;Informatics in Education
+9046672;JASIST
+9046673;JASIS
+9046674;Comput. Sci. Inf. Syst.
+9046675;IJDAR
+9046676;Enterprise Modelling and Information Systems Architectures
+9046677;Journal of Graph Theory
+9046678;IJERTCS
+9046679;JSTA
+9046680;IJDSN
+9046681;IJSNM
+9046682;IJITM
+9046683;Cybernetics and Systems
+9046684;Kognitionswissenschaft
+9046685;Software Engineering Journal
+9046686;IET Software
+9046687;IEE Proceedings - Software
+9046688;Software Engineering - IEE Proceedings
+9046689;Ann. Pure Appl. Logic
+9046690;ACM Crossroads
+9046691;Multimedia Syst.
+9046692;Earth Science Informatics
+9046693;D-Lib Magazine
+9046694;Foundations of Computational Mathematics
+9046695;Computer Physics Communications
+9046696;Operating Systems Review
+9046697;IEEE J Sel. Topics in Appl. Earth Observ. and Remote Sensing
+9046698;J. Parallel Distrib. Comput.
+9046699;Eng. Appl. of AI
+9046700;Data Sci.
+9046701;IJSDS
+9046702;Microelectronics Reliability
+9046703;Notre Dame Journal of Formal Logic
+9046704;Grammars
+9046705;APJOR
+9046706;J. Multimodal User Interfaces
+9046707;AI Commun.
+9046708;EAI Endorsed Trans. Ubiquitous Environments
+9046709;Cybernetics and Human Knowing
+9046710;Trans. Pattern Languages of Programming
+9046711;IJMOR
+9046712;Comp. Int. and Neurosc.
+9046713;Decision Support Systems
+9046714;IJHCR
+9046715;J. Comb. Optim.
+9046716;IACR Trans. Cryptogr. Hardw. Embed. Syst.
+9046717;IJCIP
+9046718;Computer Music Journal
+9046719;Webology
+9046720;Ad Hoc & Sensor Wireless Networks
+9046721;Annual Reviews in Control
+9046722;GeoInformatica
+9046723;JCIT
+9046724;ACM Trans. Priv. Secur.
+9046725;ACM Trans. Inf. Syst. Secur.
+9046726;IJCINI
+9046727;IEEE Trans. Multi-Scale Computing Systems
+9046728;iJIM
+9046729;Annales des Télécommunications
+9046730;SIGWEB Newsletter
+9046731;Interacting with Computers
+9046732;Genetic Programming and Evolvable Machines
+9046733;IJARAS
+9046734;Research and Practice in Technology Enhanced Learning
+9046735;Computer Science Review
+9046736;IEEE Trans. VLSI Syst.
+9046737;INFORMS Journal on Computing
+9046738;Computability
+9046739;Int. J. Adv. Comp. Techn.
+9046740;IJMMME
+9046741;IJCLCLP
+9046742;Foundations and Trends in Electronic Design Automation
+9046743;IEEE Software
+9046744;TCDL Bulletin
+9046745;IMA J. Math. Control & Information
+9046746;IJSI
+9046747;TIIS
+9046748;Adv. Artificial Intellegence
+9046749;Int. J. Intelligent Computing and Cybernetics
+9046750;Math. Meth. of OR
+9046751;Zeitschr. für OR
+9046752;ZOR - Meth. & Mod. of OR
+9046753;Unternehmensforschung
+9046754;International Journal of High Speed Computing
+9046755;IEEE Trans. on Circuits and Systems
+9046756;IET Computers & Digital Techniques
+9046757;Interactions
+9046758;Softwaretechnik-Trends
+9046759;Int. J. Software and Informatics
+9046760;Journal of Computer-Aided Molecular Design
+9046761;I. J. Wireless & Optical Communications
+9046762;Adv. Operations Research
+9046763;Circuits and Systems
+9046764;Nano Comm. Netw.
+9046765;Electronic Colloquium on Computational Complexity (ECCC)
+9046766;J. Biomedical Semantics
+9046767;JRNAL
+9046768;Computer und Recht
+9046769;Electronic Networking: Research, Applications and Policy
+9046770;IEEE Trans. Smart Grid
+9046771;SIGMETRICS Performance Evaluation Review
+9046772;IEEE Communications Standards Magazine
+9046773;IJBIS
+9046774;Inroads
+9046775;Hypermedia
+9046776;IJCBPL
+9046777;CIT
+9046778;IEEE Communications Surveys and Tutorials
+9046779;Distributed and Parallel Databases
+9046780;IJADS
+9046781;J. Computing in Higher Education
+9046782;CMBBE: Imaging & Visualization
+9046783;JOLIS
+9046784;Discrete Mathematics & Theoretical Computer Science
+9046785;Front. Neurorobot.
+9046786;IJTMCC
+9046787;Multiagent and Grid Systems
+9046788;4OR
+9046789;IJGUC
+9046790;Social Networks
+9046791;Mathematics and Computers in Simulation
+9046792;J. Org. Computing and E. Commerce
+9046793;J. Org. Computing
+9046794;IJSSCI
+9046795;Optimization Methods and Software
+9046796;OJBD
+9046797;IEEE Trans. Computers
+9046798;IRE Trans. Electronic Computers
+9046799;IEEE Trans. Electronic Computers
+9046800;Trans. I.R.E. Prof. Group on Electronic Computers
+9046801;Sci. Comput. Program.
+9046802;J. Log. Comput.
+9046803;Remote Sensing
+9046804;IJKBO
+9046805;Systems
+9046806;VLSI Design
+9046807;Int. J. Hum. Comput. Interaction
+9046808;J. Intell. Inf. Syst.
+9046809;Brain Connectivity
+9046810;Computer Science (AGH)
+9046811;IEEE/ACM Trans. Netw.
+9046812;Annals OR
+9046813;ITOR
+9046814;EURO J. Transportation and Logistics
+9046815;Interactive Learning Environments
+9046816;JTAER
+9046817;IEEE Trans. Systems Science and Cybernetics
+9046818;Interfaces
+9046819;IEEE Network
+9046820;SIAM Journal on Optimization
+9046821;Decision Analytics
+9046822;JGIM
+9046823;Swarm Intelligence
+9046824;SIAM J. Control and Optimization
+9046825;IJBRA
+9046826;IJITN
+9046827;AI EDAM
+9046828;Discrete Event Dynamic Systems
+9046829;IxD&A
+9046830;Computers & Chemical Engineering
+9046831;Int. J. Hybrid Intell. Syst.
+9046832;Vehicular Communications
+9046833;FDT - Bulletin of ACM SIGFIDET
+9046834;SIGMOD Record
+9046835;FDT - Bulletin of ACM SIGMOD
+9046836;JDMDH
+9046837;Advances in Engineering Software
+9046838;Cognitive Systems Research
+9046839;Theory of Computing
+9046840;Theory of Computing, Graduate Surveys
+9046841;IJCIS
+9046842;Dagstuhl Manifestos
+9046843;IEEE Trans. Dependable Sec. Comput.
+9046844;Inf. Syst. J.
+9046845;IJWA
+9046846;Int. J. Intelligence Science
+9046847;J. Visual Communication and Image Representation
+9046848;IEEE Trans. Communications
+9046849;TRETS
+9046850;International Journal on Artificial Intelligence Tools
+9046851;Computers in Human Behavior
+9046852;ACM Queue
+9046853;Logistics Research
+9046854;Foundations and Trends in Robotics
+9046855;Machine Translation
+9046856;J. Sci. Comput.
+9046857;JoCG
+9046858;Monte Carlo Meth. and Appl.
+9046859;IEEE Trans. Med. Imaging
+9046860;Complex Systems
+9046861;Glottometrics
+9046862;IJBDI
+9046863;IEEE Trans. Systems, Man, and Cybernetics, Part C
+9046864;IEEE Trans. Systems, Man, and Cybernetics
+9046865;IEEE Trans. Systems, Man, and Cybernetics, Part B
+9046866;IEEE Trans. Systems, Man, and Cybernetics, Part A
+9046867;IEEE Trans. Systems, Man, and Cybernetics: Systems
+9046868;Expert Syst. Appl.
+9046869;JCIS
+9046870;Softw., Pract. Exper.
+9046871;Trans. Rough Sets
+9046872;T. Rough Sets
+9046873;IPSJ Trans. Computer Vision and Applications
+9046874;Artif. Intell.
+9046875;Int. J. Machine Learning & Cybernetics
+9046876;ACM Trans. Database Syst.
+9046877;Computers & Graphics
+9046878;Dynamic Games and Applications
+9046879;Multiple-Valued Logic and Soft Computing
+9046880;IJMTIE
+9046881;J. Artificial Societies and Social Simulation
+9046882;SIAM Review
+9046883;Robotica
+9046884;J. Applied Mathematics
+9046885;IJIIP
+9046886;Bell Labs Technical Journal
+9046887;C&RL
+9046888;IEEE Annals of the History of Computing
+9046889;J. Semantics
+9046890;IEEE Trans. Consumer Electronics
+9046891;Discrete & Computational Geometry
+9046892;IET Cyper-Phys. Syst.: Theory & Appl.
+9046893;Multimedia Tools Appl.
+9046894;EURASIP J. Wireless Comm. and Networking
+9046895;J. Media Psychology
+9046896;Zeitschrift für Medienpsychologie
+9046897;IJBPSCM
+9046898;Random Struct. Algorithms
+9046899;IJICTRDA
+9046900;IEEE Signal Process. Mag.
+9046901;TWEB
+9046902;Journal of Systems Architecture
+9046903;Journal of Systems Architecture - Embedded Systems Design
+9046904;Microprocessing and Microprogramming
+9046905;European Journal of Operational Research
+9046906;Foundations and Trends in Human-Computer Interaction
+9046907;IJAC
+9046908;CEJOR
+9046909;IEEE Consumer Electronics Magazine
+9046910;IJNVO
+9046911;Neural Computing and Applications
+9046912;J. Optimization Theory and Applications
+9046913;IJITCC
+9046914;Electronic Markets
+9046915;I. J. Data Science and Analytics
+9046916;IJKM
+9046917;Int. J. General Systems
+9046918;J. Classification
+9046919;I. J. Robotics and Automation
+9046920;IJBM
+9046921;IEEE Pervasive Computing
+9046922;IJDWM
+9046923;Distributed Systems Engineering
+9046924;EAI Endorsed Trans. Self-Adaptive Systems
+9046925;IJITSA
+9046926;Advanced Robotics
+9046927;Foundations and Trends in Web Science
+9046928;IJIPT
+9046929;I. J. Information Acquisition
+9046930;IJESDF
+9046931;J. Computer Virology and Hacking Techniques
+9046932;Journal in Computer Virology
+9046933;IPSJ Trans. System LSI Design Methodology
+9046934;JCSE
+9046935;Journal of Approximation Theory
+9046936;IEEE Micro
+9046937;Front. ICT
+9046938;Wirtschaftsinformatik & Management
+9046939;Computer Communications
+9046940;Computation
+9046941;TAPOS
+9046942;IEEE Trans. Wireless Communications
+9046943;Wireless Engineering and Technology
+9046944;EG
+9046945;ACM Trans. Model. Comput. Simul.
+9046946;Stud. Inform. Univ.
+9046947;Network Security
+9046948;IEEE Trans. Signal Processing
+9046949;IEEE Trans. Acoustics, Speech, and Signal Processing
+9046950;J. Data and Information Quality
+9046951;EAI Endorsed Trans. Collaborative Computing
+9046952;J. Exp. Theor. Artif. Intell.
+9046953;DARTS
+9046954;Computational Visual Media
+9046955;Informatica Didactica
+9046956;IEEE Trans. Contr. Sys. Techn.
+9046957;J. Heuristics
+9046958;BMC Med. Inf. & Decision Making
+9046959;IJWGS
+9046960;Informatics
+9046961;SIAM J. Applied Dynamical Systems
+9046962;JRM
+9046963;Research in Computing Science
+9046964;J. Complexity
+9046965;MCFNS
+9046966;IJCSSA
+9046967;Bull. Acad. Polon. Sci., Sér. Sci. Math. Astronom. Phys.
+9046968;Studia Logica
+9046969;Commun. ACM
+9046970;MASA
+9046971;Foundations and Trends in Optimization
+9046972;AI Matters
+9046973;IJMSO
+9046974;Ecological Informatics
+9046975;EAI Endorsed Trans. Wireless Spectrum
+9046976;J. Funct. Program.
+9046977;Transactions of the SDPS
+9046978;J. Integrated Design & Process Science
+9046979;Annales UMCS, Informatica
+9046980;Algorithms
+9046981;IJCWT
+9046982;IEEE Wireless Commun. Letters
+9046983;In Silico Biology
+9046984;NHM
+9046985;IJDLS
+9046986;African J. of Inf. & Commun. Technology
+9046987;EAIT
+9046988;Computerworld
+9046989;Proc. Meetings on Acoustics
+9046990;I. J. RF Technol.: Res. and Appl.
+9046991;Journal of Multimedia
+9046992;Fuzzy Sets and Systems
+9046993;Argument & Computation
+9046994;Comput. Lang.
+9046995;Computer Languages, Systems & Structures
+9046996;OJSW
+9046997;Journal of Intelligent and Robotic Systems
+9046998;Inf. Process. Lett.
+9046999;Comp.-Aided Civil and Infrastruct. Engineering
+9047000;JSEA
+9047001;Comp. in Bio. and Med.
+9047002;Computational Linguistics
+9047003;American Journal of Computational Linguistics
+9047004;IGTR
+9047005;IJCIH
+9047006;I. J. Functional Informatics and Personalised Medicine
+9047007;Inf. Manag. Comput. Security
+9047008;Inf. & Comput. Security
+9047009;IJSITA
+9047010;IEEE-RITA
+9047011;IEEE Robotics and Automation Letters
+9047012;Software - Concepts and Tools
+9047013;Structured Programming
+9047014;IJNGC
+9047015;Adv. Numerical Analysis
+9047016;Information Polity
+9047017;Biological Cybernetics
+9047018;Kybernetik
+9047019;Environmental Modelling and Software
+9047020;IACR Trans. Symmetric Cryptol.
+9047021;iJOE
+9047022;Natural Computing
+9047023;The Journal of Supercomputing
+9047024;Numerical Lin. Alg. with Applic.
+9047025;Ad Hoc Networks
+9047026;Int. J. Inf. Sec.
+9047027;EMISA Forum
+9047028;Int. J. Computer Assisted Radiology and Surgery
+9047029;EAI Endorsed Trans. Serious Games
+9047030;Inf. Syst.
+9047031;IT Professional
+9047032;Adv. Fuzzy Systems
+9047033;Foundations and Trends in Microeconomics
+9047034;J. Real-Time Image Processing
+9047035;IJIPSI
+9047036;IJBIDM
+9047037;ACM SIGAPL APL Quote Quad
+9047038;Operational Research
+9047039;Sci. Ann. Comp. Sci.
+9047040;Sci. Ann. Cuza Univ.
+9047041;Scandinavian J. Inf. Systems
+9047042;IJPRAI
+9047043;JSAT
+9047044;Journal Comp. Netw. and Communic.
+9047045;Reliable Computing
+9047046;Electr. Notes Theor. Comput. Sci.
+9047047;Artif. Intell. Law
+9047048;JNW
+9047049;IJSN
+9047050;IJMEI
+9047051;IEEE Systems Journal
+9047052;IJGBL
+9047053;J. Cheminformatics
+9047054;IJWS
+9047055;Information Fusion
+9047056;TCPS
+9047057;Datenschutz und Datensicherheit
+9047058;Eur. J. Comb.
+9047059;IACR Cryptology ePrint Archive
+9047060;IJDST
+9047061;Health Informatics Journal
+9047062;Journal of Computer Research and Development
+9047063;SIGACT News
+9047064;Computers & Industrial Engineering
+9047065;Journal of Systems and Software
+9047066;IJISSCM
+9047067;TLT
+9047068;The Electronic Library
+9047069;IEEE Internet Computing
+9047070;PoPETs
+9047071;EAI Endorsed Trans. Complex Systems
+9047072;IJWNBT
+9047073;Int. J. Computer Integrated Manufacturing
+9047074;J. Symb. Comput.
+9047075;CMG Transactions
+9047076;IEEE Trans. Autonomous Mental Development
+9047077;IEEE Trans. Cognitive and Developmental Systems
+9047078;Document Numérique
+9047079;J. Cognitive Neuroscience
+9047080;Learned Publishing
+9047081;Kybernetika
+9047082;IEEE J. Emerg. Sel. Topics Circuits Syst.
+9047083;Med. Biol. Engineering and Computing
+9047084;VLDB J.
+9047085;JMPT
+9047086;Int. J. Digital Multimedia Broadcasting
+9047087;J. Geographic Information System
+9047088;Int. J. Approx. Reasoning
+9047089;Computing in Science and Engineering
+9047090;J. Visualization
+9047091;Front. Robotics and AI
+9047092;Advances in Computers
+9047093;IEEE Trans. Vehicular Technology
+9047094;LOG IN
+9047095;J. Integrative Bioinformatics
+9047096;IJSMILE
+9047097;EJGTA
+9047098;OJDB
+9047099;TBC
+9047100;IJT
+9047101;Int. J. Image Graphics
+9047102;JVRB
+9047103;Journal of Computational Biology
+9047104;Telecommunication Systems
+9047105;IEEE Trans. Industrial Informatics
+9047106;SIAM J. Matrix Analysis Applications
+9047107;IJNCR
+9047108;J. Information Systems
+9047109;J. Algorithms
+9047110;TOMCCAP
+9047111;Evolutionary Intelligence
+9047112;Graphs and Combinatorics
+9047113;User Model. User-Adapt. Interact.
+9047114;Information and Control
+9047115;Inf. Comput.
+9047116;The Atlantic Monthly
+9047117;Comput. Meth. in Appl. Math.
+9047118;SIAM Journal of Applied Mathematics
+9047119;Procesamiento del Lenguaje Natural
+9047120;J. Strategic Inf. Sys.
+9047121;Sensors
+9047122;J. Sel. Topics Signal Processing
+9047123;Public Transport
+9047124;J. Language Modelling
+9047125;I. J. Medical Informatics
+9047126;American J. Computational Mathematics
+9047127;Inf. Soc.
+9047128;IJIDS
+9047129;SIGPLAN Notices
+9047130;Foundations and Trends in Information Retrieval
+9047131;Frontiers Comput. Sci.
+9047132;Frontiers Comput. Sci. China
+9047133;Quality and Reliability Eng. Int.
+9047134;J. Hardware and Systems Security
+9047135;J. High Speed Networks
+9047136;Dagstuhl Reports
+9047137;OR Spectrum
+9047138;Software & Microsystems
+9047139;IEEE Trans. Image Processing
+9047140;IET Biometrics
+9047141;J. Embedded Computing
+9047142;topiCS
+9047143;Cartographica
+9047144;Journal of Logic, Language and Information
+9047145;Adv. Comput. Math.
+9047146;The Visual Computer
+9047147;IEEE Trans. Network Science and Engineering
+9047148;Biomed. Signal Proc. and Control
+9047149;e-Informatica
+9047150;JoSSR
+9047151;JoSS
+9047152;Simulation Modelling Practice and Theory
+9047153;Simul. Pr. Theory
+9047154;J. Comput. Inf. Sci. Eng.
+9047155;Network Protocols & Algorithms
+9047156;LITES
+9047157;ACM Trans. Comput.-Hum. Interact.
+9047158;IJACI
+9047159;Mathematical and Computer Modelling
+9047160;Virtual Reality
+9047161;IEEE Trans. Cloud Computing
+9047162;J. Medical Systems
+9047163;Design Autom. for Emb. Sys.
+9047164;Decision Analysis
+9047165;Int. J. Fuzzy Logic and Intelligent Systems
+9047166;Network Science
+9047167;J. Inform. and Commun. Convergence Engineering
+9047168;IJVPLE
+9047169;Ars Comb.
+9047170;SIGKDD Explorations
+9047171;IEEE Trans. Signal and Information Processing over Networks
+9047172;IJBIC
+9047173;Chicago J. Theor. Comput. Sci.
+9047174;Cognitive Processing
+9047175;Software Focus
+9047176;J. Web Eng.
+9047177;ACM Comput. Surv.
+9047178;Artificial Life
+9047179;Comp. Med. Imag. and Graph.
+9047180;I. J. Network Security
+9047181;JDCTA
+9047182;NII Shonan Meet. Rep.
+9047183;IEEE Trans. Information Theory
+9047184;IRE Trans. Information Theory
+9047185;Trans. of the IRE Professional Group on Information Theory (TIT)
+9047186;Artif. Intell. Research
+9047187;Int. J. Comput. Intell. Syst.
+9047188;IJOM
+9047189;Mathematical Structures in Computer Science
+9047190;IJNC
+9047191;SCIENCE CHINA Information Sciences
+9047192;Science in China Series F: Information Sciences
+9047193;JCM
+9047194;Marketing Science
+9047195;SIGCAS Computers and Society
+9047196;MCSS
+9047197;Internet Research
+9047198;J. ACM
+9047199;Mathematical Systems Theory
+9047200;Theory Comput. Syst.
+9047201;TSLP
+9047202;Computer Networks
+9047203;Computer Networks and ISDN Systems
+9047204;Computer Networks and ISBN Systems
+9047205;OCLC Systems & Services
+9047206;Digital Library Perspectives
+9047207;IEEE Trans. Automat. Contr.
+9047208;Data Knowl. Eng.
+9047209;Perform. Eval.
+9047210;AI Magazine
+9047211;IEEE Trans. Parallel Distrib. Syst.
+9047212;Electron. Trans. Artif. Intell.
+9047213;Logica Universalis
+9047214;PLoS Computational Biology
+9047215;TAP
+9047216;Comp. Math. Methods in Medicine
+9047217;Micromachines
+9047218;LOPLAS
+9047219;IJICS
+9047220;I. J. Computer-Supported Collaborative Learning
+9047221;CAIS
+9047222;IJDMB
+9047223;Comput. Manag. Science
+9047224;IJSCCPS
+9047225;Signal Processing
+9047226;IJEEI
+9047227;ACM Trans. Inf. Syst.
+9047228;ADS
+9047229;JAMDS
+9047230;JAMIA
+9047231;iJET
+9047232;IJMC
+9047233;IJIPM
+9047234;JACIC
+9047235;J. Aerospace Inf. Sys.
+9047236;Int. J. of Applied Metaheuristic Computing
+9047237;T-SUSC
+9047238;IJCICG
+9047239;JIPS
+9047240;Organization Science
+9047241;J. Comput. Syst. Sci.
+9047242;Swarm and Evolutionary Computation
+9047243;IJAHUC
+9047244;IJES
+9047245;J. Digital Imaging
+9047246;IJDATS
+9047247;Brain Informatics
+9047248;IJIQ
+9047249;Games and Economic Behavior
+9047250;IJAAC
+9047251;Big Data Research
+9047252;Journal of Systems Integration
+9047253;Mobile Information Systems
+9047254;Systems & Control Letters
+9047255;J. Riga Technical University
+9047256;Integrated Computer-Aided Engineering
+9047257;Elektrotechnik und Informationstechnik
+9047258;IEEE Communications Magazine
+9047259;ACM Trans. Algorithms
+9047260;OJWT
+9047261;JIP
+9047262;Revue d'Intelligence Artificielle
+9047263;Trans. Computational Science
+9047264;IEEE Database Eng. Bull.
+9047265;IEEE Data Eng. Bull.
+9047266;Robotics
+9047267;Multidim. Syst. Sign. Process.
+9047268;Computer Standards & Interfaces
+9047269;ACM SIGMOD Digital Review
+9047270;Algorithmic Operations Research
+9047271;Algorithms for Molecular Biology
+9047272;Microelectronics Journal
+9047273;Information & Management
+9047274;IJGCMS
+9047275;Comp. Opt. and Appl.
+9047276;Poiesis & Praxis
+9047277;Computers & Mathematics with Applications
+9047278;RFC
+9047279;World Wide Web
+9047280;Australasian J. Combinatorics
+9047281;I. J. Comput. Appl.
+9047282;IPOL Journal
+9047283;Int. J. Comput. Geometry Appl.
+9047284;Foundations and Trends in Information Systems
+9047285;Numerische Mathematik
+9047286;BIAA
+9047287;IEEE Design & Test of Computers
+9047288;IEEE Design & Test
+9047289;I. J. Bifurcation and Chaos
+9047290;Connect. Sci.
+9047291;AGIT Journal
+9047292;Inf. Wiss. & Praxis
+9047293;Nachr. Dok.
+9047294;SIAM J. Discrete Math.
+9047295;Adv. Data Analysis and Classification
+9047296;I. J. Knowledge and Web Intelligence
+9047297;JIT
+9047298;Enterprise IS
+9047299;Netw. and Communic. Technol.
+9047300;OOPS Messenger
+9047301;IJCSA
+9047302;JoWUA
+9047303;IJGC
+9047304;Math. Comput.
+9047305;IJDCF
+9047306;Int. J. Serious Games
+9047307;Human-Computer Interaction
+9047308;IJACT
+9047309;IJTEM
+9047310;Int. J. Reconfig. Comp.
+9047311;IJISSC
+9047312;Phonetica
+9047313;Parallel Algorithms Appl.
+9047314;IJPEDS
+9047315;Journal of Social Structure
+9047316;IJMIR
+9047317;EURASIP J. Adv. Sig. Proc.
+9047318;Bulletin of the EATCS
+9047319;IEEE Internet of Things Journal
+9047320;Concurrency - Practice and Experience
+9047321;Concurrency and Computation: Practice and Experience
+9047322;IJKESDP
+9047323;Applied Mathematics and Computation
+9047324;IJKL
+9047325;ReCALL
+9047326;Journal of Mathematical Imaging and Vision
+9047327;International Journal of Geographical Information Science
+9047328;International Journal of Geographical Information Systems
+9047329;J. Enterprise Inf. Management
+9047330;Requir. Eng.
+9047331;IEEE Instrum. Meas. Mag.
+9047332;TinyToCS
+9047333;Management Science
+9047334;CSSP
+9047335;IJMSSC
+9047336;J. Symb. Log.
+9047337;SIGCSE Bulletin
+9047338;TOCE
+9047339;ACM Journal of Educational Resources in Computing
+9047340;Optimization Letters
+9047341;IJAT
+9047342;Discrete Applied Mathematics
+9047343;IJTD
+9047344;Programming and Computer Software
+9047345;IEEE Cloud Computing
+9047346;JITR
+9047347;Publications
+9047348;TAL
+9047349;JIKM
+9047350;Industrial Robot
+9047351;J. Multivariate Analysis
+9047352;IEEE Trans. Aerospace and Electronic Systems
+9047353;J. Math. Model. Algorithms
+9047354;J. Math. Model. Algorithms in OR
+9047355;Computer Supported Cooperative Work
+9047356;TOS
+9047357;Software Process: Improvement and Practice
+9047358;ACM Journal of Experimental Algorithmics
+9047359;Eur. J. Control
+9047360;Inf. Sec. Techn. Report
+9047361;J. Inf. Sec. Appl.
+9047362;IJMR
+9047363;Journal of Quantitative Linguistics
+9047364;Math. Program.
+9047365;MMI Interaktiv
+9047366;IEEE MultiMedia
+9047367;Discrete Optimization
+9047368;Parallel Processing Letters
+9047369;Interact. Techn. Smart Edu.
+9047370;Electronic Commerce Research and Applications
+9047371;IEEE Trans. Cybernetics
+9047372;IJAPUC
+9047373;JNIT
+9047374;Artificial Intelligence in Medicine
+9047375;Foundations and Trends in Communications and Information Theory
+9047376;Quantum Information Processing
+9047377;Int. J. Digital Earth
+9047378;MONET
+9047379;Journal of Geographical Systems
+9047380;IJICTE
+9047381;Adv. in MM
+9047382;Int. J. Satellite Communications Networking
+9047383;IEEE Control Systems Letters
+9047384;IJSPM
+9047385;IJESMA
+9047386;IEEE Trans. Industrial Electronics
+9047387;Cryptography and Communications
+9047388;Semantic Web
+9047389;IJHPSA
+9047390;ACM Trans. Softw. Eng. Methodol.
+9047391;Discrete Math., Alg. and Appl.
+9047392;International Journal of Information Technology and Decision Making
+9047393;IJAACS
+9047394;Wireless Networks
+9047395;IJESJP
+9047396;IEEE Trans. Mob. Comput.
+9047397;IJGCRSIS
+9047398;IEEE Trans. Big Data
+9047399;IEEE Trans. Affective Computing
+9047400;J. Artif. Intell. Res
