@@ -1,3 +1,4 @@
+import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
@@ -50,6 +51,71 @@ public class Main {
         processAuthors();
         System.out.println("Authors imported.");
 
+        System.out.println("Importing writes and main_author...");
+        processWrites();
+        System.out.println("Writes and main_author imported.");
+
+        System.out.println("Importing reviews...");
+        processReviews();
+        System.out.println("Reviews imported.");
+
+    }
+
+    /**
+     * Reads reviews (author, reviews, paper) from csv file and inserts triplet instances into virtuoso.
+     *
+     * @throws IOException
+     */
+    private static void processReviews() throws IOException {
+        List<Statement> statements = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader("input/reviews.csv"));
+        ObjectProperty reviews = base.getObjectProperty(NS + "reviews");
+
+        String line = br.readLine(); //remove header: Author_ID - Paper_ID
+        while ((line = br.readLine()) != null) {
+            String[] tokens = line.split(";");
+            long author_id = Long.parseLong(tokens[0]);
+            long paper_id = Long.parseLong(tokens[1]);
+
+            Resource author = base.getResource(NS + author_id);
+            Resource paper = base.getResource(NS + paper_id);
+
+            statements.add(ResourceFactory.createStatement(author, reviews, paper));
+
+        }
+        virtModel.add(statements);
+    }
+
+    /**
+     * Reads writes (author, paper, isMainAuthor) from csv file and inserts triplet instances into virtuoso.
+     *  - author, writes, paper AND if main_author is true:
+     *  - author, main_author, paper
+     *
+     * @throws IOException
+     */
+    private static void processWrites() throws IOException {
+        List<Statement> statements = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader("input/writes.csv"));
+        ObjectProperty writes = base.getObjectProperty(NS + "writes");
+        ObjectProperty main_author = base.getObjectProperty(NS + "main_author");
+
+        String line = br.readLine(); //remove header: Author_ID - Paper_ID - Main_author (True/False)
+        while ((line = br.readLine()) != null) {
+            String[] tokens = line.split(";");
+            long author_id = Long.parseLong(tokens[0]);
+            long paper_id = Long.parseLong(tokens[1]);
+            boolean isMainAuthor = Boolean.parseBoolean(tokens[2]);
+
+            Resource author = base.getResource(NS + author_id);
+            Resource paper = base.getResource(NS + paper_id);
+
+            statements.add(ResourceFactory.createStatement(author, writes, paper));
+
+            if(isMainAuthor){
+                statements.add(ResourceFactory.createStatement(author, main_author, paper));
+            }
+        }
+        virtModel.add(statements);
     }
 
     /**
