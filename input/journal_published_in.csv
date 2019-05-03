@@ -1,4 +1,4 @@
-:START_ID;:END_ID;pages:string;volume:string;year:int;Column1
+:START_ID;:END_ID;pages:string;volume:string;year:int
 8;9046524;297-305;10;1978;8
 65;9046524;513-524;31;1994;65
 75;9046524;1-9;4;1974;75
