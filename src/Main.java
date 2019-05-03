@@ -4,9 +4,7 @@ import org.apache.jena.rdf.model.*;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 import org.apache.jena.query.*;
-
 import virtuoso.jena.driver.*;
-
 
 import java.io.*;
 import java.util.ArrayList;
@@ -32,7 +30,7 @@ public class Main {
         base.read(in, "RDF/XML"); //read owl file of RDF/XML type
         //inf = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF, base); //create inference model
 
-        virtGraph = new VirtGraph ("http://localhost:8890/research", "jdbc:virtuoso://jynx.fib.upc.es:1111", "dba", "dba");
+        virtGraph = new VirtGraph("http://localhost:8890/research", "jdbc:virtuoso://jynx.fib.upc.es:1111", "dba", "dba");
         virtGraph.clear();
         virtModel = new VirtModel(virtGraph);
 
@@ -41,14 +39,14 @@ public class Main {
 
         query();
 
-  }
+    }
 
     /**
      * Queries all triplets of the research graph
      */
     private static void query() {
         Query sparql = QueryFactory.create("SELECT * FROM <http://localhost:8890/research> WHERE { ?s ?p ?o }");
-        VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create (sparql, virtGraph);
+        VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create(sparql, virtGraph);
         ResultSet results = vqe.execSelect();
         System.out.println("\nSELECT results:");
         while (results.hasNext()) {
@@ -58,13 +56,12 @@ public class Main {
             RDFNode o = rs.get("o");
             System.out.println(" { " + s + " " + p + " " + o + " . }");
         }
-
         System.out.println("virtGraph.getCount() = " + virtGraph.getCount());
-
     }
 
     /**
      * Reads keywords from csv file and inserts triplet instances into virtuoso.
+     *
      * @param filepath
      * @throws IOException
      */
@@ -78,19 +75,19 @@ public class Main {
             long kw_id = Long.parseLong(tokens[0]);
             String kw_name = tokens[1];
 
-            // create Paper properties
+            // create keyword properties
             Individual keyword = cls.createIndividual(NS + kw_id);
             DatatypeProperty has_kw_name = base.getDatatypeProperty(NS + "keyword_name");
             Literal kw_value = base.createTypedLiteral(kw_name, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(keyword,has_kw_name,kw_value));
+            statements.add(base.createStatement(keyword, has_kw_name, kw_value));
         }
-
         virtModel.add(statements);
     }
 
 
     /**
      * Reads papers from csv file and inserts triplet instances into virtuoso.
+     *
      * @param filepath
      * @throws IOException
      */
@@ -102,7 +99,7 @@ public class Main {
 
         String line = br.readLine(); //remove header
         while ((line = br.readLine()) != null) {
-            int random = (int) (Math.random()* paper_types.size());
+            int random = (int) (Math.random() * paper_types.size());
             String[] tokens = line.split(";");
             long paper_id = Long.parseLong(tokens[0]);
             String doi = tokens[1];
@@ -115,11 +112,11 @@ public class Main {
 
             DatatypeProperty has_doi = base.getDatatypeProperty(NS + "doi");
             Literal doi_value = base.createTypedLiteral(doi, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(paper,has_doi,doi_value));
+            statements.add(base.createStatement(paper, has_doi, doi_value));
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(paper,has_title,title_value));
+            statements.add(base.createStatement(paper, has_title, title_value));
 
         }
         virtModel.add(statements);
@@ -128,6 +125,7 @@ public class Main {
 
     /**
      * Gets all the subclasses of a class and returns it as list of strings.
+     *
      * @param cls
      * @return
      */
@@ -144,9 +142,10 @@ public class Main {
 
     /**
      * Prints the ontology schema.
+     *
      * @param m
      */
-    public static void print(OntModel m){
+    public static void print(OntModel m) {
         System.out.println("=== Printing information regarding the model ===");
         ExtendedIterator classes = m.listClasses();
         while (classes.hasNext()) {
