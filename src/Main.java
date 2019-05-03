@@ -35,6 +35,8 @@ public class Main {
         virtGraph.clear();
         virtModel = new VirtModel(virtGraph);
 
+        //TODO: add schema through Jena & connect with dbpedia
+
         long start = System.currentTimeMillis();
 
         System.out.print("Importing papers...");
@@ -345,6 +347,7 @@ public class Main {
         virtModel.add(statements);
     }
 
+    //TODO: make sure reviews are only on Full and Short papers
     /**
      * Reads reviews (author, reviews, paper) from csv file and inserts triplet instances into virtuoso.
      *
