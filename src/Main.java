@@ -28,6 +28,8 @@ public class Main {
         inf = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF, base); //create inference model
 
         readPapers("input/article.csv");
+        readKeywords("input/keywords.csv");
+
 
         // Create datatype property 'hasAge'
 //        DatatypeProperty hasAge = ontModel.createDatatypeProperty(ns + "hasAge");
@@ -60,6 +62,29 @@ public class Main {
     }
 
 
+
+    private static void readKeywords(String filepath) throws IOException {
+        BufferedReader br = new BufferedReader(new FileReader(filepath));
+        OntClass cls = base.getOntClass(NS + "Keyword");
+        String line = br.readLine(); //remove header
+        while ((line = br.readLine()) != null) {
+            String[] tokens = line.split(";");
+            long kw_id = Long.parseLong(tokens[0]);
+            String kw_name = tokens[1];
+
+            // create Paper properties
+            Individual keyword = cls.createIndividual(NS + kw_id);
+            DatatypeProperty has_kw_name = base.getDatatypeProperty(NS + "keyword_name");
+            Literal kw_value = base.createTypedLiteral(kw_name, XSDDatatype.XSDstring);
+            Statement st = base.createStatement(keyword,has_kw_name,kw_value);
+
+            System.out.println("------Keyword-----");
+            System.out.println(st.toString());
+            System.out.println("------------------");
+        }
+    }
+
+
     private static void readPapers(String filepath) throws IOException {
         BufferedReader br = new BufferedReader(new FileReader(filepath));
         OntClass cls = base.getOntClass(NS + "Paper");
@@ -69,14 +94,9 @@ public class Main {
         while ((line = br.readLine()) != null) {
             int random = (int) (Math.random()* paper_types.size());
             String[] tokens = line.split(";");
-            long paper_id = Integer.parseInt(tokens[0]);
+            long paper_id = Long.parseLong(tokens[0]);
             String doi = tokens[1];
             String title = tokens[3];
-//            System.out.println(paper_types.get(random) + ": ");
-//            System.out.println("\t paper_id: " + paper_id);
-//            System.out.println("\t title: " + title);
-//            System.out.println("\t doi: " + doi);
-//            System.out.println("\t key: " + key);
 
             String paper_type = paper_types.get(random);
 
@@ -91,7 +111,7 @@ public class Main {
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
             Statement st2 = base.createStatement(paper,has_title,title_value);
 
-            System.out.println("------------------");
+            System.out.println("------Paper------");
             System.out.println(st.toString());
             System.out.println(st2.toString());
             System.out.println("------------------");
@@ -106,10 +126,6 @@ public class Main {
 //        Literal age20 = ontModel.createTypedLiteral("20", XSDDatatype.XSDint);
 //        Statement johnIs20 = ontModel.createStatement(john, hasAge, age20);
 //        ontModel.add(johnIs20);
-
-
-
-
 
 
 //            OntClass paperType = model.getOntClass(NS + papers[random]); //select random class from 4 available: Full, Short, Demo, Survey
