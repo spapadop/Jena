@@ -34,10 +34,11 @@ public class Main {
         virtGraph.clear();
         virtModel = new VirtModel(virtGraph);
 
-        //readPapers("input/article.csv");
+        readPapers("input/article.csv");
         readKeywords("input/keywords.csv");
+        readRelated("input/related.csv");
 
-        query();
+        //query();
 
     }
 
@@ -45,7 +46,7 @@ public class Main {
      * Queries all triplets of the research graph
      */
     private static void query() {
-        Query sparql = QueryFactory.create("SELECT * FROM <http://localhost:8890/research> WHERE { ?s ?p ?o }");
+        Query sparql = QueryFactory.create("SELECT * FROM <http://localhost:8890/research> WHERE { ?s <http://localhost:8890/research> ?o }");
         VirtuosoQueryExecution vqe = VirtuosoQueryExecutionFactory.create(sparql, virtGraph);
         ResultSet results = vqe.execSelect();
         System.out.println("\nSELECT results:");
@@ -58,6 +59,32 @@ public class Main {
         }
         System.out.println("virtGraph.getCount() = " + virtGraph.getCount());
     }
+
+    /**
+     * Reads related from csv file and inserts triplet instances into virtuoso.
+     *
+     * @param filepath
+     * @throws IOException
+     */
+    private static void readRelated(String filepath) throws IOException {
+        List<Statement> statements = new ArrayList<>();
+        BufferedReader br = new BufferedReader(new FileReader(filepath));
+        ObjectProperty related = base.getObjectProperty(NS + "related");
+
+        String line = br.readLine(); //remove header
+        while ((line = br.readLine()) != null) {
+            String[] tokens = line.split(";");
+            long kw_id = Long.parseLong(tokens[0]);
+            long paper_id = Long.parseLong(tokens[1]);
+
+            Resource kw = base.getResource(NS + kw_id);
+            Resource paper = base.getResource(NS + paper_id);
+
+            statements.add(ResourceFactory.createStatement(kw, related, paper));
+        }
+        virtModel.add(statements);
+    }
+
 
     /**
      * Reads keywords from csv file and inserts triplet instances into virtuoso.
@@ -83,7 +110,6 @@ public class Main {
         }
         virtModel.add(statements);
     }
-
 
     /**
      * Reads papers from csv file and inserts triplet instances into virtuoso.
