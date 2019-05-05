@@ -31,7 +31,6 @@ public class Main {
         InputStream in = FileManager.get().open(inputFileName); //locate input OWL file
         base = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF); //create the base model
         base.read(in, "RDF/XML"); //read owl file of RDF/XML type
-        //inf = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF, base); //create inference model
 
         virtGraph = new VirtGraph("http://localhost:8890/research", "jdbc:virtuoso://jynx.fib.upc.es:1111", "dba", "dba");
         virtGraph.clear();
@@ -40,68 +39,53 @@ public class Main {
         long start = System.currentTimeMillis();
 
         System.out.print("Inserting papers...");
-        processPapers();
-        System.out.print("Done.\n");
+        processPapers(); System.out.print("Done.\n");
 
         System.out.print("Inserting cited_by (paper, paper)...");
-        processCitedBy();
-        System.out.print("Done.\n");
+        processCitedBy(); System.out.print("Done.\n");
 
         System.out.print("Inserting keywords...");
-        processKeywords();
-        System.out.print("Done.\n");
+        processKeywords(); System.out.print("Done.\n");
 
         System.out.print("Inserting related (keyword,paper)...");
-        processRelated();
-        System.out.print("Done.\n");
+        processRelated(); System.out.print("Done.\n");
 
         System.out.print("Inserting authors...");
-        processAuthors();
-        System.out.print("Done.\n");
+        processAuthors(); System.out.print("Done.\n");
 
         System.out.print("Inserting writes and main_author...");
-        processWrites();
-        System.out.print("Done.\n");
+        processWrites(); System.out.print("Done.\n");
 
         System.out.print("Inserting reviews...");
-        processReviews();
-        System.out.print("Done.\n");
+        processReviews(); System.out.print("Done.\n");
 
         System.out.print("Inserting journals...");
-        processJournals();
-        System.out.print("Done.\n");
+        processJournals(); System.out.print("Done.\n");
 
         System.out.print("Inserting conferences...");
-        processConferences();
-        System.out.print("Done.\n");
+        processConferences(); System.out.print("Done.\n");
 
         System.out.print("Inserting editions...");
-        processEditions();
-        System.out.print("Done.\n");
+        processEditions(); System.out.print("Done.\n");
 
         System.out.print("Inserting belongs (edition, conference)...");
-        processBelongs();
-        System.out.print("Done.\n");
+        processBelongs(); System.out.print("Done.\n");
 
         System.out.print("Inserting published_in (paper, edition)...");
-        processPaperPublishedInEdition();
-        System.out.print("Done.\n");
+        processPaperPublishedInEdition(); System.out.print("Done.\n");
 
         System.out.print("Inserting volumes...");
-        processVolumes();
-        System.out.print("Done.\n");
+        processVolumes(); System.out.print("Done.\n");
 
         System.out.print("Inserting published_in (paper, volume)...");
-        processPaperPublishedInVolume();
-        System.out.print("Done.\n");
+        processPaperPublishedInVolume(); System.out.print("Done.\n");
 
         System.out.print("Inserting part_of (volume, journal)...");
-        processVolumePartOfJournal();
-        System.out.print("Done.\n");
+        processVolumePartOfJournal(); System.out.print("Done.\n");
 
         System.out.print("Importing TBOX + ABOX into Virtuoso...");
-        virtModel.add(base.getBaseModel());
-        base.write(new PrintWriter("output.txt"));
+        base.write(new PrintWriter("tbox_abox.owl")); //write to file
+        virtModel.add(base.getBaseModel()); //write to Virtuoso
         System.out.print("Done.\n");
 
         double total = (1.0 * System.currentTimeMillis() - start) / 60000;
@@ -127,7 +111,7 @@ public class Main {
             Resource volume = base.getResource(NS + volume_id);
             Resource journal = base.getResource(NS + journal_id);
 
-            base.createStatement(volume, part_of, journal);
+            base.add(volume, part_of, journal);
         }
     }
 
@@ -151,7 +135,7 @@ public class Main {
             try {
                 if ("Full_Paper".equals(paper_type) || "Short_Paper".equals(paper_type)) {
                     Resource volume = base.getResource(NS + volume_id);
-                    base.createStatement(paper, published_in, volume);
+                    base.add(paper, published_in, volume);
                 }
             } catch (NullPointerException e) {
                 System.out.println(e.getMessage());
@@ -178,11 +162,11 @@ public class Main {
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            base.createStatement(volume, has_title, title_value);
+            base.add(volume, has_title, title_value);
 
             DatatypeProperty has_vol = base.getDatatypeProperty(NS + "vol");
             Literal vol_value = base.createTypedLiteral(vol, XSDDatatype.XSDstring);
-            base.createStatement(volume, has_vol, vol_value);
+            base.add(volume, has_vol, vol_value);
         }
     }
 
@@ -206,7 +190,7 @@ public class Main {
             try {
                 if ("Full_Paper".equals(paper_type) || "Short_Paper".equals(paper_type)) {
                     Resource edition = base.getResource(NS + edition_id);
-                    base.createStatement(paper, published_in, edition);
+                    base.add(paper, published_in, edition);
                 }
             } catch (NullPointerException e) {
                 System.out.println(e.getMessage());
@@ -231,7 +215,7 @@ public class Main {
 
             Resource edition = base.getResource(NS + edition_id);
             Resource conference = base.getResource(NS + conference_id);
-            base.createStatement(edition, belongs_to, conference);
+            base.add(edition, belongs_to, conference);
         }
     }
 
@@ -257,19 +241,19 @@ public class Main {
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            base.createStatement(edition, has_title, title_value);
+            base.add(edition, has_title, title_value);
 
             DatatypeProperty has_venue = base.getDatatypeProperty(NS + "venue");
             Literal venue_value = base.createTypedLiteral(venue, XSDDatatype.XSDstring);
-            base.createStatement(edition, has_venue, venue_value);
+            base.add(edition, has_venue, venue_value);
 
             DatatypeProperty has_city = base.getDatatypeProperty(NS + "city");
             Literal city_value = base.createTypedLiteral(city, XSDDatatype.XSDstring);
-            base.createStatement(edition, has_city, city_value);
+            base.add(edition, has_city, city_value);
 
             DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
             Literal year_value = base.createTypedLiteral(year, XSDDatatype.XSDint);
-            base.createStatement(edition, has_year, year_value);
+            base.add(edition, has_year, year_value);
         }
     }
 
@@ -293,10 +277,9 @@ public class Main {
             String paper_type1 = paper1.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
             String paper_type2 = paper2.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
 
-            if (("Full_Paper".equals(paper_type1) || "Short_Paper".equals(paper_type1) )
-             && ("Full_Paper".equals(paper_type2) || "Short_Paper".equals(paper_type2) ))
-            {
-                base.createStatement(paper1, citedBy, paper2);
+            if (("Full_Paper".equals(paper_type1) || "Short_Paper".equals(paper_type1))
+                    && ("Full_Paper".equals(paper_type2) || "Short_Paper".equals(paper_type2))) {
+                base.add(paper1, citedBy, paper2);
             }
         }
     }
@@ -323,7 +306,7 @@ public class Main {
             Individual conference = base.getOntClass(NS + conf_type).createIndividual(NS + journal_id);
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            base.createStatement(conference, has_title, title_value);
+            base.add(conference, has_title, title_value);
         }
     }
 
@@ -350,7 +333,7 @@ public class Main {
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            base.createStatement(journal, has_title, title_value);
+            base.add(journal, has_title, title_value);
         }
     }
 
@@ -373,7 +356,7 @@ public class Main {
             try {
                 if ("Full_Paper".equals(paper_type) || "Short_Paper".equals(paper_type)) {
                     Resource author = base.getResource(NS + author_id);
-                    base.createStatement(author, reviews, paper);
+                    base.add(author, reviews, paper);
                 }
             } catch (NullPointerException e) {
                 System.out.println(e.getMessage());
@@ -403,10 +386,10 @@ public class Main {
             Resource author = base.getResource(NS + author_id);
             Resource paper = base.getResource(NS + paper_id);
 
-            base.createStatement(author, writes, paper);
+            base.add(author, writes, paper);
 
             if (isMainAuthor) {
-                base.createStatement(author, main_author, paper);
+                base.add(author, main_author, paper);
             }
         }
     }
@@ -429,7 +412,7 @@ public class Main {
 
             DatatypeProperty has_name = base.getDatatypeProperty(NS + "name");
             Literal name_value = base.createTypedLiteral(author_name, XSDDatatype.XSDstring);
-            base.createStatement(author, has_name, name_value);
+            base.add(author, has_name, name_value);
         }
     }
 
@@ -450,7 +433,7 @@ public class Main {
             Resource kw = base.getResource(NS + kw_id);
             Resource paper = base.getResource(NS + paper_id);
 
-            base.createStatement(kw, related, paper);
+            base.add(kw, related, paper);
         }
     }
 
@@ -471,7 +454,7 @@ public class Main {
             Individual keyword = base.getOntClass(NS + "Keyword").createIndividual(NS + kw_id);
             DatatypeProperty has_kw_name = base.getDatatypeProperty(NS + "keyword_name");
             Literal kw_value = base.createTypedLiteral(kw_name, XSDDatatype.XSDstring);
-            base.createStatement(keyword, has_kw_name, kw_value);
+            base.add(keyword, has_kw_name, kw_value);
         }
     }
 
@@ -501,11 +484,11 @@ public class Main {
 
             DatatypeProperty has_doi = base.getDatatypeProperty(NS + "doi");
             Literal doi_value = base.createTypedLiteral(doi, XSDDatatype.XSDstring);
-            base.createStatement(paper, has_doi, doi_value);
+            base.add(paper, has_doi, doi_value);
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            base.createStatement(paper, has_title, title_value);
+            base.add(paper, has_title, title_value);
         }
     }
 
