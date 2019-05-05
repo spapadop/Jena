@@ -24,10 +24,12 @@ public class Main {
     private static VirtGraph virtGraph;
     private static VirtModel virtModel;
 
+    //TODO: connect with dbpedia
+    //TODO: adding pages on published_in (both)
 
     public static void main(String[] args) throws IOException {
         InputStream in = FileManager.get().open(inputFileName); //locate input OWL file
-        base = ModelFactory.createOntologyModel(OntModelSpec.OWL_DL_MEM); //create the base model
+        base = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF); //create the base model
         base.read(in, "RDF/XML"); //read owl file of RDF/XML type
         //inf = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF, base); //create inference model
 
@@ -35,69 +37,84 @@ public class Main {
         virtGraph.clear();
         virtModel = new VirtModel(virtGraph);
 
-        //TODO: add schema through Jena & connect with dbpedia
-
         long start = System.currentTimeMillis();
 
-        System.out.print("Importing papers...");
-        processPapers(); System.out.print("Done.\n");
+        System.out.print("Inserting papers...");
+        processPapers();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing cited_by (paper, paper)...");
-        processCitedBy(); System.out.print("Done.\n");
+        System.out.print("Inserting cited_by (paper, paper)...");
+        processCitedBy();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing keywords...");
-        processKeywords(); System.out.print("Done.\n");
+        System.out.print("Inserting keywords...");
+        processKeywords();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing related (keyword,paper)...");
-        processRelated(); System.out.print("Done.\n");
+        System.out.print("Inserting related (keyword,paper)...");
+        processRelated();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing authors...");
-        processAuthors(); System.out.print("Done.\n");
+        System.out.print("Inserting authors...");
+        processAuthors();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing writes and main_author...");
-        processWrites(); System.out.print("Done.\n");
+        System.out.print("Inserting writes and main_author...");
+        processWrites();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing reviews...");
-        processReviews(); System.out.print("Done.\n");
+        System.out.print("Inserting reviews...");
+        processReviews();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing journals...");
-        processJournals(); System.out.print("Done.\n");
+        System.out.print("Inserting journals...");
+        processJournals();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing conferences...");
-        processConferences(); System.out.print("Done.\n");
+        System.out.print("Inserting conferences...");
+        processConferences();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing editions...");
-        processEditions(); System.out.print("Done.\n");
+        System.out.print("Inserting editions...");
+        processEditions();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing belongs (edition, conference)...");
-        processBelongs(); System.out.print("Done.\n");
+        System.out.print("Inserting belongs (edition, conference)...");
+        processBelongs();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing published_in (paper, edition)...");
-        processPaperPublishedInEdition(); System.out.print("Done.\n");
+        System.out.print("Inserting published_in (paper, edition)...");
+        processPaperPublishedInEdition();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing volumes...");
-        processVolumes(); System.out.print("Done.\n");
+        System.out.print("Inserting volumes...");
+        processVolumes();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing published_in (paper, volume)...");
-        processPaperPublishedInVolume(); System.out.print("Done.\n");
+        System.out.print("Inserting published_in (paper, volume)...");
+        processPaperPublishedInVolume();
+        System.out.print("Done.\n");
 
-        System.out.print("Importing part_of (volume, journal)...");
-        processVolumePartOfJournal(); System.out.print("Done.\n");
+        System.out.print("Inserting part_of (volume, journal)...");
+        processVolumePartOfJournal();
+        System.out.print("Done.\n");
 
-        double total = (1.0*System.currentTimeMillis() - start)/60000;
+        System.out.print("Importing TBOX + ABOX into Virtuoso...");
+        virtModel.add(base.getBaseModel());
+        base.write(new PrintWriter("output.txt"));
+        System.out.print("Done.\n");
+
+        double total = (1.0 * System.currentTimeMillis() - start) / 60000;
         System.out.println("\nTotal time: " + total + " minutes");
 
     }
 
-    //TODO: adding pages on published_in (both)
-
     /**
-     * Reads belogns (edition, conference) from csv file and inserts triplet instances into virtuoso.
+     * Reads part_of (volume, journal) from csv file and inserts triplet instances into virtuoso.
      *
      * @throws IOException
      */
     private static void processVolumePartOfJournal() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/volumeBelongsJournal.csv"));
         ObjectProperty part_of = base.getObjectProperty(NS + "part_of");
 
@@ -110,10 +127,8 @@ public class Main {
             Resource volume = base.getResource(NS + volume_id);
             Resource journal = base.getResource(NS + journal_id);
 
-            statements.add(ResourceFactory.createStatement(volume, part_of, journal));
-
+            base.createStatement(volume, part_of, journal);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -122,7 +137,6 @@ public class Main {
      * @throws IOException
      */
     private static void processPaperPublishedInVolume() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/volume_published_in.csv"));
         ObjectProperty published_in = base.getObjectProperty(NS + "published_in");
 
@@ -132,13 +146,17 @@ public class Main {
             long paper_id = Long.parseLong(tokens[0]);
             long volume_id = Long.parseLong(tokens[1]);
 
-            Resource paper = base.getResource(NS + paper_id);
-            Resource volume = base.getResource(NS + volume_id);
-
-            statements.add(ResourceFactory.createStatement(paper, published_in, volume));
-
+            OntResource paper = base.getOntResource(NS + paper_id);
+            String paper_type = paper.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
+            try {
+                if ("Full_Paper".equals(paper_type) || "Short_Paper".equals(paper_type)) {
+                    Resource volume = base.getResource(NS + volume_id);
+                    base.createStatement(paper, published_in, volume);
+                }
+            } catch (NullPointerException e) {
+                System.out.println(e.getMessage());
+            }
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -147,10 +165,7 @@ public class Main {
      * @throws IOException
      */
     private static void processVolumes() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/volume.csv"));
-        OntClass cls = base.getOntClass(NS + "Volume");
-
         String line = br.readLine(); //remove header
         while ((line = br.readLine()) != null) {
             String[] tokens = line.split(";");
@@ -159,18 +174,16 @@ public class Main {
             String title = tokens[2];
 
             // create Volume properties
-            Individual volume = cls.createIndividual(NS + volume_id);
+            Individual volume = base.getOntClass(NS + "Volume").createIndividual(NS + volume_id);
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(volume, has_title, title_value));
+            base.createStatement(volume, has_title, title_value);
 
             DatatypeProperty has_vol = base.getDatatypeProperty(NS + "vol");
             Literal vol_value = base.createTypedLiteral(vol, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(volume, has_vol, vol_value));
-
+            base.createStatement(volume, has_vol, vol_value);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -179,7 +192,6 @@ public class Main {
      * @throws IOException
      */
     private static void processPaperPublishedInEdition() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/edition_published_in.csv"));
         ObjectProperty published_in = base.getObjectProperty(NS + "published_in");
 
@@ -189,13 +201,17 @@ public class Main {
             long paper_id = Long.parseLong(tokens[0]);
             long edition_id = Long.parseLong(tokens[1]);
 
-            Resource paper = base.getResource(NS + paper_id);
-            Resource edition = base.getResource(NS + edition_id);
-
-            statements.add(ResourceFactory.createStatement(paper, published_in, edition));
-
+            OntResource paper = base.getOntResource(NS + paper_id);
+            String paper_type = paper.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
+            try {
+                if ("Full_Paper".equals(paper_type) || "Short_Paper".equals(paper_type)) {
+                    Resource edition = base.getResource(NS + edition_id);
+                    base.createStatement(paper, published_in, edition);
+                }
+            } catch (NullPointerException e) {
+                System.out.println(e.getMessage());
+            }
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -204,7 +220,6 @@ public class Main {
      * @throws IOException
      */
     private static void processBelongs() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/belongs.csv"));
         ObjectProperty belongs_to = base.getObjectProperty(NS + "belongs_to");
 
@@ -216,11 +231,8 @@ public class Main {
 
             Resource edition = base.getResource(NS + edition_id);
             Resource conference = base.getResource(NS + conference_id);
-
-            statements.add(ResourceFactory.createStatement(edition, belongs_to, conference));
-
+            base.createStatement(edition, belongs_to, conference);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -229,9 +241,7 @@ public class Main {
      * @throws IOException
      */
     private static void processEditions() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/edition.csv"));
-        OntClass cls = base.getOntClass(NS + "Edition");
 
         String line = br.readLine(); //remove header
         while ((line = br.readLine()) != null) {
@@ -243,25 +253,24 @@ public class Main {
             String year = tokens[5];
 
             // create Edition properties
-            Individual edition = cls.createIndividual(NS + edition_id);
+            Individual edition = base.getOntClass(NS + "Edition").createIndividual(NS + edition_id);
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(edition, has_title, title_value));
+            base.createStatement(edition, has_title, title_value);
 
             DatatypeProperty has_venue = base.getDatatypeProperty(NS + "venue");
             Literal venue_value = base.createTypedLiteral(venue, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(edition, has_venue, venue_value));
+            base.createStatement(edition, has_venue, venue_value);
 
             DatatypeProperty has_city = base.getDatatypeProperty(NS + "city");
             Literal city_value = base.createTypedLiteral(city, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(edition, has_city, city_value));
+            base.createStatement(edition, has_city, city_value);
 
             DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
             Literal year_value = base.createTypedLiteral(year, XSDDatatype.XSDint);
-            statements.add(base.createStatement(edition, has_year, year_value));
+            base.createStatement(edition, has_year, year_value);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -270,7 +279,6 @@ public class Main {
      * @throws IOException
      */
     private static void processCitedBy() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/cited_by_year.csv"));
         ObjectProperty citedBy = base.getObjectProperty(NS + "cited_by");
 
@@ -280,13 +288,17 @@ public class Main {
             long paper1_id = Long.parseLong(tokens[0]);
             long paper2_id = Long.parseLong(tokens[1]);
 
-            Resource originPaper = base.getResource(NS + paper1_id);
-            Resource citedByPaper = base.getResource(NS + paper2_id);
+            OntResource paper1 = base.getOntResource(NS + paper1_id);
+            OntResource paper2 = base.getOntResource(NS + paper2_id);
+            String paper_type1 = paper1.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
+            String paper_type2 = paper2.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
 
-            statements.add(ResourceFactory.createStatement(originPaper, citedBy, citedByPaper));
+            if (("Full_Paper".equals(paper_type1) || "Short_Paper".equals(paper_type1) )
+             && ("Full_Paper".equals(paper_type2) || "Short_Paper".equals(paper_type2) ))
+            {
+                base.createStatement(paper1, citedBy, paper2);
+            }
         }
-
-        virtModel.add(statements);
     }
 
     /**
@@ -295,7 +307,6 @@ public class Main {
      * @throws IOException
      */
     private static void processConferences() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/conferences.csv"));
         OntClass cls = base.getOntClass(NS + "Conference");
         List<String> conf_types = getSubclasses(cls);
@@ -312,10 +323,8 @@ public class Main {
             Individual conference = base.getOntClass(NS + conf_type).createIndividual(NS + journal_id);
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(conference, has_title, title_value));
-
+            base.createStatement(conference, has_title, title_value);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -324,7 +333,6 @@ public class Main {
      * @throws IOException
      */
     private static void processJournals() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/journal.csv"));
         OntClass cls = base.getOntClass(NS + "Journal");
         List<String> journal_types = getSubclasses(cls);
@@ -339,22 +347,19 @@ public class Main {
 
             // create Journal properties
             Individual journal = base.getOntClass(NS + journal_type).createIndividual(NS + journal_id);
+
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(journal, has_title, title_value));
-
+            base.createStatement(journal, has_title, title_value);
         }
-        virtModel.add(statements);
     }
 
-    //TODO: make sure reviews are only on Full and Short papers
     /**
      * Reads reviews (author, reviews, paper) from csv file and inserts triplet instances into virtuoso.
      *
      * @throws IOException
      */
     private static void processReviews() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/reviews.csv"));
         ObjectProperty reviews = base.getObjectProperty(NS + "reviews");
 
@@ -363,25 +368,27 @@ public class Main {
             String[] tokens = line.split(";");
             long author_id = Long.parseLong(tokens[0]);
             long paper_id = Long.parseLong(tokens[1]);
-
-            Resource author = base.getResource(NS + author_id);
-            Resource paper = base.getResource(NS + paper_id);
-
-            statements.add(ResourceFactory.createStatement(author, reviews, paper));
-
+            OntResource paper = base.getOntResource(NS + paper_id);
+            String paper_type = paper.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
+            try {
+                if ("Full_Paper".equals(paper_type) || "Short_Paper".equals(paper_type)) {
+                    Resource author = base.getResource(NS + author_id);
+                    base.createStatement(author, reviews, paper);
+                }
+            } catch (NullPointerException e) {
+                System.out.println(e.getMessage());
+            }
         }
-        virtModel.add(statements);
     }
 
     /**
      * Reads writes (author, paper, isMainAuthor) from csv file and inserts triplet instances into virtuoso.
-     *  - author, writes, paper AND if main_author is true:
-     *  - author, main_author, paper
+     * - author, writes, paper AND if main_author is true:
+     * - author, main_author, paper
      *
      * @throws IOException
      */
     private static void processWrites() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/writes.csv"));
         ObjectProperty writes = base.getObjectProperty(NS + "writes");
         ObjectProperty main_author = base.getObjectProperty(NS + "main_author");
@@ -396,13 +403,12 @@ public class Main {
             Resource author = base.getResource(NS + author_id);
             Resource paper = base.getResource(NS + paper_id);
 
-            statements.add(ResourceFactory.createStatement(author, writes, paper));
+            base.createStatement(author, writes, paper);
 
-            if(isMainAuthor){
-                statements.add(ResourceFactory.createStatement(author, main_author, paper));
+            if (isMainAuthor) {
+                base.createStatement(author, main_author, paper);
             }
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -411,10 +417,7 @@ public class Main {
      * @throws IOException
      */
     private static void processAuthors() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/author.csv"));
-        OntClass cls = base.getOntClass(NS + "Author");
-
         String line = br.readLine(); //remove header
         while ((line = br.readLine()) != null) {
             String[] tokens = line.split(";");
@@ -422,13 +425,12 @@ public class Main {
             String author_name = tokens[1];
 
             // create Author properties
-            Individual author = cls.createIndividual(NS + author_id);
+            Individual author = base.getOntClass(NS + "Author").createIndividual(NS + author_id);
 
             DatatypeProperty has_name = base.getDatatypeProperty(NS + "name");
             Literal name_value = base.createTypedLiteral(author_name, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(author, has_name, name_value));
+            base.createStatement(author, has_name, name_value);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -437,10 +439,8 @@ public class Main {
      * @throws IOException
      */
     private static void processRelated() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/related.csv"));
         ObjectProperty related = base.getObjectProperty(NS + "related");
-
         String line = br.readLine(); //remove header
         while ((line = br.readLine()) != null) {
             String[] tokens = line.split(";");
@@ -450,9 +450,8 @@ public class Main {
             Resource kw = base.getResource(NS + kw_id);
             Resource paper = base.getResource(NS + paper_id);
 
-            statements.add(ResourceFactory.createStatement(kw, related, paper));
+            base.createStatement(kw, related, paper);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -461,9 +460,7 @@ public class Main {
      * @throws IOException
      */
     private static void processKeywords() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/keywords.csv"));
-        OntClass cls = base.getOntClass(NS + "Keyword");
         String line = br.readLine(); //remove header
         while ((line = br.readLine()) != null) {
             String[] tokens = line.split(";");
@@ -471,12 +468,11 @@ public class Main {
             String kw_name = tokens[1];
 
             // create keyword properties
-            Individual keyword = cls.createIndividual(NS + kw_id);
+            Individual keyword = base.getOntClass(NS + "Keyword").createIndividual(NS + kw_id);
             DatatypeProperty has_kw_name = base.getDatatypeProperty(NS + "keyword_name");
             Literal kw_value = base.createTypedLiteral(kw_name, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(keyword, has_kw_name, kw_value));
+            base.createStatement(keyword, has_kw_name, kw_value);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -505,14 +501,12 @@ public class Main {
 
             DatatypeProperty has_doi = base.getDatatypeProperty(NS + "doi");
             Literal doi_value = base.createTypedLiteral(doi, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(paper, has_doi, doi_value));
+            base.createStatement(paper, has_doi, doi_value);
 
             DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
-            statements.add(base.createStatement(paper, has_title, title_value));
-
+            base.createStatement(paper, has_title, title_value);
         }
-        virtModel.add(statements);
     }
 
     /**
@@ -525,7 +519,6 @@ public class Main {
         List<String> types = new ArrayList<>();
         for (Iterator i = cls.listSubClasses(true); i.hasNext(); ) {
             OntClass c = (OntClass) i.next();
-            //System.out.print("\t " + c.getLocalName() + "\n");
             types.add(c.getLocalName());
         }
         return types;
