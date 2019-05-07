@@ -289,9 +289,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/saradiaz/ontologies/2019/3/SDMlab3#doi -->
+    <!-- http://dbpedia.org/property/doi -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/saradiaz/ontologies/2019/3/SDMlab3#doi">
+    <owl:DatatypeProperty rdf:about="http://dbpedia.org/property/doi">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Article"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>

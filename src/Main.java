@@ -1,4 +1,3 @@
-//import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.apache.jena.datatypes.xsd.XSDDatatype;
 import org.apache.jena.ontology.*;
 import org.apache.jena.rdf.model.*;
@@ -7,7 +6,6 @@ import org.apache.jena.util.iterator.ExtendedIterator;
 import org.apache.jena.query.*;
 import virtuoso.jena.driver.*;
 
-import javax.xml.crypto.Data;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -15,17 +13,16 @@ import java.util.List;
 
 public class Main {
 
-    private static final String inputFileName = "research_final.owl";
+    private static final String inputFileName = "research3.owl";
     private static final String SOURCE = "http://www.semanticweb.org/saradiaz/ontologies/2019/3/SDMlab3";
     private static final String NS = SOURCE + "#";
+    private static final String DBpediaOnt = "http://dbpedia.org/ontology/";
+    private static final String DBpediaProp = "http://dbpedia.org/property/";
 
     private static OntModel base;
-    private static OntModel inf;
 
     private static VirtGraph virtGraph;
     private static VirtModel virtModel;
-
-    //TODO: connect with dbpedia
 
     public static void main(String[] args) throws IOException {
         InputStream in = FileManager.get().open(inputFileName); //locate input OWL file
@@ -41,7 +38,7 @@ public class Main {
         System.out.print("Inserting papers...");
         processPapers(); System.out.print("Done.\n");
 
-        System.out.print("Inserting cited_by (paper, paper)...");
+        System.out.print("Inserting cites (paper, paper)...");
         processCitedBy(); System.out.print("Done.\n");
 
         System.out.print("Inserting keywords...");
@@ -134,7 +131,7 @@ public class Main {
 
             DatatypeProperty has_pages = base.getDatatypeProperty(NS + "pages");
             published_in.addProperty(has_pages,pages);
-            DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
+            DatatypeProperty has_year = base.getDatatypeProperty(DBpediaProp + "year");
             published_in.addProperty(has_year,year.toString());
 
             OntResource paper = base.getOntResource(NS + paper_id);
@@ -167,7 +164,7 @@ public class Main {
             // create Volume properties
             Individual volume = base.getOntClass(NS + "Volume").createIndividual(NS + volume_id);
 
-            DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
+            DatatypeProperty has_title = base.getDatatypeProperty(DBpediaProp + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
             base.add(volume, has_title, title_value);
 
@@ -196,7 +193,7 @@ public class Main {
 
             DatatypeProperty has_pages = base.getDatatypeProperty(NS + "pages");
             published_in.addProperty(has_pages,pages);
-            DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
+            DatatypeProperty has_year = base.getDatatypeProperty(DBpediaProp + "year");
             published_in.addProperty(has_year,year.toString());
 
             OntResource paper = base.getOntResource(NS + paper_id);
@@ -253,19 +250,19 @@ public class Main {
             // create Edition properties
             Individual edition = base.getOntClass(NS + "Edition").createIndividual(NS + edition_id);
 
-            DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
+            DatatypeProperty has_title = base.getDatatypeProperty(DBpediaProp + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
             base.add(edition, has_title, title_value);
 
-            DatatypeProperty has_venue = base.getDatatypeProperty(NS + "venue");
+            DatatypeProperty has_venue = base.getDatatypeProperty(DBpediaProp + "venues");
             Literal venue_value = base.createTypedLiteral(venue, XSDDatatype.XSDstring);
             base.add(edition, has_venue, venue_value);
 
-            DatatypeProperty has_city = base.getDatatypeProperty(NS + "city");
+            DatatypeProperty has_city = base.getDatatypeProperty(DBpediaProp + "city");
             Literal city_value = base.createTypedLiteral(city, XSDDatatype.XSDstring);
             base.add(edition, has_city, city_value);
 
-            DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
+            DatatypeProperty has_year = base.getDatatypeProperty(DBpediaProp + "year");
             Literal year_value = base.createTypedLiteral(year, XSDDatatype.XSDint);
             base.add(edition, has_year, year_value);
         }
@@ -278,7 +275,7 @@ public class Main {
      */
     private static void processCitedBy() throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("input/cited_by_year.csv"));
-        ObjectProperty citedBy = base.getObjectProperty(NS + "cited_by");
+        ObjectProperty cite = base.getObjectProperty(DBpediaProp + "cite");
 
         String line = br.readLine(); //remove header: Author_ID - Paper_ID
         while ((line = br.readLine()) != null) {
@@ -287,8 +284,8 @@ public class Main {
             long paper2_id = Long.parseLong(tokens[1]);
             Integer year = Integer.parseInt(tokens[2]);
 
-            DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
-            citedBy.addProperty(has_year,year.toString());
+            DatatypeProperty has_year = base.getDatatypeProperty(DBpediaProp + "year");
+            cite.addProperty(has_year,year.toString());
 
             OntResource paper1 = base.getOntResource(NS + paper1_id);
             OntResource paper2 = base.getOntResource(NS + paper2_id);
@@ -297,7 +294,7 @@ public class Main {
 
             if (("Full_Paper".equals(paper_type1) || "Short_Paper".equals(paper_type1))
                     && ("Full_Paper".equals(paper_type2) || "Short_Paper".equals(paper_type2))) {
-                base.add(paper1, citedBy, paper2);
+                base.add(paper2, cite, paper1);
             }
         }
     }
@@ -322,7 +319,7 @@ public class Main {
 
             // create Conference properties
             Individual conference = base.getOntClass(NS + conf_type).createIndividual(NS + journal_id);
-            DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
+            DatatypeProperty has_title = base.getDatatypeProperty(DBpediaProp + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
             base.add(conference, has_title, title_value);
         }
@@ -335,7 +332,7 @@ public class Main {
      */
     private static void processJournals() throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("input/journal.csv"));
-        OntClass cls = base.getOntClass(NS + "Journal");
+        OntClass cls = base.getOntClass(DBpediaOnt + "AcademicJournal");
         List<String> journal_types = getSubclasses(cls);
 
         String line = br.readLine(); //remove header
@@ -349,7 +346,7 @@ public class Main {
             // create Journal properties
             Individual journal = base.getOntClass(NS + journal_type).createIndividual(NS + journal_id);
 
-            DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
+            DatatypeProperty has_title = base.getDatatypeProperty(DBpediaProp + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
             base.add(journal, has_title, title_value);
         }
@@ -428,7 +425,7 @@ public class Main {
             // create Author properties
             Individual author = base.getOntClass(NS + "Author").createIndividual(NS + author_id);
 
-            DatatypeProperty has_name = base.getDatatypeProperty(NS + "name");
+            DatatypeProperty has_name = base.getDatatypeProperty(DBpediaProp + "name");
             Literal name_value = base.createTypedLiteral(author_name, XSDDatatype.XSDstring);
             base.add(author, has_name, name_value);
         }
@@ -470,7 +467,7 @@ public class Main {
 
             // create keyword properties
             Individual keyword = base.getOntClass(NS + "Keyword").createIndividual(NS + kw_id);
-            DatatypeProperty has_kw_name = base.getDatatypeProperty(NS + "keyword_name");
+            DatatypeProperty has_kw_name = base.getDatatypeProperty(DBpediaProp + "keywords");
             Literal kw_value = base.createTypedLiteral(kw_name, XSDDatatype.XSDstring);
             base.add(keyword, has_kw_name, kw_value);
         }
@@ -484,7 +481,7 @@ public class Main {
     private static void processPapers() throws IOException {
         List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/article.csv"));
-        OntClass cls = base.getOntClass(NS + "Paper");
+        OntClass cls = base.getOntClass(DBpediaOnt + "Article");
         List<String> paper_types = getSubclasses(cls);
 
         String line = br.readLine(); //remove header
@@ -500,11 +497,11 @@ public class Main {
             // create Paper properties
             Individual paper = base.getOntClass(NS + paper_type).createIndividual(NS + paper_id);
 
-            DatatypeProperty has_doi = base.getDatatypeProperty(NS + "doi");
+            DatatypeProperty has_doi = base.getDatatypeProperty(DBpediaProp + "doi");
             Literal doi_value = base.createTypedLiteral(doi, XSDDatatype.XSDstring);
             base.add(paper, has_doi, doi_value);
 
-            DatatypeProperty has_title = base.getDatatypeProperty(NS + "title");
+            DatatypeProperty has_title = base.getDatatypeProperty(DBpediaProp + "title");
             Literal title_value = base.createTypedLiteral(title, XSDDatatype.XSDstring);
             base.add(paper, has_title, title_value);
         }
