@@ -39,7 +39,7 @@ public class Main {
         processPapers(); System.out.print("Done.\n");
 
         System.out.print("Inserting cites (paper, paper)...");
-        processCitedBy(); System.out.print("Done.\n");
+        processCites(); System.out.print("Done.\n");
 
         System.out.print("Inserting keywords...");
         processKeywords(); System.out.print("Done.\n");
@@ -295,7 +295,7 @@ public class Main {
      *
      * @throws IOException
      */
-    private static void processCitedBy() throws IOException {
+    private static void processCites() throws IOException {
         BufferedReader br = new BufferedReader(new FileReader("input/cited_by_year.csv"));
         ObjectProperty cite = base.getObjectProperty(DBpediaProp + "cite");
 
