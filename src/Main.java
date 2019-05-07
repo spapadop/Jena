@@ -18,9 +18,9 @@ public class Main {
     private static final String NS = SOURCE + "#";
     private static final String DBpediaOnt = "http://dbpedia.org/ontology/";
     private static final String DBpediaProp = "http://dbpedia.org/property/";
+    private static final String DBpediaPage = "http://dbpedia.org/page/";
 
     private static OntModel base;
-
     private static VirtGraph virtGraph;
     private static VirtModel virtModel;
 
@@ -132,7 +132,13 @@ public class Main {
             DatatypeProperty has_pages = base.getDatatypeProperty(NS + "pages");
             published_in.addProperty(has_pages,pages);
             DatatypeProperty has_year = base.getDatatypeProperty(DBpediaProp + "year");
-            published_in.addProperty(has_year,year.toString());
+            Resource year_value;
+            try {
+                year_value = base.createResource(DBpediaPage + year); // trying to take it from dbpedia
+            }catch (Exception e){
+                year_value = base.createTypedLiteral(year, XSDDatatype.XSDint).asResource();
+            }
+            published_in.addProperty(has_year,year_value);
 
             OntResource paper = base.getOntResource(NS + paper_id);
             String paper_type = paper.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
@@ -194,7 +200,13 @@ public class Main {
             DatatypeProperty has_pages = base.getDatatypeProperty(NS + "pages");
             published_in.addProperty(has_pages,pages);
             DatatypeProperty has_year = base.getDatatypeProperty(DBpediaProp + "year");
-            published_in.addProperty(has_year,year.toString());
+            Resource year_value;
+            try {
+                year_value = base.createResource(DBpediaPage + year); // trying to take it from dbpedia
+            }catch (Exception e){
+                year_value = base.createTypedLiteral(year, XSDDatatype.XSDint).asResource();
+            }
+            published_in.addProperty(has_year,year_value);
 
             OntResource paper = base.getOntResource(NS + paper_id);
             String paper_type = paper.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
@@ -259,11 +271,21 @@ public class Main {
             base.add(edition, has_venue, venue_value);
 
             DatatypeProperty has_city = base.getDatatypeProperty(DBpediaProp + "city");
-            Literal city_value = base.createTypedLiteral(city, XSDDatatype.XSDstring);
+            Resource city_value;
+            try {
+                city_value = base.createResource(DBpediaPage + city); // trying to take it from dbpedia
+            }catch (Exception e){
+                city_value = base.createTypedLiteral(city, XSDDatatype.XSDstring).asResource();
+            }
             base.add(edition, has_city, city_value);
 
             DatatypeProperty has_year = base.getDatatypeProperty(DBpediaProp + "year");
-            Literal year_value = base.createTypedLiteral(year, XSDDatatype.XSDint);
+            Resource year_value;
+            try {
+                year_value = base.createResource(DBpediaPage + year); // trying to take it from dbpedia
+            }catch (Exception e){
+                year_value = base.createTypedLiteral(year, XSDDatatype.XSDint).asResource();
+            }
             base.add(edition, has_year, year_value);
         }
     }
@@ -285,7 +307,13 @@ public class Main {
             Integer year = Integer.parseInt(tokens[2]);
 
             DatatypeProperty has_year = base.getDatatypeProperty(DBpediaProp + "year");
-            cite.addProperty(has_year,year.toString());
+            Resource year_value;
+            try {
+                year_value = base.createResource(DBpediaPage + year); // trying to take it from dbpedia
+            }catch (Exception e){
+                year_value = base.createTypedLiteral(year, XSDDatatype.XSDint).asResource();
+            }
+            cite.addProperty(has_year,year_value);
 
             OntResource paper1 = base.getOntResource(NS + paper1_id);
             OntResource paper2 = base.getOntResource(NS + paper2_id);
@@ -479,7 +507,6 @@ public class Main {
      * @throws IOException
      */
     private static void processPapers() throws IOException {
-        List<Statement> statements = new ArrayList<>();
         BufferedReader br = new BufferedReader(new FileReader("input/article.csv"));
         OntClass cls = base.getOntClass(DBpediaOnt + "Article");
         List<String> paper_types = getSubclasses(cls);
