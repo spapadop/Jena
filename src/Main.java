@@ -6,6 +6,8 @@ import org.apache.jena.util.FileManager;
 import org.apache.jena.util.iterator.ExtendedIterator;
 import org.apache.jena.query.*;
 import virtuoso.jena.driver.*;
+
+import javax.xml.crypto.Data;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,7 +15,7 @@ import java.util.List;
 
 public class Main {
 
-    private static final String inputFileName = "research.owl";
+    private static final String inputFileName = "research_final.owl";
     private static final String SOURCE = "http://www.semanticweb.org/saradiaz/ontologies/2019/3/SDMlab3";
     private static final String NS = SOURCE + "#";
 
@@ -24,7 +26,6 @@ public class Main {
     private static VirtModel virtModel;
 
     //TODO: connect with dbpedia
-    //TODO: adding pages on published_in (both)
 
     public static void main(String[] args) throws IOException {
         InputStream in = FileManager.get().open(inputFileName); //locate input OWL file
@@ -128,6 +129,13 @@ public class Main {
             String[] tokens = line.split(";");
             long paper_id = Long.parseLong(tokens[0]);
             long volume_id = Long.parseLong(tokens[1]);
+            String pages = tokens[2];
+            Integer year = Integer.parseInt(tokens[3]);
+
+            DatatypeProperty has_pages = base.getDatatypeProperty(NS + "pages");
+            published_in.addProperty(has_pages,pages);
+            DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
+            published_in.addProperty(has_year,year.toString());
 
             OntResource paper = base.getOntResource(NS + paper_id);
             String paper_type = paper.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
@@ -183,6 +191,13 @@ public class Main {
             String[] tokens = line.split(";");
             long paper_id = Long.parseLong(tokens[0]);
             long edition_id = Long.parseLong(tokens[1]);
+            String pages = tokens[2];
+            Integer year = Integer.parseInt(tokens[3]);
+
+            DatatypeProperty has_pages = base.getDatatypeProperty(NS + "pages");
+            published_in.addProperty(has_pages,pages);
+            DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
+            published_in.addProperty(has_year,year.toString());
 
             OntResource paper = base.getOntResource(NS + paper_id);
             String paper_type = paper.getRDFType().getLocalName(); //Full_Paper, Short_Paper, Demo_Paper, Survey_Paper
@@ -270,6 +285,10 @@ public class Main {
             String[] tokens = line.split(";");
             long paper1_id = Long.parseLong(tokens[0]);
             long paper2_id = Long.parseLong(tokens[1]);
+            Integer year = Integer.parseInt(tokens[2]);
+
+            DatatypeProperty has_year = base.getDatatypeProperty(NS + "year");
+            citedBy.addProperty(has_year,year.toString());
 
             OntResource paper1 = base.getOntResource(NS + paper1_id);
             OntResource paper2 = base.getOntResource(NS + paper2_id);
